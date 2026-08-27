@@ -137,6 +137,12 @@ export async function getLeagueChain(leagueId, { maxSeasons = 40 } = {}) {
 const TRANSACTION_WEEKS = Array.from({ length: 18 }, (_, i) => i + 1);
 
 /**
+ * Weeks to sweep for matchups. Same reasoning as transactions: there is no
+ * bulk endpoint, so we ask week by week and keep whatever comes back.
+ */
+const MATCHUP_WEEKS = Array.from({ length: 18 }, (_, i) => i + 1);
+
+/**
  * Pull one season: league meta, rosters, managers, every transaction, drafts,
  * traded picks, and the playoff bracket.
  */
@@ -162,6 +168,16 @@ export async function fetchSeason(league, { onProgress } = {}) {
     picks: (await getDraftPicks(draft.draft_id)) ?? [],
   }));
 
+  // Weekly matchups carry the per-week scores and the pairings. Sleeper returns
+  // the schedule with points of 0 before games are played, so a future season's
+  // slate is available for projections as soon as it is set.
+  note("weekly matchups");
+  const matchupWeeks = await pool(MATCHUP_WEEKS, async (week) => ({
+    week,
+    entries: (await getMatchups(leagueId, week)) ?? [],
+  }));
+  const matchups = matchupWeeks.filter((w) => w.entries.length > 0);
+
   // Brackets only exist once a season reaches the playoffs; in-progress and
   // brand-new seasons legitimately return null here.
   note("playoff bracket");
@@ -178,6 +194,7 @@ export async function fetchSeason(league, { onProgress } = {}) {
     transactions,
     drafts: draftDetail,
     tradedPicks: tradedPicks ?? [],
+    matchups,
     winnersBracket: winnersBracket ?? [],
     losersBracket: losersBracket ?? [],
   };

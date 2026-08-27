@@ -1,23 +1,25 @@
 /* The Mud Dawgs Association -- league tracker styles.
-   Plain CSS, no build step, no framework. */
+   Plain CSS, no build step, no framework.
+   Palette: near-black surfaces with a blue accent; every colour is a token on
+   :root, so re-theming is a change to that block alone. */
 
 :root {
-  --bg: #15100c;
-  --bg-2: #1d1712;
-  --surface: #251d17;
-  --surface-2: #2e251d;
-  --line: #3b2f25;
-  --text: #f2ebe3;
-  --muted: #a49482;
-  --dim: #7b6c5c;
+  --bg: #05070b;
+  --bg-2: #0a0e16;
+  --surface: #0f141e;
+  --surface-2: #171f2c;
+  --line: #222c3c;
+  --text: #e9eff8;
+  --muted: #8fa1b8;
+  --dim: #5f7085;
 
-  --mud: #c2873c;
-  --mud-soft: #e0a95c;
-  --field: #7fa25c;
-  --clay: #b8563f;
+  --accent: #2f81f7;
+  --accent-soft: #7cb7ff;
+  --good: #3fb950;
+  --bad: #f85149;
 
-  --in: #7fa25c;
-  --out: #b8563f;
+  --in: #58d364;
+  --out: #f8756d;
 
   --radius: 12px;
   --radius-sm: 8px;
@@ -39,7 +41,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: var(--mud-soft); }
+a { color: var(--accent-soft); }
 
 .wrap {
   max-width: 1080px;
@@ -70,7 +72,7 @@ a { color: var(--mud-soft); }
   font-weight: 800;
 }
 
-.brand h1 .paw { color: var(--mud); }
+.brand h1 .paw { color: var(--accent); }
 
 .brand .tagline {
   margin: 4px 0 0;
@@ -101,13 +103,13 @@ button:hover:not(:disabled) { background: var(--surface-2); border-color: var(--
 button:disabled { opacity: 0.55; cursor: default; }
 
 .btn-primary {
-  background: var(--mud);
-  border-color: var(--mud);
-  color: #1a1206;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #04070d;
   font-weight: 650;
 }
 
-.btn-primary:hover:not(:disabled) { background: var(--mud-soft); border-color: var(--mud-soft); }
+.btn-primary:hover:not(:disabled) { background: var(--accent-soft); border-color: var(--accent-soft); }
 
 .refresh-status {
   font-size: 12px;
@@ -116,8 +118,8 @@ button:disabled { opacity: 0.55; cursor: default; }
   max-width: 260px;
 }
 
-.refresh-status.error { color: var(--clay); }
-.refresh-status.ok { color: var(--field); }
+.refresh-status.error { color: var(--bad); }
+.refresh-status.ok { color: var(--good); }
 
 /* ---------------------------------------------------------------- tabs */
 
@@ -140,7 +142,7 @@ button:disabled { opacity: 0.55; cursor: default; }
 }
 
 .tab:hover:not(:disabled) { background: none; color: var(--text); }
-.tab[aria-selected="true"] { color: var(--mud-soft); border-bottom-color: var(--mud); }
+.tab[aria-selected="true"] { color: var(--accent-soft); border-bottom-color: var(--accent); }
 
 /* ---------------------------------------------------------------- layout */
 
@@ -225,7 +227,7 @@ main { padding: 24px 0 60px; }
   border-radius: 999px;
   padding: 2px 10px;
   font-weight: 650;
-  color: var(--mud-soft);
+  color: var(--accent-soft);
   font-size: 12px;
 }
 
@@ -286,15 +288,15 @@ ul.assets li {
   text-align: center;
 }
 
-.pos.QB { background: #4d2230; color: #f0a0b4; }
-.pos.RB { background: #1f3d2b; color: #8fd6a6; }
-.pos.WR { background: #1e3448; color: #8fc4ee; }
-.pos.TE { background: #4a3618; color: #e8bd76; }
+.pos.QB  { background: #1b2f52; color: #8ab6ff; }
+.pos.RB  { background: #14313a; color: #6fd3e0; }
+.pos.WR  { background: #1e2a55; color: #9aa8ff; }
+.pos.TE  { background: #10354a; color: #74c4ee; }
 .pos.K,
-.pos.DEF { background: #33304a; color: #b6b2e0; }
+.pos.DEF { background: #1c2536; color: #9fb2cc; }
 
-.pick { color: var(--mud-soft); }
-.faab { color: var(--field); font-variant-numeric: tabular-nums; }
+.pick { color: var(--accent-soft); }
+.faab { color: var(--good); font-variant-numeric: tabular-nums; }
 
 /* ---------------------------------------------------------------- tables */
 
@@ -346,7 +348,7 @@ tbody tr:hover { background: var(--surface-2); }
 td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 td.team { white-space: normal; font-weight: 600; }
 
-.trophy { color: var(--mud); }
+.trophy { color: var(--accent); }
 
 /* ---------------------------------------------------------------- footer */
 
@@ -368,7 +370,7 @@ td.team { white-space: normal; font-weight: 600; }
   width: 11px;
   height: 11px;
   border: 2px solid var(--dim);
-  border-top-color: var(--mud);
+  border-top-color: var(--accent);
   border-radius: 50%;
   animation: spin 0.7s linear infinite;
   vertical-align: -1px;
@@ -386,3 +388,210 @@ td.team { white-space: normal; font-weight: 600; }
   .toolbar .count { margin-left: 0; width: 100%; }
   th, td { padding: 8px 12px; }
 }
+
+/* ---------------------------------------------------------------- charts */
+
+/* CSS-driven charts rather than SVG: they reflow with the container, inherit
+   the theme tokens, and need no library. The one exception is the weekly trend
+   line, which is genuinely a path and so is drawn as inline SVG. */
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 22px;
+  align-items: start;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(96px, 30%) 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 16px;
+  font-size: 13px;
+}
+
+.bar-row .bar-label {
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bar-row .bar-value {
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  font-weight: 600;
+  min-width: 46px;
+  text-align: right;
+}
+
+.bar-track {
+  background: var(--bg-2);
+  border-radius: 999px;
+  height: 9px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.bar-fill.dim { background: var(--dim); }
+.bar-fill.good { background: var(--good); }
+.bar-fill.bad { background: var(--bad); }
+
+/* Diverging bars: a centre axis with growth to either side. */
+.diverge-track {
+  position: relative;
+  height: 11px;
+  background: var(--bg-2);
+  border-radius: 3px;
+}
+
+.diverge-track::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  bottom: -2px;
+  width: 1px;
+  background: var(--line);
+}
+
+.diverge-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 2px;
+}
+
+.diverge-fill.pos { left: 50%; background: var(--good); }
+.diverge-fill.neg { right: 50%; background: var(--bad); }
+
+/* Vertical bars, for per-season counts. */
+.vbars {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 18px 16px 12px;
+  height: 190px;
+}
+
+.vbar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  gap: 6px;
+}
+
+.vbar .col {
+  width: 100%;
+  background: linear-gradient(180deg, var(--accent), #1c5fbd);
+  border-radius: 5px 5px 0 0;
+  min-height: 2px;
+}
+
+.vbar .n { font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.vbar .k { font-size: 11px; color: var(--muted); }
+
+.chart-note {
+  padding: 0 16px 14px;
+  color: var(--dim);
+  font-size: 11.5px;
+  line-height: 1.45;
+}
+
+/* ---------------------------------------------------------------- head to head */
+
+.h2h {
+  border-collapse: separate;
+  border-spacing: 2px;
+  font-size: 11.5px;
+}
+
+.h2h th {
+  font-size: 10px;
+  padding: 4px 6px;
+  color: var(--muted);
+  border: none;
+}
+
+.h2h th.rowhead {
+  text-align: right;
+  white-space: nowrap;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.h2h td {
+  border: none;
+  padding: 4px 6px;
+  text-align: center;
+  border-radius: 4px;
+  font-variant-numeric: tabular-nums;
+  background: var(--bg-2);
+  color: var(--muted);
+}
+
+.h2h td.self { background: transparent; color: var(--line); }
+
+/* ---------------------------------------------------------------- records */
+
+.record-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1px;
+  background: var(--line);
+}
+
+.record {
+  background: var(--surface);
+  padding: 13px 16px;
+}
+
+.record .k {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 3px;
+}
+
+.record .v {
+  font-size: 19px;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.record .who { font-size: 12.5px; color: var(--accent-soft); margin-top: 2px; }
+.record .when { font-size: 11.5px; color: var(--dim); }
+
+/* ---------------------------------------------------------------- trend */
+
+.trend svg { display: block; width: 100%; height: auto; }
+.trend .grid-line { stroke: var(--line); stroke-width: 1; }
+.trend .series { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
+.trend .band { fill: var(--accent); opacity: 0.12; }
+.trend .dot { fill: var(--accent); }
+.trend .axis-text { fill: var(--dim); font-size: 10px; }
+
+/* Odds cell inside the projection table. */
+.odds {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 132px;
+}
+
+.odds .bar-track { flex: 1; height: 7px; }
+.odds .pct { font-variant-numeric: tabular-nums; min-width: 44px; text-align: right; font-weight: 650; }
+
+tr.cut td { border-bottom: 2px solid var(--accent); }

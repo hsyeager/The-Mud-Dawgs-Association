@@ -23,7 +23,8 @@
   </div>
   <div class="wrap">
     <nav class="tabs" role="tablist">
-      <button class="tab" role="tab" data-view="trades" aria-selected="true">Trades</button>
+      <button class="tab" role="tab" data-view="overview" aria-selected="true">Overview</button>
+      <button class="tab" role="tab" data-view="trades" aria-selected="false">Trades</button>
       <button class="tab" role="tab" data-view="franchises" aria-selected="false">Franchises</button>
       <button class="tab" role="tab" data-view="seasons" aria-selected="false">Seasons</button>
       <button class="tab" role="tab" data-view="drafts" aria-selected="false">Drafts</button>
@@ -33,7 +34,23 @@
 
 <main class="wrap">
 
-  <section class="view" id="view-trades" role="tabpanel">
+  <section class="view" id="view-overview" role="tabpanel">
+    <div class="stat-strip" id="ov-stats"></div>
+    <div id="ov-projection"></div>
+    <div class="chart-grid">
+      <div id="ov-luck"></div>
+      <div id="ov-power"></div>
+    </div>
+    <div id="ov-trend"></div>
+    <div class="chart-grid">
+      <div id="ov-trades-chart"></div>
+      <div id="ov-titles"></div>
+    </div>
+    <div id="ov-records"></div>
+    <div id="ov-h2h"></div>
+  </section>
+
+  <section class="view" id="view-trades" role="tabpanel" hidden>
     <div class="toolbar">
       <input type="search" id="trade-search" placeholder="Search player, pick, or manager&hellip;" aria-label="Search trades">
       <select id="trade-season" aria-label="Filter by season"><option value="">All seasons</option></select>

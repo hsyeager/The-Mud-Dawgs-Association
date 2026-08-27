@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T22:58:54.888Z",
+  "generatedAt": "2026-08-27T23:06:25.767Z",
   "leagueName": "The Mud Dawgs Association",
   "currentLeagueId": "1334759252635447296",
   "firstSeason": "2023",
@@ -34,6 +34,8 @@
         "BN",
         "BN"
       ],
+      "playoffWeekStart": 15,
+      "playoffTeams": 6,
       "standings": [
         {
           "rosterId": 4,
@@ -238,6 +240,8 @@
         "BN",
         "BN"
       ],
+      "playoffWeekStart": 15,
+      "playoffTeams": 6,
       "standings": [
         {
           "rosterId": 3,
@@ -443,6 +447,8 @@
         "BN",
         "BN"
       ],
+      "playoffWeekStart": 15,
+      "playoffTeams": 6,
       "standings": [
         {
           "rosterId": 3,
@@ -648,6 +654,8 @@
         "BN",
         "BN"
       ],
+      "playoffWeekStart": 15,
+      "playoffTeams": 6,
       "standings": [
         {
           "rosterId": 1,
@@ -8744,5 +8752,4011 @@
         }
       ]
     }
-  ]
+  ],
+  "analytics": {
+    "allPlay": [
+      {
+        "ownerId": "732737495225192448",
+        "actualWins": 21,
+        "actualLosses": 21,
+        "allPlayWins": 244,
+        "allPlayGames": 462,
+        "actualPct": 0.5,
+        "allPlayPct": 0.5281385281385281,
+        "luck": -0.02813852813852813,
+        "luckWins": -1.1818181818181814
+      },
+      {
+        "ownerId": "992196085282050048",
+        "actualWins": 20,
+        "actualLosses": 22,
+        "allPlayWins": 244,
+        "allPlayGames": 462,
+        "actualPct": 0.47619047619047616,
+        "allPlayPct": 0.5281385281385281,
+        "luck": -0.051948051948051965,
+        "luckWins": -2.1818181818181825
+      },
+      {
+        "ownerId": "736446609587642368",
+        "actualWins": 17,
+        "actualLosses": 25,
+        "allPlayWins": 169,
+        "allPlayGames": 462,
+        "actualPct": 0.40476190476190477,
+        "allPlayPct": 0.3658008658008658,
+        "luck": 0.038961038961038974,
+        "luckWins": 1.636363636363637
+      },
+      {
+        "ownerId": "740274063263600640",
+        "actualWins": 17,
+        "actualLosses": 25,
+        "allPlayWins": 202,
+        "allPlayGames": 462,
+        "actualPct": 0.40476190476190477,
+        "allPlayPct": 0.43722943722943725,
+        "luck": -0.03246753246753248,
+        "luckWins": -1.3636363636363642
+      },
+      {
+        "ownerId": "737802381139513344",
+        "actualWins": 32,
+        "actualLosses": 10,
+        "allPlayWins": 364,
+        "allPlayGames": 462,
+        "actualPct": 0.7619047619047619,
+        "allPlayPct": 0.7878787878787878,
+        "luck": -0.025974025974025983,
+        "luckWins": -1.0909090909090913
+      },
+      {
+        "ownerId": "737756317862805504",
+        "actualWins": 27,
+        "actualLosses": 15,
+        "allPlayWins": 253,
+        "allPlayGames": 462,
+        "actualPct": 0.6428571428571429,
+        "allPlayPct": 0.5476190476190477,
+        "luck": 0.09523809523809523,
+        "luckWins": 4
+      },
+      {
+        "ownerId": "738438097477447680",
+        "actualWins": 29,
+        "actualLosses": 13,
+        "allPlayWins": 276,
+        "allPlayGames": 462,
+        "actualPct": 0.6904761904761905,
+        "allPlayPct": 0.5974025974025974,
+        "luck": 0.09307359307359309,
+        "luckWins": 3.9090909090909096
+      },
+      {
+        "ownerId": "609095186970124288",
+        "actualWins": 20,
+        "actualLosses": 22,
+        "allPlayWins": 259,
+        "allPlayGames": 462,
+        "actualPct": 0.47619047619047616,
+        "allPlayPct": 0.5606060606060606,
+        "luck": -0.08441558441558439,
+        "luckWins": -3.545454545454544
+      },
+      {
+        "ownerId": "738618627477114880",
+        "actualWins": 23,
+        "actualLosses": 19,
+        "allPlayWins": 236,
+        "allPlayGames": 462,
+        "actualPct": 0.5476190476190477,
+        "allPlayPct": 0.5108225108225108,
+        "luck": 0.03679653679653683,
+        "luckWins": 1.5454545454545467
+      },
+      {
+        "ownerId": "736443173223686144",
+        "actualWins": 13,
+        "actualLosses": 29,
+        "allPlayWins": 180,
+        "allPlayGames": 462,
+        "actualPct": 0.30952380952380953,
+        "allPlayPct": 0.38961038961038963,
+        "luck": -0.0800865800865801,
+        "luckWins": -3.363636363636364
+      },
+      {
+        "ownerId": "720717781959516160",
+        "actualWins": 11,
+        "actualLosses": 31,
+        "allPlayWins": 175,
+        "allPlayGames": 462,
+        "actualPct": 0.2619047619047619,
+        "allPlayPct": 0.3787878787878788,
+        "luck": -0.11688311688311687,
+        "luckWins": -4.909090909090908
+      },
+      {
+        "ownerId": "740291920076664832",
+        "actualWins": 22,
+        "actualLosses": 20,
+        "allPlayWins": 169,
+        "allPlayGames": 462,
+        "actualPct": 0.5238095238095238,
+        "allPlayPct": 0.3658008658008658,
+        "luck": 0.15800865800865804,
+        "luckWins": 6.636363636363638
+      }
+    ],
+    "headToHead": [
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 531.86
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 591.8000000000001
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 566.26
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 555.46
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 2,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 586.78
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 2,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 485.18
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 2,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 489.78
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 2,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 520.48
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 4,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 701.3800000000001
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 1,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 533.02
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 1,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 438.1
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 448.36
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 500.85999999999996
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 4,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 577.26
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 452.08000000000004
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 4,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 512.9
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 4,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 726.6
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 1,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 674.6
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 4,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 510.42
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 380.46
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 4,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 543.64
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 476.02
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 594.3199999999999
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 621.72
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 522.5
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 1,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 550.06
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 423.86
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 311.96
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 4,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 816.1200000000001
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 2,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 794.7599999999999
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 375.02
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 289.14
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 4,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 757.36
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 2,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 764.74
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 345
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 287.03999999999996
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 314.5
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 422.04
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 335.67999999999995
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 354.56
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 6,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 872.08
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 0,
+        "losses": 6,
+        "ties": 0,
+        "pointsFor": 699.6
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 1,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 636.52
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 4,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 706.5999999999999
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 1,
+        "losses": 5,
+        "ties": 0,
+        "pointsFor": 700.48
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 5,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 868.9199999999998
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 311.56
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 405.66
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 380.28
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 315.91999999999996
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 387.09999999999997
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 555.28
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 1,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 494.88
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 541.66
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 4,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 530.66
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 316.8
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 396.94
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 399.78000000000003
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 314.54
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 324.74
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 344.32000000000005
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 414.62000000000006
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 288.78
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 374.02000000000004
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 416.26
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 314.02000000000004
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 579.08
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 528.76
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 314.48
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 378.28
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 340.08000000000004
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 369.74
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 415.58
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 337.36
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 381.18
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 317.2
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 450.02
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 327.34000000000003
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 507.32000000000005
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 1,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 394.67999999999995
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 4,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 626.6200000000001
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 507.46
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 314.86
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 389.4
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 443.7
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 337.1
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 412.26
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 4,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 508.79999999999995
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 587.32
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 1,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 483.7
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 413
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 437.79999999999995
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 393.38000000000005
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 4,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 528.14
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 367.56
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 389.22
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 1,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 477.48
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 518.82
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 559.48
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 530.4000000000001
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 444.62
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 371.06
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 349.79999999999995
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 395.29999999999995
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 308.14
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 339.28000000000003
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 303.4
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 347.48
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 4,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 813.3000000000001
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 2,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 605.04
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 403.78000000000003
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 326.96000000000004
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 376.06
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 299.2
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 4,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 789.8399999999999
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 2,
+        "losses": 4,
+        "ties": 0,
+        "pointsFor": 660.2
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 2,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 488.62
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 2,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 564.5999999999999
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 426.08000000000004
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 383.15999999999997
+      },
+      {
+        "ownerId": "732737495225192448",
+        "opponentOwnerId": "740274063263600640",
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 618.42
+      },
+      {
+        "ownerId": "740274063263600640",
+        "opponentOwnerId": "732737495225192448",
+        "wins": 1,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 454.37999999999994
+      },
+      {
+        "ownerId": "736446609587642368",
+        "opponentOwnerId": "992196085282050048",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 335.82
+      },
+      {
+        "ownerId": "992196085282050048",
+        "opponentOwnerId": "736446609587642368",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 355.81999999999994
+      },
+      {
+        "ownerId": "737802381139513344",
+        "opponentOwnerId": "738618627477114880",
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 596.86
+      },
+      {
+        "ownerId": "738618627477114880",
+        "opponentOwnerId": "737802381139513344",
+        "wins": 1,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 529.04
+      },
+      {
+        "ownerId": "737756317862805504",
+        "opponentOwnerId": "736443173223686144",
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "pointsFor": 346.06
+      },
+      {
+        "ownerId": "736443173223686144",
+        "opponentOwnerId": "737756317862805504",
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 307.2
+      },
+      {
+        "ownerId": "738438097477447680",
+        "opponentOwnerId": "720717781959516160",
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 334.86
+      },
+      {
+        "ownerId": "720717781959516160",
+        "opponentOwnerId": "738438097477447680",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointsFor": 335.62
+      },
+      {
+        "ownerId": "740291920076664832",
+        "opponentOwnerId": "609095186970124288",
+        "wins": 3,
+        "losses": 1,
+        "ties": 0,
+        "pointsFor": 440.15999999999997
+      },
+      {
+        "ownerId": "609095186970124288",
+        "opponentOwnerId": "740291920076664832",
+        "wins": 1,
+        "losses": 3,
+        "ties": 0,
+        "pointsFor": 479.15999999999997
+      }
+    ],
+    "records": {
+      "highestScore": {
+        "season": "2023",
+        "week": 3,
+        "played": true,
+        "rosterId": 10,
+        "ownerId": "992196085282050048",
+        "points": 205.42,
+        "opponentRosterId": 4,
+        "opponentOwnerId": "737756317862805504",
+        "opponentPoints": 101.44
+      },
+      "lowestScore": {
+        "season": "2025",
+        "week": 11,
+        "played": true,
+        "rosterId": 10,
+        "ownerId": "992196085282050048",
+        "points": 52.78,
+        "opponentRosterId": 11,
+        "opponentOwnerId": "609095186970124288",
+        "opponentPoints": 117.8
+      },
+      "biggestBlowout": {
+        "season": "2025",
+        "week": 9,
+        "played": true,
+        "rosterId": 1,
+        "ownerId": "732737495225192448",
+        "points": 182.92,
+        "opponentRosterId": 12,
+        "opponentOwnerId": "740274063263600640",
+        "opponentPoints": 63.9
+      },
+      "narrowestWin": {
+        "season": "2023",
+        "week": 10,
+        "played": true,
+        "rosterId": 2,
+        "ownerId": "736446609587642368",
+        "points": 113.02,
+        "opponentRosterId": 1,
+        "opponentOwnerId": "732737495225192448",
+        "opponentPoints": 113
+      },
+      "highestScoringLoss": {
+        "season": "2023",
+        "week": 2,
+        "played": true,
+        "rosterId": 10,
+        "ownerId": "992196085282050048",
+        "points": 159.46,
+        "opponentRosterId": 3,
+        "opponentOwnerId": "737802381139513344",
+        "opponentPoints": 164.74
+      },
+      "lowestScoringWin": {
+        "season": "2024",
+        "week": 7,
+        "played": true,
+        "rosterId": 4,
+        "ownerId": "737756317862805504",
+        "points": 73.8,
+        "opponentRosterId": 7,
+        "opponentOwnerId": "736443173223686144",
+        "opponentPoints": 55.7
+      }
+    },
+    "powerRatings": [
+      {
+        "ownerId": "737802381139513344",
+        "mean": 150.31673469387755,
+        "stdev": 22.09627370817884,
+        "samples": 42
+      },
+      {
+        "ownerId": "732737495225192448",
+        "mean": 131.11897959183676,
+        "stdev": 27.120606274068574,
+        "samples": 42
+      },
+      {
+        "ownerId": "738438097477447680",
+        "mean": 128.79224489795916,
+        "stdev": 20.627686097474673,
+        "samples": 42
+      },
+      {
+        "ownerId": "609095186970124288",
+        "mean": 127.29061224489797,
+        "stdev": 21.488110087565996,
+        "samples": 42
+      },
+      {
+        "ownerId": "737756317862805504",
+        "mean": 125.22428571428574,
+        "stdev": 23.944126671081747,
+        "samples": 42
+      },
+      {
+        "ownerId": "992196085282050048",
+        "mean": 120.08020408163264,
+        "stdev": 26.662608457431016,
+        "samples": 42
+      },
+      {
+        "ownerId": "740274063263600640",
+        "mean": 118.39448979591839,
+        "stdev": 23.139092953244187,
+        "samples": 42
+      },
+      {
+        "ownerId": "738618627477114880",
+        "mean": 116.45653061224493,
+        "stdev": 26.021859731420243,
+        "samples": 42
+      },
+      {
+        "ownerId": "720717781959516160",
+        "mean": 115.03938775510204,
+        "stdev": 22.81115757319732,
+        "samples": 42
+      },
+      {
+        "ownerId": "740291920076664832",
+        "mean": 113.26061224489797,
+        "stdev": 23.37190070324399,
+        "samples": 42
+      },
+      {
+        "ownerId": "736446609587642368",
+        "mean": 111.04775510204082,
+        "stdev": 21.110474551197555,
+        "samples": 42
+      },
+      {
+        "ownerId": "736443173223686144",
+        "mean": 105.70836734693877,
+        "stdev": 29.99051168639833,
+        "samples": 42
+      }
+    ],
+    "projection": {
+      "season": "2026",
+      "sims": 10000,
+      "playoffTeams": 6,
+      "gamesRemaining": 84,
+      "gamesPlayed": 0,
+      "results": [
+        {
+          "ownerId": "737802381139513344",
+          "currentWins": 0,
+          "projectedWins": 11.6199,
+          "playoffOdds": 0.9994,
+          "firstSeedOdds": 0.8422,
+          "averageSeed": 1.2314,
+          "mean": 150.31673469387755,
+          "stdev": 22.09627370817884
+        },
+        {
+          "ownerId": "738438097477447680",
+          "currentWins": 0,
+          "projectedWins": 8.5468,
+          "playoffOdds": 0.8627,
+          "firstSeedOdds": 0.047,
+          "averageSeed": 4.0148,
+          "mean": 128.79224489795916,
+          "stdev": 20.627686097474673
+        },
+        {
+          "ownerId": "732737495225192448",
+          "currentWins": 0,
+          "projectedWins": 8.4154,
+          "playoffOdds": 0.8476,
+          "firstSeedOdds": 0.0506,
+          "averageSeed": 4.0827,
+          "mean": 131.11897959183676,
+          "stdev": 27.120606274068574
+        },
+        {
+          "ownerId": "609095186970124288",
+          "currentWins": 0,
+          "projectedWins": 7.8696,
+          "playoffOdds": 0.7587,
+          "firstSeedOdds": 0.026,
+          "averageSeed": 4.8561,
+          "mean": 127.29061224489797,
+          "stdev": 21.488110087565996
+        },
+        {
+          "ownerId": "737756317862805504",
+          "currentWins": 0,
+          "projectedWins": 7.4503,
+          "playoffOdds": 0.6727,
+          "firstSeedOdds": 0.0159,
+          "averageSeed": 5.4941,
+          "mean": 125.22428571428574,
+          "stdev": 23.944126671081747
+        },
+        {
+          "ownerId": "992196085282050048",
+          "currentWins": 0,
+          "projectedWins": 6.5911,
+          "playoffOdds": 0.4518,
+          "firstSeedOdds": 0.0066,
+          "averageSeed": 6.9207,
+          "mean": 120.08020408163264,
+          "stdev": 26.662608457431016
+        },
+        {
+          "ownerId": "740274063263600640",
+          "currentWins": 0,
+          "projectedWins": 6.5835,
+          "playoffOdds": 0.44,
+          "firstSeedOdds": 0.0056,
+          "averageSeed": 7.026,
+          "mean": 118.39448979591839,
+          "stdev": 23.139092953244187
+        },
+        {
+          "ownerId": "738618627477114880",
+          "currentWins": 0,
+          "projectedWins": 5.8898,
+          "playoffOdds": 0.2908,
+          "firstSeedOdds": 0.0021,
+          "averageSeed": 8.0354,
+          "mean": 116.45653061224493,
+          "stdev": 26.021859731420243
+        },
+        {
+          "ownerId": "720717781959516160",
+          "currentWins": 0,
+          "projectedWins": 5.7127,
+          "playoffOdds": 0.2425,
+          "firstSeedOdds": 0.0019,
+          "averageSeed": 8.3476,
+          "mean": 115.03938775510204,
+          "stdev": 22.81115757319732
+        },
+        {
+          "ownerId": "740291920076664832",
+          "currentWins": 0,
+          "projectedWins": 5.6592,
+          "playoffOdds": 0.2251,
+          "firstSeedOdds": 0.0013,
+          "averageSeed": 8.5335,
+          "mean": 113.26061224489797,
+          "stdev": 23.37190070324399
+        },
+        {
+          "ownerId": "736446609587642368",
+          "currentWins": 0,
+          "projectedWins": 4.9643,
+          "playoffOdds": 0.1205,
+          "firstSeedOdds": 0.0005,
+          "averageSeed": 9.4901,
+          "mean": 111.04775510204082,
+          "stdev": 21.110474551197555
+        },
+        {
+          "ownerId": "736443173223686144",
+          "currentWins": 0,
+          "projectedWins": 4.6974,
+          "playoffOdds": 0.0882,
+          "firstSeedOdds": 0.0003,
+          "averageSeed": 9.9676,
+          "mean": 105.70836734693877,
+          "stdev": 29.99051168639833
+        }
+      ]
+    },
+    "weeklyBySeason": [
+      {
+        "season": "2023",
+        "scores": [
+          {
+            "week": 1,
+            "ownerId": "732737495225192448",
+            "points": 91.7
+          },
+          {
+            "week": 1,
+            "ownerId": "992196085282050048",
+            "points": 118.1
+          },
+          {
+            "week": 1,
+            "ownerId": "736446609587642368",
+            "points": 131.7
+          },
+          {
+            "week": 1,
+            "ownerId": "740274063263600640",
+            "points": 109.7
+          },
+          {
+            "week": 1,
+            "ownerId": "737802381139513344",
+            "points": 103.28
+          },
+          {
+            "week": 1,
+            "ownerId": "737756317862805504",
+            "points": 117.04
+          },
+          {
+            "week": 1,
+            "ownerId": "738438097477447680",
+            "points": 90.82
+          },
+          {
+            "week": 1,
+            "ownerId": "609095186970124288",
+            "points": 139.3
+          },
+          {
+            "week": 1,
+            "ownerId": "738618627477114880",
+            "points": 153.46
+          },
+          {
+            "week": 1,
+            "ownerId": "736443173223686144",
+            "points": 106.66
+          },
+          {
+            "week": 1,
+            "ownerId": "720717781959516160",
+            "points": 77.76
+          },
+          {
+            "week": 1,
+            "ownerId": "740291920076664832",
+            "points": 94.36
+          },
+          {
+            "week": 2,
+            "ownerId": "732737495225192448",
+            "points": 132.96
+          },
+          {
+            "week": 2,
+            "ownerId": "737756317862805504",
+            "points": 138.26
+          },
+          {
+            "week": 2,
+            "ownerId": "736446609587642368",
+            "points": 114.04
+          },
+          {
+            "week": 2,
+            "ownerId": "738438097477447680",
+            "points": 133.64
+          },
+          {
+            "week": 2,
+            "ownerId": "737802381139513344",
+            "points": 164.74
+          },
+          {
+            "week": 2,
+            "ownerId": "992196085282050048",
+            "points": 159.46
+          },
+          {
+            "week": 2,
+            "ownerId": "738618627477114880",
+            "points": 146.16
+          },
+          {
+            "week": 2,
+            "ownerId": "740291920076664832",
+            "points": 105.66
+          },
+          {
+            "week": 2,
+            "ownerId": "736443173223686144",
+            "points": 142.94
+          },
+          {
+            "week": 2,
+            "ownerId": "720717781959516160",
+            "points": 132.56
+          },
+          {
+            "week": 2,
+            "ownerId": "609095186970124288",
+            "points": 89.66
+          },
+          {
+            "week": 2,
+            "ownerId": "740274063263600640",
+            "points": 138.18
+          },
+          {
+            "week": 3,
+            "ownerId": "732737495225192448",
+            "points": 132.48
+          },
+          {
+            "week": 3,
+            "ownerId": "737802381139513344",
+            "points": 125.32
+          },
+          {
+            "week": 3,
+            "ownerId": "736446609587642368",
+            "points": 177.66
+          },
+          {
+            "week": 3,
+            "ownerId": "609095186970124288",
+            "points": 107.28
+          },
+          {
+            "week": 3,
+            "ownerId": "737756317862805504",
+            "points": 101.44
+          },
+          {
+            "week": 3,
+            "ownerId": "992196085282050048",
+            "points": 205.42
+          },
+          {
+            "week": 3,
+            "ownerId": "738438097477447680",
+            "points": 164.76
+          },
+          {
+            "week": 3,
+            "ownerId": "740274063263600640",
+            "points": 115.24
+          },
+          {
+            "week": 3,
+            "ownerId": "738618627477114880",
+            "points": 131.58
+          },
+          {
+            "week": 3,
+            "ownerId": "720717781959516160",
+            "points": 105.26
+          },
+          {
+            "week": 3,
+            "ownerId": "736443173223686144",
+            "points": 134.22
+          },
+          {
+            "week": 3,
+            "ownerId": "740291920076664832",
+            "points": 110.38
+          },
+          {
+            "week": 4,
+            "ownerId": "732737495225192448",
+            "points": 111.2
+          },
+          {
+            "week": 4,
+            "ownerId": "740291920076664832",
+            "points": 138.16
+          },
+          {
+            "week": 4,
+            "ownerId": "736446609587642368",
+            "points": 99.82
+          },
+          {
+            "week": 4,
+            "ownerId": "737756317862805504",
+            "points": 139.16
+          },
+          {
+            "week": 4,
+            "ownerId": "737802381139513344",
+            "points": 147.18
+          },
+          {
+            "week": 4,
+            "ownerId": "740274063263600640",
+            "points": 97.88
+          },
+          {
+            "week": 4,
+            "ownerId": "738438097477447680",
+            "points": 169.6
+          },
+          {
+            "week": 4,
+            "ownerId": "738618627477114880",
+            "points": 142.38
+          },
+          {
+            "week": 4,
+            "ownerId": "736443173223686144",
+            "points": 105.74
+          },
+          {
+            "week": 4,
+            "ownerId": "609095186970124288",
+            "points": 136.82
+          },
+          {
+            "week": 4,
+            "ownerId": "720717781959516160",
+            "points": 55.76
+          },
+          {
+            "week": 4,
+            "ownerId": "992196085282050048",
+            "points": 136.26
+          },
+          {
+            "week": 5,
+            "ownerId": "732737495225192448",
+            "points": 93.28
+          },
+          {
+            "week": 5,
+            "ownerId": "720717781959516160",
+            "points": 121.8
+          },
+          {
+            "week": 5,
+            "ownerId": "736446609587642368",
+            "points": 139.5
+          },
+          {
+            "week": 5,
+            "ownerId": "737802381139513344",
+            "points": 164.86
+          },
+          {
+            "week": 5,
+            "ownerId": "737756317862805504",
+            "points": 114.02
+          },
+          {
+            "week": 5,
+            "ownerId": "740274063263600640",
+            "points": 117.82
+          },
+          {
+            "week": 5,
+            "ownerId": "738438097477447680",
+            "points": 137.8
+          },
+          {
+            "week": 5,
+            "ownerId": "736443173223686144",
+            "points": 97.3
+          },
+          {
+            "week": 5,
+            "ownerId": "738618627477114880",
+            "points": 163.24
+          },
+          {
+            "week": 5,
+            "ownerId": "609095186970124288",
+            "points": 131.18
+          },
+          {
+            "week": 5,
+            "ownerId": "740291920076664832",
+            "points": 110.4
+          },
+          {
+            "week": 5,
+            "ownerId": "992196085282050048",
+            "points": 106.72
+          },
+          {
+            "week": 6,
+            "ownerId": "732737495225192448",
+            "points": 108.04
+          },
+          {
+            "week": 6,
+            "ownerId": "738438097477447680",
+            "points": 165.56
+          },
+          {
+            "week": 6,
+            "ownerId": "736446609587642368",
+            "points": 92.28
+          },
+          {
+            "week": 6,
+            "ownerId": "738618627477114880",
+            "points": 140.46
+          },
+          {
+            "week": 6,
+            "ownerId": "737802381139513344",
+            "points": 118.3
+          },
+          {
+            "week": 6,
+            "ownerId": "720717781959516160",
+            "points": 108.04
+          },
+          {
+            "week": 6,
+            "ownerId": "737756317862805504",
+            "points": 112.78
+          },
+          {
+            "week": 6,
+            "ownerId": "740291920076664832",
+            "points": 74.34
+          },
+          {
+            "week": 6,
+            "ownerId": "736443173223686144",
+            "points": 129.3
+          },
+          {
+            "week": 6,
+            "ownerId": "740274063263600640",
+            "points": 110.28
+          },
+          {
+            "week": 6,
+            "ownerId": "992196085282050048",
+            "points": 166.66
+          },
+          {
+            "week": 6,
+            "ownerId": "609095186970124288",
+            "points": 118.24
+          },
+          {
+            "week": 7,
+            "ownerId": "732737495225192448",
+            "points": 99.9
+          },
+          {
+            "week": 7,
+            "ownerId": "609095186970124288",
+            "points": 85.36
+          },
+          {
+            "week": 7,
+            "ownerId": "736446609587642368",
+            "points": 129.04
+          },
+          {
+            "week": 7,
+            "ownerId": "736443173223686144",
+            "points": 120.8
+          },
+          {
+            "week": 7,
+            "ownerId": "737802381139513344",
+            "points": 171.02
+          },
+          {
+            "week": 7,
+            "ownerId": "740291920076664832",
+            "points": 117.84
+          },
+          {
+            "week": 7,
+            "ownerId": "737756317862805504",
+            "points": 88.14
+          },
+          {
+            "week": 7,
+            "ownerId": "720717781959516160",
+            "points": 122.96
+          },
+          {
+            "week": 7,
+            "ownerId": "738438097477447680",
+            "points": 155
+          },
+          {
+            "week": 7,
+            "ownerId": "992196085282050048",
+            "points": 135.6
+          },
+          {
+            "week": 7,
+            "ownerId": "738618627477114880",
+            "points": 134.92
+          },
+          {
+            "week": 7,
+            "ownerId": "740274063263600640",
+            "points": 160.5
+          },
+          {
+            "week": 8,
+            "ownerId": "732737495225192448",
+            "points": 127.7
+          },
+          {
+            "week": 8,
+            "ownerId": "738618627477114880",
+            "points": 103.86
+          },
+          {
+            "week": 8,
+            "ownerId": "736446609587642368",
+            "points": 84.24
+          },
+          {
+            "week": 8,
+            "ownerId": "740291920076664832",
+            "points": 152.62
+          },
+          {
+            "week": 8,
+            "ownerId": "737802381139513344",
+            "points": 135.02
+          },
+          {
+            "week": 8,
+            "ownerId": "609095186970124288",
+            "points": 146.32
+          },
+          {
+            "week": 8,
+            "ownerId": "737756317862805504",
+            "points": 162.2
+          },
+          {
+            "week": 8,
+            "ownerId": "738438097477447680",
+            "points": 139.54
+          },
+          {
+            "week": 8,
+            "ownerId": "736443173223686144",
+            "points": 142.24
+          },
+          {
+            "week": 8,
+            "ownerId": "992196085282050048",
+            "points": 146.18
+          },
+          {
+            "week": 8,
+            "ownerId": "720717781959516160",
+            "points": 113.64
+          },
+          {
+            "week": 8,
+            "ownerId": "740274063263600640",
+            "points": 126.98
+          },
+          {
+            "week": 9,
+            "ownerId": "732737495225192448",
+            "points": 117.28
+          },
+          {
+            "week": 9,
+            "ownerId": "736443173223686144",
+            "points": 137.46
+          },
+          {
+            "week": 9,
+            "ownerId": "736446609587642368",
+            "points": 105.8
+          },
+          {
+            "week": 9,
+            "ownerId": "720717781959516160",
+            "points": 140.12
+          },
+          {
+            "week": 9,
+            "ownerId": "737802381139513344",
+            "points": 155.1
+          },
+          {
+            "week": 9,
+            "ownerId": "738438097477447680",
+            "points": 108.78
+          },
+          {
+            "week": 9,
+            "ownerId": "737756317862805504",
+            "points": 129.54
+          },
+          {
+            "week": 9,
+            "ownerId": "609095186970124288",
+            "points": 112
+          },
+          {
+            "week": 9,
+            "ownerId": "738618627477114880",
+            "points": 119.62
+          },
+          {
+            "week": 9,
+            "ownerId": "992196085282050048",
+            "points": 72.36
+          },
+          {
+            "week": 9,
+            "ownerId": "740291920076664832",
+            "points": 86.2
+          },
+          {
+            "week": 9,
+            "ownerId": "740274063263600640",
+            "points": 80.9
+          },
+          {
+            "week": 10,
+            "ownerId": "732737495225192448",
+            "points": 113
+          },
+          {
+            "week": 10,
+            "ownerId": "736446609587642368",
+            "points": 113.02
+          },
+          {
+            "week": 10,
+            "ownerId": "737802381139513344",
+            "points": 114.42
+          },
+          {
+            "week": 10,
+            "ownerId": "736443173223686144",
+            "points": 141.18
+          },
+          {
+            "week": 10,
+            "ownerId": "737756317862805504",
+            "points": 147.94
+          },
+          {
+            "week": 10,
+            "ownerId": "738618627477114880",
+            "points": 101.82
+          },
+          {
+            "week": 10,
+            "ownerId": "738438097477447680",
+            "points": 84.32
+          },
+          {
+            "week": 10,
+            "ownerId": "740291920076664832",
+            "points": 100.12
+          },
+          {
+            "week": 10,
+            "ownerId": "720717781959516160",
+            "points": 135.96
+          },
+          {
+            "week": 10,
+            "ownerId": "609095186970124288",
+            "points": 132.66
+          },
+          {
+            "week": 10,
+            "ownerId": "992196085282050048",
+            "points": 175.12
+          },
+          {
+            "week": 10,
+            "ownerId": "740274063263600640",
+            "points": 121.88
+          },
+          {
+            "week": 11,
+            "ownerId": "732737495225192448",
+            "points": 96.14
+          },
+          {
+            "week": 11,
+            "ownerId": "740274063263600640",
+            "points": 136.64
+          },
+          {
+            "week": 11,
+            "ownerId": "736446609587642368",
+            "points": 86.32
+          },
+          {
+            "week": 11,
+            "ownerId": "992196085282050048",
+            "points": 165.1
+          },
+          {
+            "week": 11,
+            "ownerId": "737802381139513344",
+            "points": 125.1
+          },
+          {
+            "week": 11,
+            "ownerId": "738618627477114880",
+            "points": 147.02
+          },
+          {
+            "week": 11,
+            "ownerId": "737756317862805504",
+            "points": 129.94
+          },
+          {
+            "week": 11,
+            "ownerId": "736443173223686144",
+            "points": 127.82
+          },
+          {
+            "week": 11,
+            "ownerId": "738438097477447680",
+            "points": 108.8
+          },
+          {
+            "week": 11,
+            "ownerId": "720717781959516160",
+            "points": 80.28
+          },
+          {
+            "week": 11,
+            "ownerId": "740291920076664832",
+            "points": 89.56
+          },
+          {
+            "week": 11,
+            "ownerId": "609095186970124288",
+            "points": 80.9
+          },
+          {
+            "week": 12,
+            "ownerId": "732737495225192448",
+            "points": 158.88
+          },
+          {
+            "week": 12,
+            "ownerId": "736446609587642368",
+            "points": 108.22
+          },
+          {
+            "week": 12,
+            "ownerId": "737802381139513344",
+            "points": 149.16
+          },
+          {
+            "week": 12,
+            "ownerId": "740274063263600640",
+            "points": 127.16
+          },
+          {
+            "week": 12,
+            "ownerId": "737756317862805504",
+            "points": 159.12
+          },
+          {
+            "week": 12,
+            "ownerId": "992196085282050048",
+            "points": 102
+          },
+          {
+            "week": 12,
+            "ownerId": "738438097477447680",
+            "points": 147.92
+          },
+          {
+            "week": 12,
+            "ownerId": "740291920076664832",
+            "points": 67.16
+          },
+          {
+            "week": 12,
+            "ownerId": "738618627477114880",
+            "points": 171.14
+          },
+          {
+            "week": 12,
+            "ownerId": "720717781959516160",
+            "points": 126.4
+          },
+          {
+            "week": 12,
+            "ownerId": "736443173223686144",
+            "points": 141.72
+          },
+          {
+            "week": 12,
+            "ownerId": "609095186970124288",
+            "points": 148.12
+          },
+          {
+            "week": 13,
+            "ownerId": "732737495225192448",
+            "points": 113.24
+          },
+          {
+            "week": 13,
+            "ownerId": "992196085282050048",
+            "points": 128.78
+          },
+          {
+            "week": 13,
+            "ownerId": "736446609587642368",
+            "points": 115.88
+          },
+          {
+            "week": 13,
+            "ownerId": "740274063263600640",
+            "points": 98.6
+          },
+          {
+            "week": 13,
+            "ownerId": "737802381139513344",
+            "points": 136.28
+          },
+          {
+            "week": 13,
+            "ownerId": "737756317862805504",
+            "points": 145.2
+          },
+          {
+            "week": 13,
+            "ownerId": "738438097477447680",
+            "points": 93.68
+          },
+          {
+            "week": 13,
+            "ownerId": "609095186970124288",
+            "points": 153.56
+          },
+          {
+            "week": 13,
+            "ownerId": "738618627477114880",
+            "points": 180.24
+          },
+          {
+            "week": 13,
+            "ownerId": "736443173223686144",
+            "points": 113.42
+          },
+          {
+            "week": 13,
+            "ownerId": "720717781959516160",
+            "points": 102.68
+          },
+          {
+            "week": 13,
+            "ownerId": "740291920076664832",
+            "points": 106.2
+          },
+          {
+            "week": 14,
+            "ownerId": "732737495225192448",
+            "points": 129.7
+          },
+          {
+            "week": 14,
+            "ownerId": "737756317862805504",
+            "points": 134.4
+          },
+          {
+            "week": 14,
+            "ownerId": "736446609587642368",
+            "points": 131.12
+          },
+          {
+            "week": 14,
+            "ownerId": "738438097477447680",
+            "points": 145.3
+          },
+          {
+            "week": 14,
+            "ownerId": "737802381139513344",
+            "points": 145.14
+          },
+          {
+            "week": 14,
+            "ownerId": "992196085282050048",
+            "points": 86.94
+          },
+          {
+            "week": 14,
+            "ownerId": "738618627477114880",
+            "points": 141.08
+          },
+          {
+            "week": 14,
+            "ownerId": "740291920076664832",
+            "points": 101.62
+          },
+          {
+            "week": 14,
+            "ownerId": "736443173223686144",
+            "points": 113.86
+          },
+          {
+            "week": 14,
+            "ownerId": "720717781959516160",
+            "points": 67
+          },
+          {
+            "week": 14,
+            "ownerId": "609095186970124288",
+            "points": 107.12
+          },
+          {
+            "week": 14,
+            "ownerId": "740274063263600640",
+            "points": 116.78
+          }
+        ]
+      },
+      {
+        "season": "2024",
+        "scores": [
+          {
+            "week": 1,
+            "ownerId": "732737495225192448",
+            "points": 103.4
+          },
+          {
+            "week": 1,
+            "ownerId": "737802381139513344",
+            "points": 170.6
+          },
+          {
+            "week": 1,
+            "ownerId": "736446609587642368",
+            "points": 117.6
+          },
+          {
+            "week": 1,
+            "ownerId": "720717781959516160",
+            "points": 77.18
+          },
+          {
+            "week": 1,
+            "ownerId": "737756317862805504",
+            "points": 125.26
+          },
+          {
+            "week": 1,
+            "ownerId": "740291920076664832",
+            "points": 83.62
+          },
+          {
+            "week": 1,
+            "ownerId": "738438097477447680",
+            "points": 160.58
+          },
+          {
+            "week": 1,
+            "ownerId": "992196085282050048",
+            "points": 128.48
+          },
+          {
+            "week": 1,
+            "ownerId": "738618627477114880",
+            "points": 126.66
+          },
+          {
+            "week": 1,
+            "ownerId": "736443173223686144",
+            "points": 92.8
+          },
+          {
+            "week": 1,
+            "ownerId": "609095186970124288",
+            "points": 103.34
+          },
+          {
+            "week": 1,
+            "ownerId": "740274063263600640",
+            "points": 143.42
+          },
+          {
+            "week": 2,
+            "ownerId": "732737495225192448",
+            "points": 144.92
+          },
+          {
+            "week": 2,
+            "ownerId": "740274063263600640",
+            "points": 131.78
+          },
+          {
+            "week": 2,
+            "ownerId": "736446609587642368",
+            "points": 107.3
+          },
+          {
+            "week": 2,
+            "ownerId": "740291920076664832",
+            "points": 117.02
+          },
+          {
+            "week": 2,
+            "ownerId": "737802381139513344",
+            "points": 118.06
+          },
+          {
+            "week": 2,
+            "ownerId": "609095186970124288",
+            "points": 106.28
+          },
+          {
+            "week": 2,
+            "ownerId": "737756317862805504",
+            "points": 132.72
+          },
+          {
+            "week": 2,
+            "ownerId": "720717781959516160",
+            "points": 95.06
+          },
+          {
+            "week": 2,
+            "ownerId": "738438097477447680",
+            "points": 124.28
+          },
+          {
+            "week": 2,
+            "ownerId": "738618627477114880",
+            "points": 126.18
+          },
+          {
+            "week": 2,
+            "ownerId": "736443173223686144",
+            "points": 110
+          },
+          {
+            "week": 2,
+            "ownerId": "992196085282050048",
+            "points": 142.7
+          },
+          {
+            "week": 3,
+            "ownerId": "732737495225192448",
+            "points": 180.24
+          },
+          {
+            "week": 3,
+            "ownerId": "609095186970124288",
+            "points": 108.26
+          },
+          {
+            "week": 3,
+            "ownerId": "736446609587642368",
+            "points": 147.64
+          },
+          {
+            "week": 3,
+            "ownerId": "737756317862805504",
+            "points": 82.68
+          },
+          {
+            "week": 3,
+            "ownerId": "737802381139513344",
+            "points": 135.3
+          },
+          {
+            "week": 3,
+            "ownerId": "740274063263600640",
+            "points": 130.16
+          },
+          {
+            "week": 3,
+            "ownerId": "738438097477447680",
+            "points": 138.1
+          },
+          {
+            "week": 3,
+            "ownerId": "736443173223686144",
+            "points": 92.46
+          },
+          {
+            "week": 3,
+            "ownerId": "738618627477114880",
+            "points": 102.8
+          },
+          {
+            "week": 3,
+            "ownerId": "992196085282050048",
+            "points": 144.06
+          },
+          {
+            "week": 3,
+            "ownerId": "720717781959516160",
+            "points": 162.3
+          },
+          {
+            "week": 3,
+            "ownerId": "740291920076664832",
+            "points": 107.06
+          },
+          {
+            "week": 4,
+            "ownerId": "732737495225192448",
+            "points": 90.88
+          },
+          {
+            "week": 4,
+            "ownerId": "738438097477447680",
+            "points": 132.52
+          },
+          {
+            "week": 4,
+            "ownerId": "736446609587642368",
+            "points": 129.34
+          },
+          {
+            "week": 4,
+            "ownerId": "736443173223686144",
+            "points": 117.32
+          },
+          {
+            "week": 4,
+            "ownerId": "737802381139513344",
+            "points": 132.38
+          },
+          {
+            "week": 4,
+            "ownerId": "992196085282050048",
+            "points": 183.74
+          },
+          {
+            "week": 4,
+            "ownerId": "737756317862805504",
+            "points": 116.14
+          },
+          {
+            "week": 4,
+            "ownerId": "740274063263600640",
+            "points": 121.98
+          },
+          {
+            "week": 4,
+            "ownerId": "738618627477114880",
+            "points": 151.18
+          },
+          {
+            "week": 4,
+            "ownerId": "720717781959516160",
+            "points": 129.08
+          },
+          {
+            "week": 4,
+            "ownerId": "740291920076664832",
+            "points": 88.94
+          },
+          {
+            "week": 4,
+            "ownerId": "609095186970124288",
+            "points": 160.26
+          },
+          {
+            "week": 5,
+            "ownerId": "732737495225192448",
+            "points": 113.94
+          },
+          {
+            "week": 5,
+            "ownerId": "992196085282050048",
+            "points": 104.04
+          },
+          {
+            "week": 5,
+            "ownerId": "736446609587642368",
+            "points": 114.18
+          },
+          {
+            "week": 5,
+            "ownerId": "738618627477114880",
+            "points": 137
+          },
+          {
+            "week": 5,
+            "ownerId": "737802381139513344",
+            "points": 118.5
+          },
+          {
+            "week": 5,
+            "ownerId": "738438097477447680",
+            "points": 143.62
+          },
+          {
+            "week": 5,
+            "ownerId": "737756317862805504",
+            "points": 125.42
+          },
+          {
+            "week": 5,
+            "ownerId": "609095186970124288",
+            "points": 150.42
+          },
+          {
+            "week": 5,
+            "ownerId": "736443173223686144",
+            "points": 133.92
+          },
+          {
+            "week": 5,
+            "ownerId": "720717781959516160",
+            "points": 130.32
+          },
+          {
+            "week": 5,
+            "ownerId": "740291920076664832",
+            "points": 77.36
+          },
+          {
+            "week": 5,
+            "ownerId": "740274063263600640",
+            "points": 148.34
+          },
+          {
+            "week": 6,
+            "ownerId": "732737495225192448",
+            "points": 153.14
+          },
+          {
+            "week": 6,
+            "ownerId": "720717781959516160",
+            "points": 119.46
+          },
+          {
+            "week": 6,
+            "ownerId": "736446609587642368",
+            "points": 110.46
+          },
+          {
+            "week": 6,
+            "ownerId": "737802381139513344",
+            "points": 186.66
+          },
+          {
+            "week": 6,
+            "ownerId": "737756317862805504",
+            "points": 125.88
+          },
+          {
+            "week": 6,
+            "ownerId": "738618627477114880",
+            "points": 110.16
+          },
+          {
+            "week": 6,
+            "ownerId": "738438097477447680",
+            "points": 107.52
+          },
+          {
+            "week": 6,
+            "ownerId": "740274063263600640",
+            "points": 105.42
+          },
+          {
+            "week": 6,
+            "ownerId": "736443173223686144",
+            "points": 117.22
+          },
+          {
+            "week": 6,
+            "ownerId": "740291920076664832",
+            "points": 74.96
+          },
+          {
+            "week": 6,
+            "ownerId": "992196085282050048",
+            "points": 120.64
+          },
+          {
+            "week": 6,
+            "ownerId": "609095186970124288",
+            "points": 133.7
+          },
+          {
+            "week": 7,
+            "ownerId": "732737495225192448",
+            "points": 91.04
+          },
+          {
+            "week": 7,
+            "ownerId": "736446609587642368",
+            "points": 102.52
+          },
+          {
+            "week": 7,
+            "ownerId": "737802381139513344",
+            "points": 129.12
+          },
+          {
+            "week": 7,
+            "ownerId": "720717781959516160",
+            "points": 99.5
+          },
+          {
+            "week": 7,
+            "ownerId": "737756317862805504",
+            "points": 73.8
+          },
+          {
+            "week": 7,
+            "ownerId": "736443173223686144",
+            "points": 55.7
+          },
+          {
+            "week": 7,
+            "ownerId": "738438097477447680",
+            "points": 167.94
+          },
+          {
+            "week": 7,
+            "ownerId": "609095186970124288",
+            "points": 117.18
+          },
+          {
+            "week": 7,
+            "ownerId": "738618627477114880",
+            "points": 90.92
+          },
+          {
+            "week": 7,
+            "ownerId": "740291920076664832",
+            "points": 63.86
+          },
+          {
+            "week": 7,
+            "ownerId": "992196085282050048",
+            "points": 128.98
+          },
+          {
+            "week": 7,
+            "ownerId": "740274063263600640",
+            "points": 144.16
+          },
+          {
+            "week": 8,
+            "ownerId": "732737495225192448",
+            "points": 144.26
+          },
+          {
+            "week": 8,
+            "ownerId": "738618627477114880",
+            "points": 120.42
+          },
+          {
+            "week": 8,
+            "ownerId": "736446609587642368",
+            "points": 139.54
+          },
+          {
+            "week": 8,
+            "ownerId": "609095186970124288",
+            "points": 107.54
+          },
+          {
+            "week": 8,
+            "ownerId": "737802381139513344",
+            "points": 151.3
+          },
+          {
+            "week": 8,
+            "ownerId": "736443173223686144",
+            "points": 118.28
+          },
+          {
+            "week": 8,
+            "ownerId": "737756317862805504",
+            "points": 151.54
+          },
+          {
+            "week": 8,
+            "ownerId": "738438097477447680",
+            "points": 157.5
+          },
+          {
+            "week": 8,
+            "ownerId": "720717781959516160",
+            "points": 139.62
+          },
+          {
+            "week": 8,
+            "ownerId": "740274063263600640",
+            "points": 156.86
+          },
+          {
+            "week": 8,
+            "ownerId": "740291920076664832",
+            "points": 89.46
+          },
+          {
+            "week": 8,
+            "ownerId": "992196085282050048",
+            "points": 132.62
+          },
+          {
+            "week": 9,
+            "ownerId": "732737495225192448",
+            "points": 113.98
+          },
+          {
+            "week": 9,
+            "ownerId": "736443173223686144",
+            "points": 126.22
+          },
+          {
+            "week": 9,
+            "ownerId": "736446609587642368",
+            "points": 115.5
+          },
+          {
+            "week": 9,
+            "ownerId": "740274063263600640",
+            "points": 114.2
+          },
+          {
+            "week": 9,
+            "ownerId": "737802381139513344",
+            "points": 162.22
+          },
+          {
+            "week": 9,
+            "ownerId": "738618627477114880",
+            "points": 136.5
+          },
+          {
+            "week": 9,
+            "ownerId": "737756317862805504",
+            "points": 125.28
+          },
+          {
+            "week": 9,
+            "ownerId": "992196085282050048",
+            "points": 141.42
+          },
+          {
+            "week": 9,
+            "ownerId": "738438097477447680",
+            "points": 129.38
+          },
+          {
+            "week": 9,
+            "ownerId": "740291920076664832",
+            "points": 145.3
+          },
+          {
+            "week": 9,
+            "ownerId": "720717781959516160",
+            "points": 94.16
+          },
+          {
+            "week": 9,
+            "ownerId": "609095186970124288",
+            "points": 148.92
+          },
+          {
+            "week": 10,
+            "ownerId": "732737495225192448",
+            "points": 105.7
+          },
+          {
+            "week": 10,
+            "ownerId": "737756317862805504",
+            "points": 132.78
+          },
+          {
+            "week": 10,
+            "ownerId": "736446609587642368",
+            "points": 104.3
+          },
+          {
+            "week": 10,
+            "ownerId": "992196085282050048",
+            "points": 92.44
+          },
+          {
+            "week": 10,
+            "ownerId": "737802381139513344",
+            "points": 140
+          },
+          {
+            "week": 10,
+            "ownerId": "740291920076664832",
+            "points": 75.22
+          },
+          {
+            "week": 10,
+            "ownerId": "738438097477447680",
+            "points": 133.74
+          },
+          {
+            "week": 10,
+            "ownerId": "720717781959516160",
+            "points": 107.22
+          },
+          {
+            "week": 10,
+            "ownerId": "738618627477114880",
+            "points": 81.64
+          },
+          {
+            "week": 10,
+            "ownerId": "740274063263600640",
+            "points": 131.28
+          },
+          {
+            "week": 10,
+            "ownerId": "736443173223686144",
+            "points": 85.2
+          },
+          {
+            "week": 10,
+            "ownerId": "609095186970124288",
+            "points": 165.96
+          },
+          {
+            "week": 11,
+            "ownerId": "732737495225192448",
+            "points": 95.72
+          },
+          {
+            "week": 11,
+            "ownerId": "740291920076664832",
+            "points": 152.18
+          },
+          {
+            "week": 11,
+            "ownerId": "736446609587642368",
+            "points": 95
+          },
+          {
+            "week": 11,
+            "ownerId": "738438097477447680",
+            "points": 105.6
+          },
+          {
+            "week": 11,
+            "ownerId": "737802381139513344",
+            "points": 189.64
+          },
+          {
+            "week": 11,
+            "ownerId": "737756317862805504",
+            "points": 135.68
+          },
+          {
+            "week": 11,
+            "ownerId": "738618627477114880",
+            "points": 135.82
+          },
+          {
+            "week": 11,
+            "ownerId": "609095186970124288",
+            "points": 154.02
+          },
+          {
+            "week": 11,
+            "ownerId": "736443173223686144",
+            "points": 86.6
+          },
+          {
+            "week": 11,
+            "ownerId": "740274063263600640",
+            "points": 137.5
+          },
+          {
+            "week": 11,
+            "ownerId": "720717781959516160",
+            "points": 140.82
+          },
+          {
+            "week": 11,
+            "ownerId": "992196085282050048",
+            "points": 153.6
+          },
+          {
+            "week": 12,
+            "ownerId": "732737495225192448",
+            "points": 152.6
+          },
+          {
+            "week": 12,
+            "ownerId": "737802381139513344",
+            "points": 124.78
+          },
+          {
+            "week": 12,
+            "ownerId": "736446609587642368",
+            "points": 108.8
+          },
+          {
+            "week": 12,
+            "ownerId": "720717781959516160",
+            "points": 95.42
+          },
+          {
+            "week": 12,
+            "ownerId": "737756317862805504",
+            "points": 104.98
+          },
+          {
+            "week": 12,
+            "ownerId": "740291920076664832",
+            "points": 153.4
+          },
+          {
+            "week": 12,
+            "ownerId": "738438097477447680",
+            "points": 173.24
+          },
+          {
+            "week": 12,
+            "ownerId": "992196085282050048",
+            "points": 114.2
+          },
+          {
+            "week": 12,
+            "ownerId": "738618627477114880",
+            "points": 145.96
+          },
+          {
+            "week": 12,
+            "ownerId": "736443173223686144",
+            "points": 72.68
+          },
+          {
+            "week": 12,
+            "ownerId": "609095186970124288",
+            "points": 146.9
+          },
+          {
+            "week": 12,
+            "ownerId": "740274063263600640",
+            "points": 102.46
+          },
+          {
+            "week": 13,
+            "ownerId": "732737495225192448",
+            "points": 178.26
+          },
+          {
+            "week": 13,
+            "ownerId": "736446609587642368",
+            "points": 96.2
+          },
+          {
+            "week": 13,
+            "ownerId": "737802381139513344",
+            "points": 160.64
+          },
+          {
+            "week": 13,
+            "ownerId": "740274063263600640",
+            "points": 120.24
+          },
+          {
+            "week": 13,
+            "ownerId": "737756317862805504",
+            "points": 126.04
+          },
+          {
+            "week": 13,
+            "ownerId": "992196085282050048",
+            "points": 120.88
+          },
+          {
+            "week": 13,
+            "ownerId": "738438097477447680",
+            "points": 162.68
+          },
+          {
+            "week": 13,
+            "ownerId": "740291920076664832",
+            "points": 150.68
+          },
+          {
+            "week": 13,
+            "ownerId": "738618627477114880",
+            "points": 140.84
+          },
+          {
+            "week": 13,
+            "ownerId": "720717781959516160",
+            "points": 137.12
+          },
+          {
+            "week": 13,
+            "ownerId": "736443173223686144",
+            "points": 126.26
+          },
+          {
+            "week": 13,
+            "ownerId": "609095186970124288",
+            "points": 149.68
+          },
+          {
+            "week": 14,
+            "ownerId": "732737495225192448",
+            "points": 194.44
+          },
+          {
+            "week": 14,
+            "ownerId": "740274063263600640",
+            "points": 122.06
+          },
+          {
+            "week": 14,
+            "ownerId": "736446609587642368",
+            "points": 122.4
+          },
+          {
+            "week": 14,
+            "ownerId": "740291920076664832",
+            "points": 131.44
+          },
+          {
+            "week": 14,
+            "ownerId": "737802381139513344",
+            "points": 162.22
+          },
+          {
+            "week": 14,
+            "ownerId": "609095186970124288",
+            "points": 128.16
+          },
+          {
+            "week": 14,
+            "ownerId": "737756317862805504",
+            "points": 175.68
+          },
+          {
+            "week": 14,
+            "ownerId": "720717781959516160",
+            "points": 74.96
+          },
+          {
+            "week": 14,
+            "ownerId": "738438097477447680",
+            "points": 123.56
+          },
+          {
+            "week": 14,
+            "ownerId": "738618627477114880",
+            "points": 192.2
+          },
+          {
+            "week": 14,
+            "ownerId": "736443173223686144",
+            "points": 87.6
+          },
+          {
+            "week": 14,
+            "ownerId": "992196085282050048",
+            "points": 128.06
+          }
+        ]
+      },
+      {
+        "season": "2025",
+        "scores": [
+          {
+            "week": 1,
+            "ownerId": "732737495225192448",
+            "points": 133.86
+          },
+          {
+            "week": 1,
+            "ownerId": "720717781959516160",
+            "points": 74.66
+          },
+          {
+            "week": 1,
+            "ownerId": "736446609587642368",
+            "points": 145.2
+          },
+          {
+            "week": 1,
+            "ownerId": "992196085282050048",
+            "points": 98.28
+          },
+          {
+            "week": 1,
+            "ownerId": "737802381139513344",
+            "points": 146.58
+          },
+          {
+            "week": 1,
+            "ownerId": "740274063263600640",
+            "points": 126.04
+          },
+          {
+            "week": 1,
+            "ownerId": "737756317862805504",
+            "points": 102.24
+          },
+          {
+            "week": 1,
+            "ownerId": "738618627477114880",
+            "points": 87.22
+          },
+          {
+            "week": 1,
+            "ownerId": "738438097477447680",
+            "points": 141.24
+          },
+          {
+            "week": 1,
+            "ownerId": "740291920076664832",
+            "points": 97.36
+          },
+          {
+            "week": 1,
+            "ownerId": "736443173223686144",
+            "points": 149.74
+          },
+          {
+            "week": 1,
+            "ownerId": "609095186970124288",
+            "points": 140.4
+          },
+          {
+            "week": 2,
+            "ownerId": "732737495225192448",
+            "points": 101.2
+          },
+          {
+            "week": 2,
+            "ownerId": "992196085282050048",
+            "points": 139.28
+          },
+          {
+            "week": 2,
+            "ownerId": "736446609587642368",
+            "points": 140.26
+          },
+          {
+            "week": 2,
+            "ownerId": "720717781959516160",
+            "points": 114.48
+          },
+          {
+            "week": 2,
+            "ownerId": "737802381139513344",
+            "points": 153.16
+          },
+          {
+            "week": 2,
+            "ownerId": "738618627477114880",
+            "points": 139.1
+          },
+          {
+            "week": 2,
+            "ownerId": "737756317862805504",
+            "points": 139.32
+          },
+          {
+            "week": 2,
+            "ownerId": "740274063263600640",
+            "points": 138.58
+          },
+          {
+            "week": 2,
+            "ownerId": "738438097477447680",
+            "points": 131.2
+          },
+          {
+            "week": 2,
+            "ownerId": "736443173223686144",
+            "points": 65.78
+          },
+          {
+            "week": 2,
+            "ownerId": "740291920076664832",
+            "points": 147.38
+          },
+          {
+            "week": 2,
+            "ownerId": "609095186970124288",
+            "points": 124.78
+          },
+          {
+            "week": 3,
+            "ownerId": "732737495225192448",
+            "points": 154.24
+          },
+          {
+            "week": 3,
+            "ownerId": "736446609587642368",
+            "points": 82.76
+          },
+          {
+            "week": 3,
+            "ownerId": "737802381139513344",
+            "points": 157.58
+          },
+          {
+            "week": 3,
+            "ownerId": "737756317862805504",
+            "points": 87.26
+          },
+          {
+            "week": 3,
+            "ownerId": "738438097477447680",
+            "points": 137.34
+          },
+          {
+            "week": 3,
+            "ownerId": "609095186970124288",
+            "points": 110.44
+          },
+          {
+            "week": 3,
+            "ownerId": "738618627477114880",
+            "points": 98.3
+          },
+          {
+            "week": 3,
+            "ownerId": "740274063263600640",
+            "points": 97.62
+          },
+          {
+            "week": 3,
+            "ownerId": "736443173223686144",
+            "points": 93.56
+          },
+          {
+            "week": 3,
+            "ownerId": "740291920076664832",
+            "points": 101.7
+          },
+          {
+            "week": 3,
+            "ownerId": "720717781959516160",
+            "points": 114.98
+          },
+          {
+            "week": 3,
+            "ownerId": "992196085282050048",
+            "points": 115.8
+          },
+          {
+            "week": 4,
+            "ownerId": "732737495225192448",
+            "points": 105.34
+          },
+          {
+            "week": 4,
+            "ownerId": "736443173223686144",
+            "points": 139.56
+          },
+          {
+            "week": 4,
+            "ownerId": "736446609587642368",
+            "points": 126.06
+          },
+          {
+            "week": 4,
+            "ownerId": "740274063263600640",
+            "points": 127.7
+          },
+          {
+            "week": 4,
+            "ownerId": "737802381139513344",
+            "points": 165.5
+          },
+          {
+            "week": 4,
+            "ownerId": "992196085282050048",
+            "points": 136.72
+          },
+          {
+            "week": 4,
+            "ownerId": "737756317862805504",
+            "points": 107.22
+          },
+          {
+            "week": 4,
+            "ownerId": "740291920076664832",
+            "points": 112.22
+          },
+          {
+            "week": 4,
+            "ownerId": "738438097477447680",
+            "points": 100.84
+          },
+          {
+            "week": 4,
+            "ownerId": "738618627477114880",
+            "points": 127.42
+          },
+          {
+            "week": 4,
+            "ownerId": "720717781959516160",
+            "points": 126.76
+          },
+          {
+            "week": 4,
+            "ownerId": "609095186970124288",
+            "points": 174.6
+          },
+          {
+            "week": 5,
+            "ownerId": "732737495225192448",
+            "points": 135.44
+          },
+          {
+            "week": 5,
+            "ownerId": "609095186970124288",
+            "points": 143.74
+          },
+          {
+            "week": 5,
+            "ownerId": "736446609587642368",
+            "points": 137.14
+          },
+          {
+            "week": 5,
+            "ownerId": "737802381139513344",
+            "points": 203.76
+          },
+          {
+            "week": 5,
+            "ownerId": "737756317862805504",
+            "points": 99.26
+          },
+          {
+            "week": 5,
+            "ownerId": "738438097477447680",
+            "points": 140.76
+          },
+          {
+            "week": 5,
+            "ownerId": "738618627477114880",
+            "points": 132.26
+          },
+          {
+            "week": 5,
+            "ownerId": "740291920076664832",
+            "points": 109.32
+          },
+          {
+            "week": 5,
+            "ownerId": "736443173223686144",
+            "points": 152.92
+          },
+          {
+            "week": 5,
+            "ownerId": "720717781959516160",
+            "points": 146.14
+          },
+          {
+            "week": 5,
+            "ownerId": "992196085282050048",
+            "points": 121.98
+          },
+          {
+            "week": 5,
+            "ownerId": "740274063263600640",
+            "points": 117.12
+          },
+          {
+            "week": 6,
+            "ownerId": "732737495225192448",
+            "points": 145.4
+          },
+          {
+            "week": 6,
+            "ownerId": "738438097477447680",
+            "points": 116.54
+          },
+          {
+            "week": 6,
+            "ownerId": "736446609587642368",
+            "points": 88.22
+          },
+          {
+            "week": 6,
+            "ownerId": "737756317862805504",
+            "points": 132.72
+          },
+          {
+            "week": 6,
+            "ownerId": "737802381139513344",
+            "points": 138.06
+          },
+          {
+            "week": 6,
+            "ownerId": "736443173223686144",
+            "points": 67.5
+          },
+          {
+            "week": 6,
+            "ownerId": "738618627477114880",
+            "points": 85.72
+          },
+          {
+            "week": 6,
+            "ownerId": "992196085282050048",
+            "points": 122.86
+          },
+          {
+            "week": 6,
+            "ownerId": "720717781959516160",
+            "points": 95.36
+          },
+          {
+            "week": 6,
+            "ownerId": "740291920076664832",
+            "points": 140.74
+          },
+          {
+            "week": 6,
+            "ownerId": "609095186970124288",
+            "points": 147.3
+          },
+          {
+            "week": 6,
+            "ownerId": "740274063263600640",
+            "points": 120.88
+          },
+          {
+            "week": 7,
+            "ownerId": "732737495225192448",
+            "points": 107.58
+          },
+          {
+            "week": 7,
+            "ownerId": "740291920076664832",
+            "points": 131.7
+          },
+          {
+            "week": 7,
+            "ownerId": "736446609587642368",
+            "points": 82.32
+          },
+          {
+            "week": 7,
+            "ownerId": "738618627477114880",
+            "points": 96.56
+          },
+          {
+            "week": 7,
+            "ownerId": "737802381139513344",
+            "points": 172.02
+          },
+          {
+            "week": 7,
+            "ownerId": "609095186970124288",
+            "points": 102.94
+          },
+          {
+            "week": 7,
+            "ownerId": "737756317862805504",
+            "points": 149.68
+          },
+          {
+            "week": 7,
+            "ownerId": "992196085282050048",
+            "points": 126.5
+          },
+          {
+            "week": 7,
+            "ownerId": "738438097477447680",
+            "points": 92.32
+          },
+          {
+            "week": 7,
+            "ownerId": "720717781959516160",
+            "points": 148.12
+          },
+          {
+            "week": 7,
+            "ownerId": "736443173223686144",
+            "points": 98.58
+          },
+          {
+            "week": 7,
+            "ownerId": "740274063263600640",
+            "points": 130.5
+          },
+          {
+            "week": 8,
+            "ownerId": "732737495225192448",
+            "points": 134.02
+          },
+          {
+            "week": 8,
+            "ownerId": "737802381139513344",
+            "points": 129.36
+          },
+          {
+            "week": 8,
+            "ownerId": "736446609587642368",
+            "points": 98.32
+          },
+          {
+            "week": 8,
+            "ownerId": "740291920076664832",
+            "points": 107.72
+          },
+          {
+            "week": 8,
+            "ownerId": "737756317862805504",
+            "points": 94.84
+          },
+          {
+            "week": 8,
+            "ownerId": "609095186970124288",
+            "points": 132.88
+          },
+          {
+            "week": 8,
+            "ownerId": "738438097477447680",
+            "points": 137.8
+          },
+          {
+            "week": 8,
+            "ownerId": "992196085282050048",
+            "points": 129.18
+          },
+          {
+            "week": 8,
+            "ownerId": "738618627477114880",
+            "points": 95.06
+          },
+          {
+            "week": 8,
+            "ownerId": "736443173223686144",
+            "points": 147.46
+          },
+          {
+            "week": 8,
+            "ownerId": "720717781959516160",
+            "points": 114.3
+          },
+          {
+            "week": 8,
+            "ownerId": "740274063263600640",
+            "points": 105.38
+          },
+          {
+            "week": 9,
+            "ownerId": "732737495225192448",
+            "points": 182.92
+          },
+          {
+            "week": 9,
+            "ownerId": "740274063263600640",
+            "points": 63.9
+          },
+          {
+            "week": 9,
+            "ownerId": "736446609587642368",
+            "points": 111.92
+          },
+          {
+            "week": 9,
+            "ownerId": "738438097477447680",
+            "points": 128.36
+          },
+          {
+            "week": 9,
+            "ownerId": "737802381139513344",
+            "points": 168.84
+          },
+          {
+            "week": 9,
+            "ownerId": "720717781959516160",
+            "points": 106.48
+          },
+          {
+            "week": 9,
+            "ownerId": "737756317862805504",
+            "points": 142.32
+          },
+          {
+            "week": 9,
+            "ownerId": "736443173223686144",
+            "points": 123.68
+          },
+          {
+            "week": 9,
+            "ownerId": "738618627477114880",
+            "points": 97.88
+          },
+          {
+            "week": 9,
+            "ownerId": "609095186970124288",
+            "points": 114.58
+          },
+          {
+            "week": 9,
+            "ownerId": "740291920076664832",
+            "points": 114.68
+          },
+          {
+            "week": 9,
+            "ownerId": "992196085282050048",
+            "points": 85.4
+          },
+          {
+            "week": 10,
+            "ownerId": "732737495225192448",
+            "points": 171.74
+          },
+          {
+            "week": 10,
+            "ownerId": "738618627477114880",
+            "points": 112.82
+          },
+          {
+            "week": 10,
+            "ownerId": "736446609587642368",
+            "points": 106.66
+          },
+          {
+            "week": 10,
+            "ownerId": "609095186970124288",
+            "points": 97.14
+          },
+          {
+            "week": 10,
+            "ownerId": "737802381139513344",
+            "points": 171.02
+          },
+          {
+            "week": 10,
+            "ownerId": "738438097477447680",
+            "points": 118.66
+          },
+          {
+            "week": 10,
+            "ownerId": "737756317862805504",
+            "points": 110.78
+          },
+          {
+            "week": 10,
+            "ownerId": "720717781959516160",
+            "points": 101.7
+          },
+          {
+            "week": 10,
+            "ownerId": "736443173223686144",
+            "points": 53.54
+          },
+          {
+            "week": 10,
+            "ownerId": "992196085282050048",
+            "points": 111.2
+          },
+          {
+            "week": 10,
+            "ownerId": "740291920076664832",
+            "points": 139.84
+          },
+          {
+            "week": 10,
+            "ownerId": "740274063263600640",
+            "points": 118.24
+          },
+          {
+            "week": 11,
+            "ownerId": "732737495225192448",
+            "points": 132.5
+          },
+          {
+            "week": 11,
+            "ownerId": "737756317862805504",
+            "points": 171.82
+          },
+          {
+            "week": 11,
+            "ownerId": "736446609587642368",
+            "points": 122.8
+          },
+          {
+            "week": 11,
+            "ownerId": "736443173223686144",
+            "points": 79.08
+          },
+          {
+            "week": 11,
+            "ownerId": "737802381139513344",
+            "points": 139
+          },
+          {
+            "week": 11,
+            "ownerId": "740291920076664832",
+            "points": 134.28
+          },
+          {
+            "week": 11,
+            "ownerId": "738438097477447680",
+            "points": 102.74
+          },
+          {
+            "week": 11,
+            "ownerId": "740274063263600640",
+            "points": 68.48
+          },
+          {
+            "week": 11,
+            "ownerId": "738618627477114880",
+            "points": 77.76
+          },
+          {
+            "week": 11,
+            "ownerId": "720717781959516160",
+            "points": 140.5
+          },
+          {
+            "week": 11,
+            "ownerId": "992196085282050048",
+            "points": 52.78
+          },
+          {
+            "week": 11,
+            "ownerId": "609095186970124288",
+            "points": 117.8
+          },
+          {
+            "week": 12,
+            "ownerId": "732737495225192448",
+            "points": 111.78
+          },
+          {
+            "week": 12,
+            "ownerId": "992196085282050048",
+            "points": 101.6
+          },
+          {
+            "week": 12,
+            "ownerId": "736446609587642368",
+            "points": 87.02
+          },
+          {
+            "week": 12,
+            "ownerId": "720717781959516160",
+            "points": 103.2
+          },
+          {
+            "week": 12,
+            "ownerId": "737802381139513344",
+            "points": 156.38
+          },
+          {
+            "week": 12,
+            "ownerId": "738618627477114880",
+            "points": 106.42
+          },
+          {
+            "week": 12,
+            "ownerId": "737756317862805504",
+            "points": 125.4
+          },
+          {
+            "week": 12,
+            "ownerId": "740274063263600640",
+            "points": 163.28
+          },
+          {
+            "week": 12,
+            "ownerId": "738438097477447680",
+            "points": 123.56
+          },
+          {
+            "week": 12,
+            "ownerId": "736443173223686144",
+            "points": 61.26
+          },
+          {
+            "week": 12,
+            "ownerId": "740291920076664832",
+            "points": 114.28
+          },
+          {
+            "week": 12,
+            "ownerId": "609095186970124288",
+            "points": 113.22
+          },
+          {
+            "week": 13,
+            "ownerId": "732737495225192448",
+            "points": 117.88
+          },
+          {
+            "week": 13,
+            "ownerId": "736446609587642368",
+            "points": 102.32
+          },
+          {
+            "week": 13,
+            "ownerId": "737802381139513344",
+            "points": 133.22
+          },
+          {
+            "week": 13,
+            "ownerId": "740274063263600640",
+            "points": 98.12
+          },
+          {
+            "week": 13,
+            "ownerId": "737756317862805504",
+            "points": 154.56
+          },
+          {
+            "week": 13,
+            "ownerId": "992196085282050048",
+            "points": 98.54
+          },
+          {
+            "week": 13,
+            "ownerId": "738438097477447680",
+            "points": 124.3
+          },
+          {
+            "week": 13,
+            "ownerId": "740291920076664832",
+            "points": 99.58
+          },
+          {
+            "week": 13,
+            "ownerId": "738618627477114880",
+            "points": 84.86
+          },
+          {
+            "week": 13,
+            "ownerId": "720717781959516160",
+            "points": 126.38
+          },
+          {
+            "week": 13,
+            "ownerId": "736443173223686144",
+            "points": 91.82
+          },
+          {
+            "week": 13,
+            "ownerId": "609095186970124288",
+            "points": 127.94
+          },
+          {
+            "week": 14,
+            "ownerId": "732737495225192448",
+            "points": 140.88
+          },
+          {
+            "week": 14,
+            "ownerId": "736443173223686144",
+            "points": 115.58
+          },
+          {
+            "week": 14,
+            "ownerId": "736446609587642368",
+            "points": 77.12
+          },
+          {
+            "week": 14,
+            "ownerId": "740274063263600640",
+            "points": 105.26
+          },
+          {
+            "week": 14,
+            "ownerId": "737802381139513344",
+            "points": 118.84
+          },
+          {
+            "week": 14,
+            "ownerId": "992196085282050048",
+            "points": 107.74
+          },
+          {
+            "week": 14,
+            "ownerId": "737756317862805504",
+            "points": 128.84
+          },
+          {
+            "week": 14,
+            "ownerId": "740291920076664832",
+            "points": 105.18
+          },
+          {
+            "week": 14,
+            "ownerId": "738438097477447680",
+            "points": 118.24
+          },
+          {
+            "week": 14,
+            "ownerId": "738618627477114880",
+            "points": 118.42
+          },
+          {
+            "week": 14,
+            "ownerId": "720717781959516160",
+            "points": 131.74
+          },
+          {
+            "week": 14,
+            "ownerId": "609095186970124288",
+            "points": 108.42
+          }
+        ]
+      },
+      {
+        "season": "2026",
+        "scores": []
+      }
+    ]
+  }
 }

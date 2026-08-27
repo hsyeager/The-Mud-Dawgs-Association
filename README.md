@@ -8,6 +8,11 @@ Dynasty leagues accumulate history that Sleeper's own app makes hard to look bac
 through: a pick traded three years ago, who actually won a deal, what a franchise's
 all-time record is. This keeps all of it in one place.
 
+**Overview** — playoff projections, luck, scoring power, records, head-to-head.
+**Trades** — every deal ever, searchable, with pick provenance and FAAB.
+**Franchises** — all-time records and titles. **Seasons** — standings and champions.
+**Drafts** — full boards.
+
 ## Quick start
 
 ```bash
@@ -41,12 +46,14 @@ don't have to pass it each time.
 ```
 league.config.json    your league id
 src/sleeper.js        Sleeper API client        ─┐ shared, isomorphic:
-src/transform.js      raw payloads → the model  ─┘ same code in Node and browser
+src/transform.js      raw payloads → the model   │ same code in Node
+src/analytics.js      luck, records, projections ─┘ and in the browser
 scripts/bake.mjs      writes the snapshot
 data/league.json      the committed snapshot the site renders
 data/players.json     player names, trimmed to only this league's players
 index.html            the site
 assets/app.js         rendering + the Refresh button
+assets/overview.js    the Overview tab: charts, records, projections
 ```
 
 The important detail is that **`src/` runs in both places.** `scripts/bake.mjs`
@@ -65,6 +72,26 @@ makes "this manager has made 34 trades since 2019" correct rather than nonsense.
 **The player dictionary is trimmed.** Sleeper's full NFL player list is about
 5 MB, far too much to ship to a browser on every page load. The bake step
 downloads it once and keeps only the players this league has actually touched.
+
+## Projections
+
+The Overview tab projects the current season by Monte Carlo: 10,000 simulations of
+the remaining schedule, drawing each team's weekly score from its own
+normal(mean, stdev) profile built from past weekly scores, weighted so each season
+counts twice as much as the one before it. Games already played are taken as fact;
+only unplayed pairings are simulated. Seeding follows Sleeper's default of wins,
+then total points.
+
+Two things make the output trustworthy rather than decorative:
+
+- **Sleeper publishes the schedule before it is played**, with points of 0. Those
+  rows are flagged unplayed and never counted as real 0-point games.
+- **The simulation is seeded.** Identical inputs give identical numbers, so the
+  weekly refresh only commits when the league actually changed — not because the
+  random draws moved.
+
+Luck is measured as actual win% minus *all-play* win% — how a team would have done
+against the entire league each week rather than the one opponent it drew.
 
 ## Refreshing the data
 

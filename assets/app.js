@@ -9,6 +9,7 @@
 
 import { fetchLeagueHistory, getAllPlayers } from "../src/sleeper.js";
 import { buildLeagueModel, collectPlayerIds } from "../src/transform.js";
+import { renderOverview } from "./overview.js";
 
 const CACHE_KEY = "mud-dawgs:snapshot:v1";
 
@@ -17,7 +18,7 @@ const state = {
   model: null,
   players: {},
   config: {},
-  view: "trades",
+  view: "overview",
 };
 
 // ---------------------------------------------------------------------------
@@ -246,6 +247,14 @@ function renderAll() {
   renderFranchises();
   renderSeasons();
   renderDrafts();
+  // The Overview tab lives in its own module; hand it the formatting helpers so
+  // it never has to import back into this file.
+  renderOverview(state.model, {
+    esc,
+    franchiseName,
+    franchiseManager,
+    fmtPoints,
+  });
 }
 
 function renderHeader() {

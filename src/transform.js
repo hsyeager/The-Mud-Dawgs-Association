@@ -11,6 +11,8 @@
  * Runs in Node and the browser; no dependencies, no side effects.
  */
 
+import { buildAnalytics } from "./analytics.js";
+
 /** A trade is only real once both sides have accepted. */
 const COMPLETE = "complete";
 
@@ -276,6 +278,8 @@ export function buildLeagueModel(history) {
       status: s.league.status,
       totalRosters: s.league.total_rosters,
       rosterPositions: s.league.roster_positions ?? [],
+      playoffWeekStart: s.league.settings?.playoff_week_start ?? null,
+      playoffTeams: s.league.settings?.playoff_teams ?? null,
       standings: buildStandings(s),
       placements: buildPlacements(s),
       championOwnerId: championRosterId != null ? resolveOwner(s.season, championRosterId) : null,
@@ -342,6 +346,7 @@ export function buildLeagueModel(history) {
     franchises: franchiseList,
     trades,
     drafts,
+    analytics: buildAnalytics(history, resolveOwner),
   };
 }
 
