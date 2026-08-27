@@ -1,0 +1,14 @@
+{
+  "name": "the-mud-dawgs-association",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dynasty fantasy football league tracker: full trade, draft, and standings history from Sleeper.",
+  "type": "module",
+  "scripts": {
+    "bake": "node scripts/bake.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

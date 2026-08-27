@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Mud Dawgs Association</title>
+<meta name="description" content="Dynasty fantasy football league history: every trade, draft, and season since the league began.">
+<link rel="stylesheet" href="./assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🐾</text></svg>">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <h1><span class="paw">🐾</span> The Mud Dawgs Association</h1>
+      <p class="tagline" id="tagline">Loading league history&hellip;</p>
+    </div>
+    <div class="header-actions">
+      <div class="refresh-status" id="refresh-status"></div>
+      <button class="btn-primary" id="refresh-btn" disabled>Refresh from Sleeper</button>
+    </div>
+  </div>
+  <div class="wrap">
+    <nav class="tabs" role="tablist">
+      <button class="tab" role="tab" data-view="trades" aria-selected="true">Trades</button>
+      <button class="tab" role="tab" data-view="franchises" aria-selected="false">Franchises</button>
+      <button class="tab" role="tab" data-view="seasons" aria-selected="false">Seasons</button>
+      <button class="tab" role="tab" data-view="drafts" aria-selected="false">Drafts</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="view" id="view-trades" role="tabpanel">
+    <div class="toolbar">
+      <input type="search" id="trade-search" placeholder="Search player, pick, or manager&hellip;" aria-label="Search trades">
+      <select id="trade-season" aria-label="Filter by season"><option value="">All seasons</option></select>
+      <select id="trade-franchise" aria-label="Filter by franchise"><option value="">All franchises</option></select>
+      <span class="count" id="trade-count"></span>
+    </div>
+    <div id="trade-list"></div>
+  </section>
+
+  <section class="view" id="view-franchises" role="tabpanel" hidden>
+    <div class="stat-strip" id="league-stats"></div>
+    <div id="franchise-tables"></div>
+  </section>
+
+  <section class="view" id="view-seasons" role="tabpanel" hidden>
+    <div id="season-tables"></div>
+  </section>
+
+  <section class="view" id="view-drafts" role="tabpanel" hidden>
+    <div class="toolbar">
+      <select id="draft-season" aria-label="Choose draft season"></select>
+    </div>
+    <div id="draft-board"></div>
+  </section>
+
+</main>
+
+<footer class="wrap site-footer">
+  <span id="footer-generated">&nbsp;</span>
+  <span>Data from the <a href="https://docs.sleeper.com/" rel="noopener">Sleeper API</a>.</span>
+</footer>
+
+<script type="module" src="./assets/app.js"></script>
+</body>
+</html>

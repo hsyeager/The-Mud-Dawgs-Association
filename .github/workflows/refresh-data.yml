@@ -1,0 +1,48 @@
+name: Refresh league data
+
+# Re-pulls the league from Sleeper and commits the updated snapshot.
+#
+# This is the authenticated counterpart to the site's Refresh button. The button
+# refreshes what *you* see, in your own browser. This workflow updates what
+# *everyone* sees, and only people with write access to the repo can start it --
+# GitHub itself is the gate, so there is no password to leak in client-side code.
+#
+# Run it from the Actions tab ("Run workflow"), or let the schedule handle it.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Tuesdays 09:00 UTC -- after Monday night football has settled.
+    - cron: "0 9 * * 2"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Bake league snapshot
+        run: npm run bake
+
+      - name: Commit if the snapshot changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/; then
+            echo "No change in league data."
+            exit 0
+          fi
+          git add data/
+          git commit -m "chore(data): refresh league snapshot from Sleeper"
+          git push

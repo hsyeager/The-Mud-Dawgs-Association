@@ -1,0 +1,4 @@
+{
+  "leagueId": "REPLACE_ME",
+  "note": "Any season's league id works - the bake script walks previous_league_id back to the league's first year. Find it in the Sleeper URL: https://sleeper.app/leagues/<leagueId>/team"
+}
