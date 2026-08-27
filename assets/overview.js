@@ -28,7 +28,17 @@ function card(title, aside, body) {
  */
 export function renderOverview(model, h) {
   const a = model.analytics;
-  if (!a) return;
+
+  // A snapshot from an older version of the app has no analytics block. Say so
+  // rather than leaving the tab silently blank.
+  if (!a) {
+    document.getElementById("ov-stats").innerHTML =
+      '<div class="empty" style="grid-column:1/-1">This snapshot predates the Overview tab. Press <strong>Refresh from Sleeper</strong> to rebuild it.</div>';
+    for (const id of ["ov-projection", "ov-luck", "ov-power", "ov-trend", "ov-trades-chart", "ov-titles", "ov-records", "ov-h2h"]) {
+      document.getElementById(id).innerHTML = "";
+    }
+    return;
+  }
 
   renderStats(model, a, h);
   renderProjection(model, a, h);

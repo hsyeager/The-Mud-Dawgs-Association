@@ -11,7 +11,15 @@ import { fetchLeagueHistory, getAllPlayers } from "../src/sleeper.js";
 import { buildLeagueModel, collectPlayerIds } from "../src/transform.js";
 import { renderOverview } from "./overview.js";
 
-const CACHE_KEY = "mud-dawgs:snapshot:v1";
+/**
+ * Cache key for a browser-side refresh.
+ *
+ * Bump the version whenever the model shape changes. A visitor who refreshed
+ * under older code holds a snapshot with a NEWER timestamp than the freshly
+ * baked one, so it would win the comparison in boot() and then be missing
+ * whatever fields the new UI expects. Changing the key retires those cleanly.
+ */
+const CACHE_KEY = "mud-dawgs:snapshot:v2";
 
 /** In-memory state. `players` maps player_id -> { n: name, p: position, t: team }. */
 const state = {
