@@ -82,8 +82,14 @@ result in `localStorage`. Sleeper's read API needs no key and sends
 involved. It writes nothing back to the repo, so there is nothing to protect.
 
 To update the published snapshot for everyone, run the **Refresh league data**
-workflow from the Actions tab, or let its weekly schedule do it. That commits a
-new `data/league.json`.
+workflow from the Actions tab, or let the schedule do it: **Wednesdays at
+6:00 AM Central**, a few hours after the league's waivers clear (~2:05 AM CT
+Wednesday), so the snapshot picks up that week's waiver moves. It commits a new
+`data/league.json`, which redeploys the site automatically.
+
+GitHub's cron is UTC and ignores daylight saving, but a fantasy season straddles
+the November changeover — so the workflow fires at both 11:00 and 12:00 UTC and a
+guard job drops whichever one isn't actually 6 AM in Chicago.
 
 > A note on passwords: a static site can't keep a secret. Anything used to gate a
 > button in client-side code is visible to anyone who opens View Source, so a

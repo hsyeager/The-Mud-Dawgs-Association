@@ -3,17 +3,26 @@ name: Refresh league data
 # Re-pulls the league from Sleeper and commits the updated snapshot.
 #
 # This is the authenticated counterpart to the site's Refresh button. The button
-# refreshes what *you* see, in your own browser. This workflow updates what
+# refreshes what *you* see, in your browser. This workflow updates what
 # *everyone* sees, and only people with write access to the repo can start it --
 # GitHub itself is the gate, so there is no password to leak in client-side code.
 #
 # Run it from the Actions tab ("Run workflow"), or let the schedule handle it.
+#
+# Schedule: Wednesdays at 06:00 America/Chicago, which is a few hours after the
+# league's waivers clear (~02:05 CT Wednesday), so the snapshot picks up the
+# week's waiver moves.
+#
+# GitHub cron is UTC only and does not follow daylight saving, but a fantasy
+# season straddles the November changeover -- so a single fixed cron would drift
+# to 05:00 CT for half the year. Instead both candidate hours fire and a guard
+# job drops the one that is not actually 06:00 in Chicago.
 
 on:
   workflow_dispatch:
   schedule:
-    # Tuesdays 09:00 UTC -- after Monday night football has settled.
-    - cron: "0 9 * * 2"
+    - cron: "0 11 * * 3" # 06:00 CDT (summer, UTC-5)
+    - cron: "0 12 * * 3" # 06:00 CST (winter, UTC-6)
 
 permissions:
   contents: write
@@ -23,7 +32,33 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Decides whether this particular trigger is the real 06:00 CT one.
+  # A manual run always proceeds.
+  guard:
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.check.outputs.proceed }}
+    steps:
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Manual run -- proceeding."
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          hour=$(TZ=America/Chicago date +%H)
+          if [ "$hour" = "06" ]; then
+            echo "It is ${hour}:00 in Chicago -- proceeding."
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "It is ${hour}:00 in Chicago, not 06 -- this is the off-season-DST trigger. Skipping."
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+          fi
+
   refresh:
+    needs: guard
+    if: needs.guard.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
