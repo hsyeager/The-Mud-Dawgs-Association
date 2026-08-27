@@ -70,14 +70,31 @@ jobs:
       - name: Bake league snapshot
         run: npm run bake
 
-      - name: Commit if the snapshot changed
+      - name: Commit if the league actually changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           if git diff --quiet -- data/; then
             echo "No change in league data."
             exit 0
           fi
+
+          # Every bake stamps a fresh `generatedAt`, so the file always differs
+          # even when the league itself is untouched. Ignore that one line, or
+          # the offseason would produce a commit a week that says nothing.
+          substantive=$(git diff -U0 -- data/ \
+            | grep -E '^[+-]' \
+            | grep -vE '^(\+\+\+|---)' \
+            | grep -v '"generatedAt"' \
+            | head -1)
+
+          if [ -z "$substantive" ]; then
+            echo "Only the generated-at timestamp moved -- nothing worth committing."
+            git checkout -- data/
+            exit 0
+          fi
+
           git add data/
           git commit -m "chore(data): refresh league snapshot from Sleeper"
           git push
