@@ -252,6 +252,54 @@ export function buildDrafts(seasons, resolveOwner) {
   return out;
 }
 
+/**
+ * Current rosters, per season, split the way Sleeper models them.
+ *
+ * `players` is the whole squad; `starters` is an ordered list matching the
+ * league's `roster_positions` slot for slot (so index 0 is the QB slot, and so
+ * on), and `taxi` and `reserve` sit outside the active roster. Bench is
+ * therefore whatever is left once those three are removed.
+ *
+ * An empty starter slot comes back as "0", which is not a player id.
+ */
+export function buildRosters(seasons, resolveOwner) {
+  return seasons.map((s) => {
+    const slots = s.league?.roster_positions ?? [];
+
+    const teams = (s.rosters ?? []).map((r) => {
+      const rawStarters = r.starters ?? [];
+      const taxi = (r.taxi ?? []).filter(Boolean);
+      const reserve = (r.reserve ?? []).filter(Boolean);
+      const all = (r.players ?? []).filter(Boolean);
+
+      // Pair each starter with the slot it occupies, keeping empty slots so the
+      // lineup reads correctly rather than silently shifting up.
+      const starters = rawStarters.map((playerId, i) => ({
+        slot: slots[i] ?? "FLEX",
+        playerId: playerId && playerId !== "0" ? playerId : null,
+      }));
+
+      const spoken = new Set([
+        ...rawStarters.filter((p) => p && p !== "0"),
+        ...taxi,
+        ...reserve,
+      ]);
+
+      return {
+        rosterId: r.roster_id,
+        ownerId: r.owner_id ?? null,
+        starters,
+        bench: all.filter((p) => !spoken.has(p)),
+        taxi,
+        reserve,
+        total: all.length,
+      };
+    });
+
+    return { season: s.season, slots, teams };
+  });
+}
+
 // ---------------------------------------------------------------------------
 // Assembly
 // ---------------------------------------------------------------------------
@@ -346,6 +394,7 @@ export function buildLeagueModel(history) {
     franchises: franchiseList,
     trades,
     drafts,
+    rosters: buildRosters(seasons, resolveOwner),
     analytics: buildAnalytics(history, resolveOwner),
   };
 }

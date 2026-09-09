@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T19:42:44.490Z",
+  "generatedAt": "2026-09-09T19:45:54.076Z",
   "leagueName": "The Mud Dawgs Association",
   "currentLeagueId": "1334759252635447296",
   "firstSeason": "2023",
@@ -8813,6 +8813,3315 @@
           "rosterId": 12,
           "ownerId": "740274063263600640",
           "isKeeper": false
+        }
+      ]
+    }
+  ],
+  "rosters": [
+    {
+      "season": "2023",
+      "slots": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "SUPER_FLEX",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "teams": [
+        {
+          "rosterId": 1,
+          "ownerId": "732737495225192448",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4984"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9224"
+            },
+            {
+              "slot": "RB",
+              "playerId": "6945"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7525"
+            },
+            {
+              "slot": "WR",
+              "playerId": "10229"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8112"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8130"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "7066"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "827"
+            }
+          ],
+          "bench": [
+            "10866",
+            "3257",
+            "4147",
+            "5906",
+            "5987",
+            "6820",
+            "8125",
+            "8148",
+            "8159",
+            "9225",
+            "9494",
+            "9753"
+          ],
+          "taxi": [
+            "10219",
+            "10867",
+            "9486"
+          ],
+          "reserve": [
+            "4017",
+            "5844"
+          ],
+          "total": 26
+        },
+        {
+          "rosterId": 2,
+          "ownerId": "736446609587642368",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "8183"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7588"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7543"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2078"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6794"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5872"
+            },
+            {
+              "slot": "TE",
+              "playerId": "1466"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "4199"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "2549"
+            }
+          ],
+          "bench": [
+            "10213",
+            "1476",
+            "4149",
+            "4171",
+            "4234",
+            "4972",
+            "5089",
+            "5970",
+            "6598",
+            "7045",
+            "8129",
+            "9501"
+          ],
+          "taxi": [
+            "10857",
+            "10863"
+          ],
+          "reserve": [
+            "4040",
+            "4068",
+            "4950"
+          ],
+          "total": 26
+        },
+        {
+          "rosterId": 3,
+          "ownerId": "737802381139513344",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6904"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4034"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8136"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4039"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2449"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9493"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8131"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "4018"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "421"
+            }
+          ],
+          "bench": [
+            "2197",
+            "2505",
+            "2711",
+            "4037",
+            "5284",
+            "5927",
+            "6845",
+            "6920",
+            "7002",
+            "7594",
+            "8111"
+          ],
+          "taxi": [
+            "10871",
+            "9479"
+          ],
+          "reserve": [
+            "8161",
+            "9502"
+          ],
+          "total": 24
+        },
+        {
+          "rosterId": 4,
+          "ownerId": "737756317862805504",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "9758"
+            },
+            {
+              "slot": "RB",
+              "playerId": "5892"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9509"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6786"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6803"
+            },
+            {
+              "slot": "WR",
+              "playerId": "3286"
+            },
+            {
+              "slot": "TE",
+              "playerId": "4217"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "3164"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "2028"
+            }
+          ],
+          "bench": [
+            "1234",
+            "2306",
+            "3214",
+            "4951",
+            "6136",
+            "7526",
+            "7567",
+            "7571",
+            "8139",
+            "8157",
+            "8167",
+            "9508"
+          ],
+          "taxi": [
+            "10226",
+            "9495",
+            "9512"
+          ],
+          "reserve": [
+            "4351",
+            "5870",
+            "9481"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 5,
+          "ownerId": "738438097477447680",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4881"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8150"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8138"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5859"
+            },
+            {
+              "slot": "WR",
+              "playerId": "1689"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7596"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8210"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "4866"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "4892"
+            }
+          ],
+          "bench": [
+            "1049",
+            "11292",
+            "2749",
+            "5012",
+            "5947",
+            "6943",
+            "7606",
+            "8119",
+            "8126",
+            "8147",
+            "9490",
+            "9757"
+          ],
+          "taxi": [
+            "10228",
+            "9227",
+            "9480"
+          ],
+          "reserve": [
+            "1166",
+            "4988",
+            "6806"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 6,
+          "ownerId": "738618627477114880",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "3163"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4137"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8230"
+            },
+            {
+              "slot": "WR",
+              "playerId": "3321"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7569"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4983"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8110"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "9997"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "6011"
+            }
+          ],
+          "bench": [
+            "11199",
+            "19",
+            "4066",
+            "4111",
+            "4381",
+            "4943",
+            "5967",
+            "7523",
+            "8228",
+            "9754"
+          ],
+          "taxi": [
+            "10221",
+            "11435"
+          ],
+          "reserve": [
+            "10210",
+            "2309",
+            "6938"
+          ],
+          "total": 24
+        },
+        {
+          "rosterId": 7,
+          "ownerId": "736443173223686144",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "3294"
+            },
+            {
+              "slot": "RB",
+              "playerId": "11439"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8132"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2133"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8146"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7670"
+            },
+            {
+              "slot": "TE",
+              "playerId": "10859"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "6149"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "7591"
+            }
+          ],
+          "bench": [
+            "5038",
+            "5185",
+            "6694",
+            "6819",
+            "7021",
+            "7568",
+            "7607",
+            "7611",
+            "8117",
+            "8195",
+            "8676",
+            "9999"
+          ],
+          "taxi": [
+            "10217"
+          ],
+          "reserve": [
+            "4454",
+            "6918",
+            "9511"
+          ],
+          "total": 25
+        },
+        {
+          "rosterId": 8,
+          "ownerId": "720717781959516160",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "9231"
+            },
+            {
+              "slot": "RB",
+              "playerId": "6813"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8205"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8144"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6801"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5937"
+            },
+            {
+              "slot": "TE",
+              "playerId": "5001"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "8137"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "7528"
+            }
+          ],
+          "bench": [
+            "10232",
+            "10235",
+            "10236",
+            "10444",
+            "11311",
+            "1837",
+            "4098",
+            "7608",
+            "8160",
+            "8162",
+            "9492",
+            "9506"
+          ],
+          "taxi": [
+            "10216",
+            "10862",
+            "9998"
+          ],
+          "reserve": [
+            "4080",
+            "6770",
+            "9220"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 9,
+          "ownerId": "740291920076664832",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "9228"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9226"
+            },
+            {
+              "slot": "RB",
+              "playerId": "6130"
+            },
+            {
+              "slot": "WR",
+              "playerId": "1426"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6783"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9488"
+            },
+            {
+              "slot": "TE",
+              "playerId": "6826"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "9756"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "8142"
+            }
+          ],
+          "bench": [
+            "1737",
+            "2319",
+            "3976",
+            "4089",
+            "4179",
+            "5000",
+            "5121",
+            "5995",
+            "6151",
+            "6421",
+            "6824",
+            "7561"
+          ],
+          "taxi": [
+            "10218",
+            "11114",
+            "9482"
+          ],
+          "reserve": [
+            "8168",
+            "9229"
+          ],
+          "total": 26
+        },
+        {
+          "rosterId": 10,
+          "ownerId": "992196085282050048",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6768"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4035"
+            },
+            {
+              "slot": "RB",
+              "playerId": "6790"
+            },
+            {
+              "slot": "WR",
+              "playerId": "10222"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5846"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7547"
+            },
+            {
+              "slot": "TE",
+              "playerId": "4033"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "8151"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "6111"
+            }
+          ],
+          "bench": [
+            "1352",
+            "1479",
+            "2251",
+            "2359",
+            "4029",
+            "4082",
+            "5022",
+            "5248",
+            "7527",
+            "7562",
+            "8116",
+            "9504"
+          ],
+          "taxi": [
+            "10212",
+            "10223",
+            "9484"
+          ],
+          "reserve": [
+            "3199",
+            "6797",
+            "8172"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 11,
+          "ownerId": "609095186970124288",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6804"
+            },
+            {
+              "slot": "RB",
+              "playerId": "3198"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4663"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5045"
+            },
+            {
+              "slot": "WR",
+              "playerId": "3225"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4981"
+            },
+            {
+              "slot": "TE",
+              "playerId": "4144"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "2374"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "1373"
+            }
+          ],
+          "bench": [
+            "5133",
+            "5850",
+            "5854",
+            "6828",
+            "7564",
+            "7585",
+            "7600",
+            "7610",
+            "8121",
+            "8253",
+            "8408",
+            "9497"
+          ],
+          "taxi": [
+            "9222",
+            "9487"
+          ],
+          "reserve": [],
+          "total": 23
+        },
+        {
+          "rosterId": 12,
+          "ownerId": "740274063263600640",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4046"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8155"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9221"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9500"
+            },
+            {
+              "slot": "WR",
+              "playerId": "10225"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2216"
+            },
+            {
+              "slot": "TE",
+              "playerId": "7553"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "8143"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "5849"
+            }
+          ],
+          "bench": [
+            "11306",
+            "5848",
+            "7090",
+            "7496",
+            "7538",
+            "7601",
+            "7694",
+            "8134",
+            "8135",
+            "8153",
+            "8154",
+            "96"
+          ],
+          "taxi": [
+            "9505"
+          ],
+          "reserve": [
+            "6814",
+            "9489"
+          ],
+          "total": 24
+        }
+      ]
+    },
+    {
+      "season": "2024",
+      "slots": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "SUPER_FLEX",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "teams": [
+        {
+          "rosterId": 1,
+          "ownerId": "732737495225192448",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4984"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7021"
+            },
+            {
+              "slot": "RB",
+              "playerId": "11655"
+            },
+            {
+              "slot": "WR",
+              "playerId": "11635"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7525"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8112"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8130"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "11628"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "11560"
+            }
+          ],
+          "bench": [
+            "11624",
+            "4574",
+            "5844",
+            "5892",
+            "6945",
+            "7526",
+            "7610",
+            "8148",
+            "9225",
+            "9227",
+            "9494",
+            "9753"
+          ],
+          "taxi": [
+            "11618"
+          ],
+          "reserve": [
+            "10229",
+            "4017",
+            "6845"
+          ],
+          "total": 25
+        },
+        {
+          "rosterId": 2,
+          "ownerId": "736446609587642368",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "8183"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4199"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7543"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6794"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5872"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9501"
+            },
+            {
+              "slot": "TE",
+              "playerId": "1466"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "5096"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "11566"
+            }
+          ],
+          "bench": [
+            "10215",
+            "11582",
+            "11625",
+            "4068",
+            "4274",
+            "4351",
+            "6271",
+            "7002",
+            "7527",
+            "7588",
+            "8129",
+            "8159"
+          ],
+          "taxi": [
+            "11567",
+            "11571",
+            "11573",
+            "11729"
+          ],
+          "reserve": [
+            "4234",
+            "4950",
+            "6011"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 3,
+          "ownerId": "737802381139513344",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "10866"
+            },
+            {
+              "slot": "RB",
+              "playerId": "2359"
+            },
+            {
+              "slot": "RB",
+              "playerId": "5987"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4039"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9493"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2309"
+            },
+            {
+              "slot": "TE",
+              "playerId": "11604"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "5927"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "421"
+            }
+          ],
+          "bench": [
+            "10871",
+            "11292",
+            "11586",
+            "4018",
+            "4098",
+            "6813",
+            "6904",
+            "7571",
+            "7593",
+            "7594",
+            "8111",
+            "8408"
+          ],
+          "taxi": [
+            "11557",
+            "11608",
+            "11629"
+          ],
+          "reserve": [
+            "2449",
+            "4034",
+            "4037"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 4,
+          "ownerId": "737756317862805504",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "1234"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9509"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9224"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2197"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9486"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7049"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8110"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "9508"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "9758"
+            }
+          ],
+          "bench": [
+            "10226",
+            "11581",
+            "11626",
+            "2028",
+            "3286",
+            "5133",
+            "5854",
+            "5870",
+            "7496",
+            "8131",
+            "8167",
+            "9481"
+          ],
+          "taxi": [
+            "11623",
+            "11633",
+            "11748"
+          ],
+          "reserve": [
+            "6786",
+            "6803",
+            "8139"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 5,
+          "ownerId": "738438097477447680",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4881"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4866"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8150"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5859"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5947"
+            },
+            {
+              "slot": "WR",
+              "playerId": "1689"
+            },
+            {
+              "slot": "TE",
+              "playerId": "5012"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "8138"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "4892"
+            }
+          ],
+          "bench": [
+            "11638",
+            "1166",
+            "2749",
+            "3161",
+            "5857",
+            "6806",
+            "7596",
+            "8119",
+            "8126",
+            "8147",
+            "8210",
+            "9757"
+          ],
+          "taxi": [
+            "11597",
+            "11643",
+            "11834"
+          ],
+          "reserve": [
+            "4988",
+            "6943",
+            "7587"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 6,
+          "ownerId": "738618627477114880",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4943"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4137"
+            },
+            {
+              "slot": "RB",
+              "playerId": "11651"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4983"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9997"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7569"
+            },
+            {
+              "slot": "TE",
+              "playerId": "4217"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "2133"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "3163"
+            }
+          ],
+          "bench": [
+            "3321",
+            "4040",
+            "4177",
+            "5086",
+            "5967",
+            "6938",
+            "6963",
+            "7567",
+            "7607",
+            "8228",
+            "8230",
+            "9754"
+          ],
+          "taxi": [
+            "11435",
+            "11574",
+            "11577",
+            "11600"
+          ],
+          "reserve": [
+            "4066",
+            "4381",
+            "7523"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 7,
+          "ownerId": "736443173223686144",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "11559"
+            },
+            {
+              "slot": "RB",
+              "playerId": "11439"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7611"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7670"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6819"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8146"
+            },
+            {
+              "slot": "TE",
+              "playerId": "10859"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "9504"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "8117"
+            }
+          ],
+          "bench": [
+            "10219",
+            "11576",
+            "11583",
+            "2306",
+            "3294",
+            "7591",
+            "8132",
+            "8220",
+            "8255",
+            "9506",
+            "9511",
+            "9999"
+          ],
+          "taxi": [
+            "11627"
+          ],
+          "reserve": [
+            "11565",
+            "11592",
+            "8676"
+          ],
+          "total": 25
+        },
+        {
+          "rosterId": 8,
+          "ownerId": "720717781959516160",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6770"
+            },
+            {
+              "slot": "RB",
+              "playerId": "11584"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7528"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6801"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8137"
+            },
+            {
+              "slot": "WR",
+              "playerId": "11646"
+            },
+            {
+              "slot": "TE",
+              "playerId": "10236"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "5001"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "11563"
+            }
+          ],
+          "bench": [
+            "10232",
+            "10235",
+            "11650",
+            "4972",
+            "7608",
+            "7828",
+            "8144",
+            "8160",
+            "8162",
+            "8205",
+            "9492",
+            "9998"
+          ],
+          "taxi": [
+            "11599",
+            "11621",
+            "11640"
+          ],
+          "reserve": [
+            "10444",
+            "5937",
+            "9502"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 9,
+          "ownerId": "740291920076664832",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "9228"
+            },
+            {
+              "slot": "RB",
+              "playerId": "6130"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9226"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9488"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9756"
+            },
+            {
+              "slot": "WR",
+              "playerId": "11620"
+            },
+            {
+              "slot": "TE",
+              "playerId": "1339"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "6783"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "19"
+            }
+          ],
+          "bench": [
+            "10213",
+            "10862",
+            "11617",
+            "3214",
+            "4147",
+            "5995",
+            "6149",
+            "6826",
+            "8142",
+            "9229",
+            "9482",
+            "9487"
+          ],
+          "taxi": [
+            "11570",
+            "11575",
+            "11579",
+            "11605"
+          ],
+          "reserve": [
+            "6151"
+          ],
+          "total": 26
+        },
+        {
+          "rosterId": 10,
+          "ownerId": "992196085282050048",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6768"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8136"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4035"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7547"
+            },
+            {
+              "slot": "WR",
+              "playerId": "10222"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5846"
+            },
+            {
+              "slot": "TE",
+              "playerId": "9484"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "11631"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "6797"
+            }
+          ],
+          "bench": [
+            "1479",
+            "3200",
+            "4219",
+            "4454",
+            "5185",
+            "5248",
+            "6111",
+            "6790",
+            "8151",
+            "8161",
+            "8207",
+            "829"
+          ],
+          "taxi": [
+            "11562",
+            "11590",
+            "11610",
+            "11647"
+          ],
+          "reserve": [
+            "4033",
+            "5022",
+            "7989"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 11,
+          "ownerId": "609095186970124288",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "11564"
+            },
+            {
+              "slot": "RB",
+              "playerId": "5850"
+            },
+            {
+              "slot": "RB",
+              "playerId": "3198"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7564"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5045"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4981"
+            },
+            {
+              "slot": "TE",
+              "playerId": "4144"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "8121"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "6804"
+            }
+          ],
+          "bench": [
+            "11034",
+            "11589",
+            "11619",
+            "1373",
+            "2374",
+            "3225",
+            "5938",
+            "7600",
+            "8125",
+            "8917",
+            "9497"
+          ],
+          "taxi": [
+            "11616"
+          ],
+          "reserve": [
+            "11630",
+            "4663",
+            "6828"
+          ],
+          "total": 24
+        },
+        {
+          "rosterId": 12,
+          "ownerId": "740274063263600640",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4046"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8155"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9221"
+            },
+            {
+              "slot": "WR",
+              "playerId": "11632"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8134"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2216"
+            },
+            {
+              "slot": "TE",
+              "playerId": "7553"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "8143"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "5849"
+            }
+          ],
+          "bench": [
+            "10225",
+            "11637",
+            "1426",
+            "4993",
+            "6039",
+            "7090",
+            "7538",
+            "7694",
+            "8154",
+            "9480",
+            "9500",
+            "96"
+          ],
+          "taxi": [
+            "11568",
+            "11595",
+            "11596",
+            "11645"
+          ],
+          "reserve": [
+            "5848",
+            "7601",
+            "8135"
+          ],
+          "total": 28
+        }
+      ]
+    },
+    {
+      "season": "2025",
+      "slots": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "SUPER_FLEX",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "teams": [
+        {
+          "rosterId": 1,
+          "ownerId": "732737495225192448",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4984"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9224"
+            },
+            {
+              "slot": "RB",
+              "playerId": "11655"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7526"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8112"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8148"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8130"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "12474"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "11560"
+            }
+          ],
+          "bench": [
+            "11596",
+            "11603",
+            "11618",
+            "11624",
+            "11628",
+            "11635",
+            "12718",
+            "5844",
+            "5892",
+            "7525",
+            "8408",
+            "9494",
+            "9753"
+          ],
+          "taxi": [
+            "12472",
+            "12503",
+            "12519"
+          ],
+          "reserve": [
+            "10229",
+            "2307",
+            "4017"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 2,
+          "ownerId": "736446609587642368",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "8183"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4199"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7543"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6794"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5872"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4039"
+            },
+            {
+              "slot": "TE",
+              "playerId": "1466"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "7588"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "7002"
+            }
+          ],
+          "bench": [
+            "11256",
+            "11299",
+            "11571",
+            "11625",
+            "12502",
+            "12504",
+            "12511",
+            "4098",
+            "4950",
+            "6271",
+            "7527",
+            "9225",
+            "9501"
+          ],
+          "taxi": [
+            "12539",
+            "12670"
+          ],
+          "reserve": [
+            "11566",
+            "4080"
+          ],
+          "total": 26
+        },
+        {
+          "rosterId": 3,
+          "ownerId": "737802381139513344",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6904"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4034"
+            },
+            {
+              "slot": "RB",
+              "playerId": "6813"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9493"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2449"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5927"
+            },
+            {
+              "slot": "TE",
+              "playerId": "12493"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "7021"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "421"
+            }
+          ],
+          "bench": [
+            "11557",
+            "11586",
+            "12485",
+            "12499",
+            "2133",
+            "4037",
+            "5857",
+            "6149",
+            "6865",
+            "7594",
+            "7842",
+            "8111",
+            "8154"
+          ],
+          "taxi": [
+            "12505",
+            "12545"
+          ],
+          "reserve": [
+            "11604",
+            "4018",
+            "6011"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 4,
+          "ownerId": "737756317862805504",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "3294"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9509"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12529"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6786"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7049"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6801"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8225"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "12534"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "12508"
+            }
+          ],
+          "bench": [
+            "10226",
+            "11623",
+            "11626",
+            "1234",
+            "12469",
+            "12536",
+            "4177",
+            "4217",
+            "6803",
+            "8131",
+            "8167",
+            "9486",
+            "9508"
+          ],
+          "taxi": [
+            "12455",
+            "12462",
+            "12641"
+          ],
+          "reserve": [
+            "11581",
+            "5870",
+            "9504"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 5,
+          "ownerId": "738438097477447680",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "1166"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4866"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8138"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8126"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5859"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5947"
+            },
+            {
+              "slot": "TE",
+              "playerId": "12517"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "8150"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "4892"
+            }
+          ],
+          "bench": [
+            "10213",
+            "10218",
+            "10859",
+            "11597",
+            "11643",
+            "12484",
+            "12538",
+            "1689",
+            "4881",
+            "4988",
+            "5012",
+            "6943",
+            "8210"
+          ],
+          "taxi": [
+            "12475",
+            "12482",
+            "12483"
+          ],
+          "reserve": [
+            "6806",
+            "9757",
+            "9999"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 6,
+          "ownerId": "738618627477114880",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "3163"
+            },
+            {
+              "slot": "RB",
+              "playerId": "11584"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12489"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9754"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4983"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9997"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8110"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "2505"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "4943"
+            }
+          ],
+          "bench": [
+            "10219",
+            "11600",
+            "11651",
+            "12492",
+            "12544",
+            "12547",
+            "331",
+            "4066",
+            "4381",
+            "5967",
+            "7523",
+            "8188",
+            "8228"
+          ],
+          "taxi": [
+            "12471",
+            "12521"
+          ],
+          "reserve": [
+            "3161",
+            "3321",
+            "4137"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 7,
+          "ownerId": "736443173223686144",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "3257"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12507"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12533"
+            },
+            {
+              "slot": "WR",
+              "playerId": "12526"
+            },
+            {
+              "slot": "WR",
+              "playerId": "11627"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6819"
+            },
+            {
+              "slot": "TE",
+              "playerId": "12506"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "7611"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "8161"
+            }
+          ],
+          "bench": [
+            "11565",
+            "11638",
+            "12476",
+            "12490",
+            "12535",
+            "12541",
+            "2306",
+            "7591",
+            "8132",
+            "8146",
+            "827",
+            "8676",
+            "9511"
+          ],
+          "taxi": [
+            "12496",
+            "12699"
+          ],
+          "reserve": [
+            "11559",
+            "11576",
+            "11583"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 8,
+          "ownerId": "720717781959516160",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "11563"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12527"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8205"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7564"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7569"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8144"
+            },
+            {
+              "slot": "TE",
+              "playerId": "5001"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "10232"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "6770"
+            }
+          ],
+          "bench": [
+            "10236",
+            "10444",
+            "11579",
+            "11588",
+            "11646",
+            "11783",
+            "12495",
+            "12498",
+            "12509",
+            "8147",
+            "8160",
+            "9506",
+            "9758"
+          ],
+          "taxi": [
+            "12523",
+            "12531",
+            "12543",
+            "12889"
+          ],
+          "reserve": [
+            "11650",
+            "7528",
+            "9502"
+          ],
+          "total": 29
+        },
+        {
+          "rosterId": 9,
+          "ownerId": "740291920076664832",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "9228"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9226"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7567"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9488"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8142"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7571"
+            },
+            {
+              "slot": "TE",
+              "playerId": "3214"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "9756"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "12522"
+            }
+          ],
+          "bench": [
+            "11575",
+            "11620",
+            "1339",
+            "19",
+            "4147",
+            "6130",
+            "6826",
+            "8135",
+            "8180",
+            "829",
+            "8800",
+            "9479",
+            "9482"
+          ],
+          "taxi": [
+            "12467",
+            "12487",
+            "12542"
+          ],
+          "reserve": [
+            "12481",
+            "12530",
+            "9229"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 10,
+          "ownerId": "992196085282050048",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6797"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8151"
+            },
+            {
+              "slot": "RB",
+              "playerId": "6790"
+            },
+            {
+              "slot": "WR",
+              "playerId": "10222"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7547"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5846"
+            },
+            {
+              "slot": "TE",
+              "playerId": "5022"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "12512"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "1479"
+            }
+          ],
+          "bench": [
+            "11562",
+            "11610",
+            "11631",
+            "11647",
+            "11834",
+            "12457",
+            "4033",
+            "4035",
+            "6111",
+            "6768",
+            "8136",
+            "9481",
+            "9487"
+          ],
+          "taxi": [
+            "12500",
+            "12520"
+          ],
+          "reserve": [
+            "12497",
+            "8122",
+            "9484"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 11,
+          "ownerId": "609095186970124288",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "11564"
+            },
+            {
+              "slot": "RB",
+              "playerId": "5850"
+            },
+            {
+              "slot": "RB",
+              "playerId": "3198"
+            },
+            {
+              "slot": "WR",
+              "playerId": "12514"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8121"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8137"
+            },
+            {
+              "slot": "TE",
+              "playerId": "7600"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "5045"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "6804"
+            }
+          ],
+          "bench": [
+            "11589",
+            "12524",
+            "1373",
+            "2197",
+            "2374",
+            "2749",
+            "4144",
+            "4981",
+            "7607",
+            "8119",
+            "8125",
+            "8698",
+            "8917"
+          ],
+          "taxi": [
+            "11616",
+            "12486"
+          ],
+          "reserve": [
+            "11619",
+            "4663"
+          ],
+          "total": 26
+        },
+        {
+          "rosterId": 12,
+          "ownerId": "740274063263600640",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "96"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8155"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9221"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2216"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9500"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8134"
+            },
+            {
+              "slot": "TE",
+              "playerId": "7553"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "12518"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "9480"
+            }
+          ],
+          "bench": [
+            "11435",
+            "11637",
+            "12501",
+            "12516",
+            "1426",
+            "4040",
+            "4993",
+            "5848",
+            "6039",
+            "6783",
+            "7090",
+            "7538",
+            "8143"
+          ],
+          "taxi": [
+            "11569",
+            "12470",
+            "12510",
+            "12540"
+          ],
+          "reserve": [
+            "11632",
+            "4046",
+            "5849"
+          ],
+          "total": 29
+        }
+      ]
+    },
+    {
+      "season": "2026",
+      "slots": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "WR",
+        "TE",
+        "FLEX",
+        "SUPER_FLEX",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "teams": [
+        {
+          "rosterId": 1,
+          "ownerId": "732737495225192448",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4984"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9224"
+            },
+            {
+              "slot": "RB",
+              "playerId": "5892"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8112"
+            },
+            {
+              "slot": "WR",
+              "playerId": "10229"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7525"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8130"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "7526"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "11560"
+            }
+          ],
+          "bench": [
+            "11603",
+            "11618",
+            "11624",
+            "11628",
+            "11635",
+            "11655",
+            "12474",
+            "12519",
+            "4017",
+            "5844",
+            "8148",
+            "8408",
+            "9494"
+          ],
+          "taxi": [
+            "13275",
+            "13279",
+            "13421"
+          ],
+          "reserve": [
+            "9753"
+          ],
+          "total": 26
+        },
+        {
+          "rosterId": 2,
+          "ownerId": "736446609587642368",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "11566"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7543"
+            },
+            {
+              "slot": "RB",
+              "playerId": "7588"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6794"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5872"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4039"
+            },
+            {
+              "slot": "TE",
+              "playerId": "1466"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "4199"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "8183"
+            }
+          ],
+          "bench": [
+            "10235",
+            "11571",
+            "11625",
+            "12502",
+            "12504",
+            "12511",
+            "12539",
+            "4098",
+            "6271",
+            "7002",
+            "7527",
+            "9225",
+            "9501"
+          ],
+          "taxi": [
+            "12670",
+            "13269",
+            "13348",
+            "13402"
+          ],
+          "reserve": [
+            "4950"
+          ],
+          "total": 27
+        },
+        {
+          "rosterId": 3,
+          "ownerId": "737802381139513344",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6904"
+            },
+            {
+              "slot": "RB",
+              "playerId": "6813"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4034"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9493"
+            },
+            {
+              "slot": "WR",
+              "playerId": "2133"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5927"
+            },
+            {
+              "slot": "TE",
+              "playerId": "11604"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "7611"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "421"
+            }
+          ],
+          "bench": [
+            "11586",
+            "12467",
+            "12493",
+            "12499",
+            "12545",
+            "13264",
+            "13285",
+            "13298",
+            "2449",
+            "7021",
+            "7594",
+            "8154",
+            "8180"
+          ],
+          "taxi": [
+            "13293",
+            "13411",
+            "13414",
+            "13602"
+          ],
+          "reserve": [],
+          "total": 26
+        },
+        {
+          "rosterId": 4,
+          "ownerId": "737756317862805504",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "12508"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9509"
+            },
+            {
+              "slot": "RB",
+              "playerId": "11581"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6786"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6801"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8167"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8131"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "4217"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "3294"
+            }
+          ],
+          "bench": [
+            "11626",
+            "12455",
+            "12505",
+            "12536",
+            "13333",
+            "13417",
+            "5870",
+            "6803",
+            "7049",
+            "8172",
+            "9486",
+            "9504",
+            "9508"
+          ],
+          "taxi": [
+            "13270",
+            "13319",
+            "13400",
+            "13423"
+          ],
+          "reserve": [
+            "12529",
+            "13281"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 5,
+          "ownerId": "738438097477447680",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4881"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8138"
+            },
+            {
+              "slot": "RB",
+              "playerId": "4866"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5859"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5947"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8126"
+            },
+            {
+              "slot": "TE",
+              "playerId": "12517"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "8150"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "4892"
+            }
+          ],
+          "bench": [
+            "10213",
+            "10859",
+            "11597",
+            "11643",
+            "1166",
+            "11834",
+            "12483",
+            "13424",
+            "5012",
+            "6806",
+            "7571",
+            "8135",
+            "8210"
+          ],
+          "taxi": [
+            "13276",
+            "13296",
+            "13347",
+            "13405"
+          ],
+          "reserve": [
+            "12482",
+            "12484"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 6,
+          "ownerId": "738618627477114880",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "7523"
+            },
+            {
+              "slot": "RB",
+              "playerId": "11584"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8228"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4983"
+            },
+            {
+              "slot": "WR",
+              "playerId": "13294"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9754"
+            },
+            {
+              "slot": "TE",
+              "playerId": "8110"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "5967"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "3163"
+            }
+          ],
+          "bench": [
+            "10218",
+            "11370",
+            "11600",
+            "12489",
+            "12492",
+            "12521",
+            "12547",
+            "13301",
+            "2505",
+            "3321",
+            "4066",
+            "4943",
+            "8800"
+          ],
+          "taxi": [
+            "13311",
+            "13317",
+            "13335",
+            "13401"
+          ],
+          "reserve": [
+            "11651",
+            "4137"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 7,
+          "ownerId": "736443173223686144",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "8161"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12507"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12490"
+            },
+            {
+              "slot": "WR",
+              "playerId": "12526"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8146"
+            },
+            {
+              "slot": "WR",
+              "playerId": "6819"
+            },
+            {
+              "slot": "TE",
+              "playerId": "12506"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "8676"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "3257"
+            }
+          ],
+          "bench": [
+            "11565",
+            "11576",
+            "11583",
+            "11627",
+            "12048",
+            "12485",
+            "12533",
+            "12535",
+            "13346",
+            "2306",
+            "7591",
+            "8132",
+            "9511"
+          ],
+          "taxi": [
+            "13268",
+            "13404",
+            "13420",
+            "13425"
+          ],
+          "reserve": [
+            "11559",
+            "11638",
+            "12541"
+          ],
+          "total": 29
+        },
+        {
+          "rosterId": 8,
+          "ownerId": "720717781959516160",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6770"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12527"
+            },
+            {
+              "slot": "RB",
+              "playerId": "13287"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7564"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7569"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8144"
+            },
+            {
+              "slot": "TE",
+              "playerId": "10236"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "10232"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "11563"
+            }
+          ],
+          "bench": [
+            "11646",
+            "11783",
+            "12495",
+            "12498",
+            "12509",
+            "12544",
+            "2078",
+            "5001",
+            "7528",
+            "8160",
+            "9506",
+            "9757",
+            "9758"
+          ],
+          "taxi": [
+            "13272",
+            "13307",
+            "13324",
+            "13413"
+          ],
+          "reserve": [
+            "8205",
+            "9502"
+          ],
+          "total": 28
+        },
+        {
+          "rosterId": 9,
+          "ownerId": "740291920076664832",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "12522"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9226"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12481"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9488"
+            },
+            {
+              "slot": "WR",
+              "playerId": "11620"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9756"
+            },
+            {
+              "slot": "TE",
+              "playerId": "3214"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "7567"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "9228"
+            }
+          ],
+          "bench": [
+            "10219",
+            "11575",
+            "12487",
+            "12530",
+            "13274",
+            "13330",
+            "1479",
+            "19",
+            "6826",
+            "8111",
+            "8142",
+            "9229",
+            "9482"
+          ],
+          "taxi": [
+            "13302",
+            "13306",
+            "13320",
+            "13533"
+          ],
+          "reserve": [],
+          "total": 26
+        },
+        {
+          "rosterId": 10,
+          "ownerId": "992196085282050048",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "6797"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8151"
+            },
+            {
+              "slot": "RB",
+              "playerId": "12512"
+            },
+            {
+              "slot": "WR",
+              "playerId": "7547"
+            },
+            {
+              "slot": "WR",
+              "playerId": "5846"
+            },
+            {
+              "slot": "WR",
+              "playerId": "11631"
+            },
+            {
+              "slot": "TE",
+              "playerId": "9484"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "6790"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "6768"
+            }
+          ],
+          "bench": [
+            "10222",
+            "11562",
+            "11610",
+            "11647",
+            "12469",
+            "12497",
+            "12500",
+            "12534",
+            "4033",
+            "4035",
+            "5022",
+            "8136",
+            "9487"
+          ],
+          "taxi": [
+            "13289",
+            "13337",
+            "13349",
+            "13380"
+          ],
+          "reserve": [],
+          "total": 26
+        },
+        {
+          "rosterId": 11,
+          "ownerId": "609095186970124288",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "11564"
+            },
+            {
+              "slot": "RB",
+              "playerId": "13286"
+            },
+            {
+              "slot": "RB",
+              "playerId": "3198"
+            },
+            {
+              "slot": "WR",
+              "playerId": "8137"
+            },
+            {
+              "slot": "WR",
+              "playerId": "12514"
+            },
+            {
+              "slot": "WR",
+              "playerId": "4037"
+            },
+            {
+              "slot": "TE",
+              "playerId": "7600"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "5045"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "6804"
+            }
+          ],
+          "bench": [
+            "11589",
+            "12524",
+            "13305",
+            "13338",
+            "13345",
+            "1373",
+            "4663",
+            "4981",
+            "5850",
+            "8121",
+            "8125",
+            "8698"
+          ],
+          "taxi": [
+            "13303",
+            "13418",
+            "13726"
+          ],
+          "reserve": [],
+          "total": 24
+        },
+        {
+          "rosterId": 12,
+          "ownerId": "740274063263600640",
+          "starters": [
+            {
+              "slot": "QB",
+              "playerId": "4046"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9221"
+            },
+            {
+              "slot": "RB",
+              "playerId": "8155"
+            },
+            {
+              "slot": "WR",
+              "playerId": "11632"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9997"
+            },
+            {
+              "slot": "WR",
+              "playerId": "9500"
+            },
+            {
+              "slot": "TE",
+              "playerId": "12518"
+            },
+            {
+              "slot": "FLEX",
+              "playerId": "2216"
+            },
+            {
+              "slot": "SUPER_FLEX",
+              "playerId": "5849"
+            }
+          ],
+          "bench": [
+            "11435",
+            "11637",
+            "12501",
+            "12510",
+            "12540",
+            "13288",
+            "4993",
+            "6783",
+            "7090",
+            "7553",
+            "8134",
+            "9480",
+            "96"
+          ],
+          "taxi": [
+            "13278",
+            "13300",
+            "13403"
+          ],
+          "reserve": [
+            "13353"
+          ],
+          "total": 26
         }
       ]
     }

@@ -24,6 +24,7 @@
   <div class="wrap">
     <nav class="tabs" role="tablist">
       <button class="tab" role="tab" data-view="overview" aria-selected="true">Overview</button>
+      <button class="tab" role="tab" data-view="rosters" aria-selected="false">Rosters</button>
       <button class="tab" role="tab" data-view="trades" aria-selected="false">Trades</button>
       <button class="tab" role="tab" data-view="franchises" aria-selected="false">Franchises</button>
       <button class="tab" role="tab" data-view="seasons" aria-selected="false">Seasons</button>
@@ -48,6 +49,15 @@
     </div>
     <div id="ov-records"></div>
     <div id="ov-h2h"></div>
+  </section>
+
+  <section class="view" id="view-rosters" role="tabpanel" hidden>
+    <div class="toolbar">
+      <select id="roster-season" aria-label="Choose season"></select>
+      <input type="search" id="roster-search" placeholder="Find a player&hellip;" aria-label="Find a player across rosters">
+      <span class="count" id="roster-count"></span>
+    </div>
+    <div id="roster-list"></div>
   </section>
 
   <section class="view" id="view-trades" role="tabpanel" hidden>

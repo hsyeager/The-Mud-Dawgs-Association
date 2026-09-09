@@ -19,7 +19,7 @@ import { renderOverview } from "./overview.js";
  * baked one, so it would win the comparison in boot() and then be missing
  * whatever fields the new UI expects. Changing the key retires those cleanly.
  */
-const CACHE_KEY = "mud-dawgs:snapshot:v2";
+const CACHE_KEY = "mud-dawgs:snapshot:v3";
 
 /** In-memory state. `players` maps player_id -> { n: name, p: position, t: team }. */
 const state = {
@@ -255,6 +255,8 @@ function renderAll() {
   renderFranchises();
   renderSeasons();
   renderDrafts();
+  renderRosterControls();
+  renderRosters();
   // The Overview tab lives in its own module; hand it the formatting helpers so
   // it never has to import back into this file.
   renderOverview(state.model, {
@@ -511,6 +513,139 @@ function renderDrafts() {
         </table>
       </div>
     </div>`;
+}
+
+/**
+ * Slot labels as Sleeper names them, shortened for the lineup column.
+ * BN/TAXI/IR never appear as starter slots but are listed for completeness.
+ */
+const SLOT_LABELS = {
+  QB: "QB",
+  RB: "RB",
+  WR: "WR",
+  TE: "TE",
+  FLEX: "FLEX",
+  WRRB_FLEX: "W/R",
+  REC_FLEX: "W/T",
+  SUPER_FLEX: "SFLX",
+  IDP_FLEX: "IDP",
+  K: "K",
+  DEF: "DEF",
+  BN: "BN",
+};
+
+const slotLabel = (slot) => SLOT_LABELS[slot] ?? String(slot ?? "").replace(/_/g, " ").slice(0, 5);
+
+function renderRosterControls() {
+  const seasons = state.model.rosters ?? [];
+  if (!seasons.length) return;
+
+  const sel = el("roster-season");
+  // Preserve the choice across a refresh re-render.
+  const previous = sel.value;
+  sel.innerHTML = [...seasons]
+    .sort((a, b) => Number(b.season) - Number(a.season))
+    .map((r) => `<option value="${esc(r.season)}">${esc(r.season)} rosters</option>`)
+    .join("");
+  if (previous && [...sel.options].some((o) => o.value === previous)) sel.value = previous;
+
+  if (!sel.dataset.wired) {
+    sel.addEventListener("change", renderRosters);
+    el("roster-search").addEventListener("input", renderRosters);
+    sel.dataset.wired = "1";
+  }
+}
+
+/** One player line: position badge, name, NFL team. */
+function rosterPlayerRow(playerId, slot, query) {
+  if (!playerId) {
+    return `<div class="plr empty"><span class="slot">${esc(slotLabel(slot))}</span><span class="nm">empty</span></div>`;
+  }
+  const name = playerName(playerId);
+  const pos = playerPosition(playerId);
+  const team = state.players[playerId]?.t;
+
+  const shown =
+    query && name.toLowerCase().includes(query)
+      ? highlight(name, query)
+      : esc(name);
+
+  return `<div class="plr">
+    ${slot ? `<span class="slot">${esc(slotLabel(slot))}</span>` : ""}
+    ${pos ? `<span class="pos ${esc(pos)}">${esc(pos)}</span>` : ""}
+    <span class="nm">${shown}</span>
+    ${team ? `<span class="tm">${esc(team)}</span>` : ""}
+  </div>`;
+}
+
+/** Escape, then wrap the matched span in <mark>. */
+function highlight(text, query) {
+  const i = text.toLowerCase().indexOf(query);
+  if (i < 0) return esc(text);
+  return `${esc(text.slice(0, i))}<mark>${esc(text.slice(i, i + query.length))}</mark>${esc(text.slice(i + query.length))}`;
+}
+
+function renderRosters() {
+  const all = state.model.rosters ?? [];
+  const node = el("roster-list");
+  if (!all.length) {
+    node.innerHTML = '<div class="empty">No roster data in this snapshot.</div>';
+    el("roster-count").textContent = "";
+    return;
+  }
+
+  const chosen = el("roster-season").value || all[all.length - 1].season;
+  const seasonRosters = all.find((r) => r.season === chosen) ?? all[all.length - 1];
+  const query = el("roster-search").value.trim().toLowerCase();
+
+  // Order teams the way the standings did, so the grid reads meaningfully.
+  const standings = state.model.seasons.find((s) => s.season === seasonRosters.season)?.standings ?? [];
+  const rank = new Map(standings.map((r, i) => [r.ownerId, i]));
+  const teams = [...seasonRosters.teams].sort(
+    (a, b) => (rank.get(a.ownerId) ?? 99) - (rank.get(b.ownerId) ?? 99)
+  );
+
+  let matches = 0;
+
+  const cards = teams
+    .map((t) => {
+      const names = [...t.starters.map((x) => x.playerId), ...t.bench, ...t.taxi, ...t.reserve]
+        .filter(Boolean)
+        .map((id) => playerName(id).toLowerCase());
+      const hit = query ? names.some((n) => n.includes(query)) : false;
+      if (hit) matches += 1;
+
+      const group = (label, rows) =>
+        rows.length
+          ? `<div class="roster-group"><div class="heading">${esc(label)}</div>${rows.join("")}</div>`
+          : "";
+
+      const body = [
+        group("Starters", t.starters.map((x) => rosterPlayerRow(x.playerId, x.slot, query))),
+        group("Bench", t.bench.map((id) => rosterPlayerRow(id, null, query))),
+        group("Taxi squad", t.taxi.map((id) => rosterPlayerRow(id, null, query))),
+        group("Injured reserve", t.reserve.map((id) => rosterPlayerRow(id, null, query))),
+      ].join("");
+
+      return `
+        <article class="roster${hit ? " hit" : ""}">
+          <header>
+            <div>
+              <div class="team">${esc(franchiseName(t.ownerId))}</div>
+              <div class="mgr">${esc(franchiseManager(t.ownerId))}</div>
+            </div>
+            <span class="size">${t.total} players</span>
+          </header>
+          ${body}
+        </article>`;
+    })
+    .join("");
+
+  el("roster-count").textContent = query
+    ? `${matches} of ${teams.length} teams have a match`
+    : `${teams.length} teams · ${seasonRosters.teams.reduce((n, t) => n + t.total, 0)} players`;
+
+  node.innerHTML = `<div class="roster-grid">${cards}</div>`;
 }
 
 boot();
