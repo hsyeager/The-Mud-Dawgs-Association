@@ -25,6 +25,10 @@ const CACHE_KEY = "mud-dawgs:snapshot:v3";
 const state = {
   model: null,
   players: {},
+  // KeepTradeCut values keyed by Sleeper player id: { v, r, pr, t }. Loaded
+  // separately from the model because KTC blocks browser fetches (no CORS), so
+  // the in-page Refresh cannot rebuild it -- it always comes from the last bake.
+  ktc: { values: {}, format: null, fetchedAt: null },
   config: {},
   view: "overview",
 };
@@ -117,6 +121,12 @@ async function boot() {
     state.config = await loadJSON("./league.config.json");
   } catch {
     state.config = {};
+  }
+
+  try {
+    state.ktc = await loadJSON("./data/ktc.json");
+  } catch {
+    state.ktc = { values: {}, format: null, fetchedAt: null };
   }
 
   let baked = null;
@@ -551,12 +561,19 @@ function renderRosterControls() {
 
   if (!sel.dataset.wired) {
     sel.addEventListener("change", renderRosters);
+    el("roster-sort").addEventListener("change", renderRosters);
     el("roster-search").addEventListener("input", renderRosters);
     sel.dataset.wired = "1";
   }
 }
 
-/** One player line: position badge, name, NFL team. */
+/** KTC entry for a player, or null when they sit outside KTC's rankings. */
+const ktcFor = (playerId) => state.ktc?.values?.[playerId] ?? null;
+
+/** Sum of KTC value across a list of player ids. */
+const ktcTotal = (ids) => ids.reduce((sum, id) => sum + (ktcFor(id)?.v ?? 0), 0);
+
+/** One player line: position badge, name, NFL team, KTC value and ranks. */
 function rosterPlayerRow(playerId, slot, query) {
   if (!playerId) {
     return `<div class="plr empty"><span class="slot">${esc(slotLabel(slot))}</span><span class="nm">empty</span></div>`;
@@ -564,17 +581,28 @@ function rosterPlayerRow(playerId, slot, query) {
   const name = playerName(playerId);
   const pos = playerPosition(playerId);
   const team = state.players[playerId]?.t;
+  const k = ktcFor(playerId);
 
   const shown =
     query && name.toLowerCase().includes(query)
       ? highlight(name, query)
       : esc(name);
 
+  // Unranked is meaningful information, not a gap: it means KTC does not carry
+  // the player at all, so show a dash rather than an empty column.
+  const value = k
+    ? `<span class="ktc" title="KTC value ${k.v} - overall #${k.r}, ${pos ?? ""}${k.pr}">
+         <span class="v">${k.v.toLocaleString()}</span>
+         <span class="rk">#${k.r}<span class="pr"> · ${esc(pos ?? "")}${k.pr}</span></span>
+       </span>`
+    : `<span class="ktc none" title="Outside KTC's rankings">—</span>`;
+
   return `<div class="plr">
     ${slot ? `<span class="slot">${esc(slotLabel(slot))}</span>` : ""}
     ${pos ? `<span class="pos ${esc(pos)}">${esc(pos)}</span>` : ""}
     <span class="nm">${shown}</span>
     ${team ? `<span class="tm">${esc(team)}</span>` : ""}
+    ${value}
   </div>`;
 }
 
@@ -598,20 +626,36 @@ function renderRosters() {
   const seasonRosters = all.find((r) => r.season === chosen) ?? all[all.length - 1];
   const query = el("roster-search").value.trim().toLowerCase();
 
-  // Order teams the way the standings did, so the grid reads meaningfully.
+  // Every player on a team, used for both search and the KTC roll-up.
+  const squadOf = (t) =>
+    [...t.starters.map((x) => x.playerId), ...t.bench, ...t.taxi, ...t.reserve].filter(Boolean);
+
+  const totals = new Map(seasonRosters.teams.map((t) => [t.rosterId, ktcTotal(squadOf(t))]));
+
+  // Rank teams by roster value so the header can show "#3 by value".
+  const valueOrder = [...seasonRosters.teams]
+    .sort((a, b) => totals.get(b.rosterId) - totals.get(a.rosterId))
+    .map((t) => t.rosterId);
+  const valueRank = new Map(valueOrder.map((id, i) => [id, i + 1]));
+
   const standings = state.model.seasons.find((s) => s.season === seasonRosters.season)?.standings ?? [];
   const rank = new Map(standings.map((r, i) => [r.ownerId, i]));
-  const teams = [...seasonRosters.teams].sort(
-    (a, b) => (rank.get(a.ownerId) ?? 99) - (rank.get(b.ownerId) ?? 99)
-  );
+
+  const teams = [...seasonRosters.teams];
+  if (el("roster-sort").value === "value") {
+    teams.sort((a, b) => totals.get(b.rosterId) - totals.get(a.rosterId));
+  } else {
+    teams.sort((a, b) => (rank.get(a.ownerId) ?? 99) - (rank.get(b.ownerId) ?? 99));
+  }
+
+  // Within a squad, most valuable first -- Sleeper's own order is arbitrary.
+  const byValue = (a, b) => (ktcFor(b)?.v ?? -1) - (ktcFor(a)?.v ?? -1);
 
   let matches = 0;
 
   const cards = teams
     .map((t) => {
-      const names = [...t.starters.map((x) => x.playerId), ...t.bench, ...t.taxi, ...t.reserve]
-        .filter(Boolean)
-        .map((id) => playerName(id).toLowerCase());
+      const names = squadOf(t).map((id) => playerName(id).toLowerCase());
       const hit = query ? names.some((n) => n.includes(query)) : false;
       if (hit) matches += 1;
 
@@ -622,9 +666,9 @@ function renderRosters() {
 
       const body = [
         group("Starters", t.starters.map((x) => rosterPlayerRow(x.playerId, x.slot, query))),
-        group("Bench", t.bench.map((id) => rosterPlayerRow(id, null, query))),
-        group("Taxi squad", t.taxi.map((id) => rosterPlayerRow(id, null, query))),
-        group("Injured reserve", t.reserve.map((id) => rosterPlayerRow(id, null, query))),
+        group("Bench", [...t.bench].sort(byValue).map((id) => rosterPlayerRow(id, null, query))),
+        group("Taxi squad", [...t.taxi].sort(byValue).map((id) => rosterPlayerRow(id, null, query))),
+        group("Injured reserve", [...t.reserve].sort(byValue).map((id) => rosterPlayerRow(id, null, query))),
       ].join("");
 
       return `
@@ -634,16 +678,22 @@ function renderRosters() {
               <div class="team">${esc(franchiseName(t.ownerId))}</div>
               <div class="mgr">${esc(franchiseManager(t.ownerId))}</div>
             </div>
-            <span class="size">${t.total} players</span>
+            <div class="tot">
+              <span class="val">${totals.get(t.rosterId).toLocaleString()}</span>
+              <span class="size">#${valueRank.get(t.rosterId)} by value · ${t.total} players</span>
+            </div>
           </header>
           ${body}
         </article>`;
     })
     .join("");
 
+  const stamp = state.ktc?.fetchedAt
+    ? `KTC ${state.ktc.format} values, ${fmtDate(new Date(state.ktc.fetchedAt).getTime())}`
+    : "no KTC values";
   el("roster-count").textContent = query
     ? `${matches} of ${teams.length} teams have a match`
-    : `${teams.length} teams · ${seasonRosters.teams.reduce((n, t) => n + t.total, 0)} players`;
+    : `${teams.length} teams · ${stamp}`;
 
   node.innerHTML = `<div class="roster-grid">${cards}</div>`;
 }

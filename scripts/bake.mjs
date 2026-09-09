@@ -20,6 +20,7 @@ import { fileURLToPath } from "node:url";
 
 import { fetchLeagueHistory, getAllPlayers } from "../src/sleeper.js";
 import { buildLeagueModel, collectPlayerIds } from "../src/transform.js";
+import { fetchKtcPlayers, matchKtcValues, isSuperflex } from "../src/ktc.js";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const CONFIG_PATH = resolve(ROOT, "league.config.json");
@@ -83,9 +84,26 @@ async function main() {
     else missing += 1;
   }
 
+  // KeepTradeCut dynasty values. Node only -- KTC sends no CORS header, so the
+  // browser's Refresh button cannot fetch it and reuses whatever was last baked.
+  // A KTC outage degrades the values column; it never fails the bake.
+  const superflex = isSuperflex(model.seasons.at(-1)?.rosterPositions ?? []);
+  const ktcPlayers = await fetchKtcPlayers({ onProgress: (m) => console.log(`  ${m}`) });
+
+  let ktc = { fetchedAt: null, format: superflex ? "superflex" : "1qb", values: {} };
+  if (ktcPlayers.length) {
+    const matched = matchKtcValues(ktcPlayers, players, Object.keys(players), { superflex });
+    ktc = { fetchedAt: new Date().toISOString(), format: matched.format, values: matched.values };
+    console.log(
+      `  KTC matched ${matched.matched}/${Object.keys(players).length}` +
+        (matched.unmatched.length ? `, ${matched.unmatched.length} outside their top 500` : "")
+    );
+  }
+
   await mkdir(DATA_DIR, { recursive: true });
   await writeFile(resolve(DATA_DIR, "league.json"), JSON.stringify(model, null, 2) + "\n");
   await writeFile(resolve(DATA_DIR, "players.json"), JSON.stringify(players) + "\n");
+  await writeFile(resolve(DATA_DIR, "ktc.json"), JSON.stringify(ktc) + "\n");
 
   const seasons = model.seasons.map((s) => s.season).join(", ");
   console.log("");
@@ -95,6 +113,7 @@ async function main() {
   console.log(`  trades     ${model.trades.length}`);
   console.log(`  drafts     ${model.drafts.length}`);
   console.log(`  players    ${Object.keys(players).length}${missing ? ` (${missing} unresolved)` : ""}`);
+  console.log(`  ktc        ${Object.keys(ktc.values).length} valued (${ktc.format})`);
   console.log(`  done in    ${((Date.now() - started) / 1000).toFixed(1)}s`);
 }
 

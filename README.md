@@ -9,6 +9,7 @@ through: a pick traded three years ago, who actually won a deal, what a franchis
 all-time record is. This keeps all of it in one place.
 
 **Overview** — playoff projections, luck, scoring power, records, head-to-head.
+**Rosters** — every squad, with KeepTradeCut dynasty values and ranks.
 **Trades** — every deal ever, searchable, with pick provenance and FAAB.
 **Franchises** — all-time records and titles. **Seasons** — standings and champions.
 **Drafts** — full boards.
@@ -48,9 +49,11 @@ league.config.json    your league id
 src/sleeper.js        Sleeper API client        ─┐ shared, isomorphic:
 src/transform.js      raw payloads → the model   │ same code in Node
 src/analytics.js      luck, records, projections ─┘ and in the browser
+src/ktc.js            KeepTradeCut values (Node only -- KTC blocks CORS)
 scripts/bake.mjs      writes the snapshot
 data/league.json      the committed snapshot the site renders
 data/players.json     player names, trimmed to only this league's players
+data/ktc.json         KeepTradeCut dynasty values, matched to Sleeper ids
 index.html            the site
 assets/app.js         rendering + the Refresh button
 assets/overview.js    the Overview tab: charts, records, projections
@@ -72,6 +75,31 @@ makes "this manager has made 34 trades since 2019" correct rather than nonsense.
 **The player dictionary is trimmed.** Sleeper's full NFL player list is about
 5 MB, far too much to ship to a browser on every page load. The bake step
 downloads it once and keeps only the players this league has actually touched.
+
+## Dynasty values (KeepTradeCut)
+
+The Rosters tab shows each player's KTC value, overall rank and positional rank,
+plus a roll-up of total roster value per team.
+
+KTC has no public API. Their rankings page embeds the dataset in a
+`<script id="ktc-players" type="application/json">` tag, and `src/ktc.js` parses
+that JSON rather than scraping rendered HTML — about as stable as an unofficial
+source gets, but still unofficial. If KTC changes the tag, the bake logs it and
+carries on with no values instead of failing.
+
+Two consequences worth knowing:
+
+- **KTC blocks browser fetches** (no `access-control-allow-origin`), so values
+  can only be pulled from Node. The in-page Refresh button rebuilds the league
+  from Sleeper but reuses the last baked KTC set. Values refresh on the weekly
+  Action, or any local `npm run bake`.
+- **The format matters.** This league starts a SUPER_FLEX, so the superflex
+  column is used. Reading the 1QB column into a superflex league would misprice
+  every quarterback on every roster, and `isSuperflex()` picks from the league's
+  own `roster_positions` rather than assuming.
+
+Roughly 96% of currently rostered players match. The rest sit outside KTC's top
+500 and show a dash — absence of a ranking, not a zero.
 
 ## Projections
 

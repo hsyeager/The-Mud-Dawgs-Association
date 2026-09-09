@@ -660,3 +660,32 @@ tr.cut td { border-bottom: 2px solid var(--accent); }
 .plr.empty .nm { color: var(--dim); font-style: italic; }
 .plr mark { background: rgba(47, 129, 247, 0.28); color: var(--text); border-radius: 3px; padding: 0 2px; }
 .roster.hit { border-color: var(--accent); }
+
+/* KTC dynasty values on the roster rows. */
+
+.plr .ktc {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.plr .ktc .v { font-size: 12.5px; font-weight: 700; color: var(--accent-soft); min-width: 38px; text-align: right; }
+.plr .ktc .rk { font-size: 10px; color: var(--dim); min-width: 62px; text-align: right; }
+.plr .ktc.none { color: var(--line); font-size: 12px; }
+
+.roster > header .tot { text-align: right; }
+.roster > header .val {
+  display: block;
+  font-size: 15px;
+  font-weight: 750;
+  color: var(--accent-soft);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 420px) {
+  .plr .ktc .pr { display: none; }
+}
