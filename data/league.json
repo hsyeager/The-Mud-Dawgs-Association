@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T23:06:25.767Z",
+  "generatedAt": "2026-09-09T19:42:44.490Z",
   "leagueName": "The Mud Dawgs Association",
   "currentLeagueId": "1334759252635447296",
   "firstSeason": "2023",
@@ -804,7 +804,7 @@
       ],
       "placements": [],
       "championOwnerId": null,
-      "tradeCount": 4
+      "tradeCount": 5
     }
   ],
   "franchises": [
@@ -845,7 +845,7 @@
         "pointsFor": 6189.66,
         "pointsAgainst": 5121.1,
         "titles": 0,
-        "trades": 24,
+        "trades": 25,
         "seasons": 4
       }
     },
@@ -1295,7 +1295,7 @@
         "pointsFor": 4616.98,
         "pointsAgainst": 5378.9400000000005,
         "titles": 0,
-        "trades": 7,
+        "trades": 8,
         "seasons": 4
       }
     },
@@ -1346,6 +1346,70 @@
     }
   ],
   "trades": [
+    {
+      "id": "1400118221998153728",
+      "season": "2026",
+      "week": 1,
+      "created": 1788176706365,
+      "sides": [
+        {
+          "rosterId": 3,
+          "ownerId": "737802381139513344",
+          "playersIn": [
+            "7611"
+          ],
+          "playersOut": [
+            "12485"
+          ],
+          "picksIn": [
+            {
+              "season": "2028",
+              "round": 4,
+              "originalOwnerId": "736443173223686144",
+              "originalRosterId": 7
+            }
+          ],
+          "picksOut": [
+            {
+              "season": "2027",
+              "round": 2,
+              "originalOwnerId": "737802381139513344",
+              "originalRosterId": 3
+            }
+          ],
+          "faabIn": 0,
+          "faabOut": 0
+        },
+        {
+          "rosterId": 7,
+          "ownerId": "736443173223686144",
+          "playersIn": [
+            "12485"
+          ],
+          "playersOut": [
+            "7611"
+          ],
+          "picksIn": [
+            {
+              "season": "2027",
+              "round": 2,
+              "originalOwnerId": "737802381139513344",
+              "originalRosterId": 3
+            }
+          ],
+          "picksOut": [
+            {
+              "season": "2028",
+              "round": 4,
+              "originalOwnerId": "736443173223686144",
+              "originalRosterId": 7
+            }
+          ],
+          "faabIn": 0,
+          "faabOut": 0
+        }
+      ]
+    },
     {
       "id": "1362303661824286720",
       "season": "2026",
@@ -10098,120 +10162,120 @@
         {
           "ownerId": "737802381139513344",
           "currentWins": 0,
-          "projectedWins": 11.6199,
-          "playoffOdds": 0.9994,
-          "firstSeedOdds": 0.8422,
-          "averageSeed": 1.2314,
+          "projectedWins": 11.6602,
+          "playoffOdds": 0.9989,
+          "firstSeedOdds": 0.8388,
+          "averageSeed": 1.2357,
           "mean": 150.31673469387755,
           "stdev": 22.09627370817884
         },
         {
-          "ownerId": "738438097477447680",
-          "currentWins": 0,
-          "projectedWins": 8.5468,
-          "playoffOdds": 0.8627,
-          "firstSeedOdds": 0.047,
-          "averageSeed": 4.0148,
-          "mean": 128.79224489795916,
-          "stdev": 20.627686097474673
-        },
-        {
           "ownerId": "732737495225192448",
           "currentWins": 0,
-          "projectedWins": 8.4154,
-          "playoffOdds": 0.8476,
-          "firstSeedOdds": 0.0506,
-          "averageSeed": 4.0827,
+          "projectedWins": 8.5924,
+          "playoffOdds": 0.869,
+          "firstSeedOdds": 0.0555,
+          "averageSeed": 3.9278,
           "mean": 131.11897959183676,
           "stdev": 27.120606274068574
         },
         {
+          "ownerId": "738438097477447680",
+          "currentWins": 0,
+          "projectedWins": 8.5507,
+          "playoffOdds": 0.8623,
+          "firstSeedOdds": 0.0428,
+          "averageSeed": 4.0427,
+          "mean": 128.79224489795916,
+          "stdev": 20.627686097474673
+        },
+        {
           "ownerId": "609095186970124288",
           "currentWins": 0,
-          "projectedWins": 7.8696,
-          "playoffOdds": 0.7587,
-          "firstSeedOdds": 0.026,
-          "averageSeed": 4.8561,
+          "projectedWins": 8.145,
+          "playoffOdds": 0.8038,
+          "firstSeedOdds": 0.0323,
+          "averageSeed": 4.5799,
           "mean": 127.29061224489797,
           "stdev": 21.488110087565996
         },
         {
           "ownerId": "737756317862805504",
           "currentWins": 0,
-          "projectedWins": 7.4503,
-          "playoffOdds": 0.6727,
-          "firstSeedOdds": 0.0159,
-          "averageSeed": 5.4941,
+          "projectedWins": 7.3973,
+          "playoffOdds": 0.662,
+          "firstSeedOdds": 0.014,
+          "averageSeed": 5.5701,
           "mean": 125.22428571428574,
           "stdev": 23.944126671081747
         },
         {
           "ownerId": "992196085282050048",
           "currentWins": 0,
-          "projectedWins": 6.5911,
-          "playoffOdds": 0.4518,
-          "firstSeedOdds": 0.0066,
-          "averageSeed": 6.9207,
+          "projectedWins": 6.8494,
+          "playoffOdds": 0.5018,
+          "firstSeedOdds": 0.0087,
+          "averageSeed": 6.5946,
           "mean": 120.08020408163264,
           "stdev": 26.662608457431016
         },
         {
           "ownerId": "740274063263600640",
           "currentWins": 0,
-          "projectedWins": 6.5835,
-          "playoffOdds": 0.44,
-          "firstSeedOdds": 0.0056,
-          "averageSeed": 7.026,
+          "projectedWins": 6.1114,
+          "playoffOdds": 0.3463,
+          "firstSeedOdds": 0.0028,
+          "averageSeed": 7.5946,
           "mean": 118.39448979591839,
           "stdev": 23.139092953244187
         },
         {
           "ownerId": "738618627477114880",
           "currentWins": 0,
-          "projectedWins": 5.8898,
-          "playoffOdds": 0.2908,
-          "firstSeedOdds": 0.0021,
-          "averageSeed": 8.0354,
+          "projectedWins": 6.0068,
+          "playoffOdds": 0.3122,
+          "firstSeedOdds": 0.0018,
+          "averageSeed": 7.8632,
           "mean": 116.45653061224493,
           "stdev": 26.021859731420243
         },
         {
           "ownerId": "720717781959516160",
           "currentWins": 0,
-          "projectedWins": 5.7127,
-          "playoffOdds": 0.2425,
-          "firstSeedOdds": 0.0019,
-          "averageSeed": 8.3476,
+          "projectedWins": 5.6293,
+          "playoffOdds": 0.2298,
+          "firstSeedOdds": 0.0016,
+          "averageSeed": 8.4232,
           "mean": 115.03938775510204,
           "stdev": 22.81115757319732
         },
         {
           "ownerId": "740291920076664832",
           "currentWins": 0,
-          "projectedWins": 5.6592,
-          "playoffOdds": 0.2251,
-          "firstSeedOdds": 0.0013,
-          "averageSeed": 8.5335,
+          "projectedWins": 5.6668,
+          "playoffOdds": 0.2286,
+          "firstSeedOdds": 0.0009,
+          "averageSeed": 8.4892,
           "mean": 113.26061224489797,
           "stdev": 23.37190070324399
         },
         {
           "ownerId": "736446609587642368",
           "currentWins": 0,
-          "projectedWins": 4.9643,
-          "playoffOdds": 0.1205,
-          "firstSeedOdds": 0.0005,
-          "averageSeed": 9.4901,
+          "projectedWins": 4.7943,
+          "playoffOdds": 0.1036,
+          "firstSeedOdds": 0.0004,
+          "averageSeed": 9.6417,
           "mean": 111.04775510204082,
           "stdev": 21.110474551197555
         },
         {
           "ownerId": "736443173223686144",
           "currentWins": 0,
-          "projectedWins": 4.6974,
-          "playoffOdds": 0.0882,
-          "firstSeedOdds": 0.0003,
-          "averageSeed": 9.9676,
+          "projectedWins": 4.5964,
+          "playoffOdds": 0.0817,
+          "firstSeedOdds": 0.0004,
+          "averageSeed": 10.0373,
           "mean": 105.70836734693877,
           "stdev": 29.99051168639833
         }
