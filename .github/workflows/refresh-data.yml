@@ -40,6 +40,8 @@ jobs:
       proceed: ${{ steps.check.outputs.proceed }}
     steps:
       - id: check
+        env:
+          TRIGGERED_BY: ${{ github.event.schedule }}
         run: |
           if [ "${{ github.event_name }}" != "schedule" ]; then
             echo "Manual run -- proceeding."
@@ -47,12 +49,26 @@ jobs:
             exit 0
           fi
 
-          hour=$(TZ=America/Chicago date +%H)
-          if [ "$hour" = "06" ]; then
-            echo "It is ${hour}:00 in Chicago -- proceeding."
+          # Pick the winning cron from WHICH SCHEDULE FIRED, never from the clock
+          # at run time. GitHub routinely starts scheduled jobs late -- delays of
+          # several hours happen under load -- so "is it 06:00 in Chicago right
+          # now" is not a question the runner can answer correctly. It said 09:00
+          # and 11:00 on successive weeks and skipped both, refreshing nothing.
+          offset=$(TZ=America/Chicago date +%z)
+          if [ "$offset" = "-0500" ]; then
+            want="0 11 * * 3" # CDT: 11:00 UTC is 06:00 Chicago
+          else
+            want="0 12 * * 3" # CST: 12:00 UTC is 06:00 Chicago
+          fi
+
+          echo "Chicago is at UTC${offset}; the 06:00 trigger is '${want}'."
+          echo "This run was started by '${TRIGGERED_BY}'."
+
+          if [ "$TRIGGERED_BY" = "$want" ]; then
+            echo "Matches -- proceeding."
             echo "proceed=true" >> "$GITHUB_OUTPUT"
           else
-            echo "It is ${hour}:00 in Chicago, not 06 -- this is the off-season-DST trigger. Skipping."
+            echo "Other trigger for the current DST regime -- skipping."
             echo "proceed=false" >> "$GITHUB_OUTPUT"
           fi
 
