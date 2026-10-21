@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T15:37:48.371Z",
+  "generatedAt": "2026-10-21T15:44:53.425Z",
   "leagueName": "The Mud Dawgs Association",
   "currentLeagueId": "1334759252635447296",
   "firstSeason": "2023",
@@ -658,14 +658,38 @@
       "playoffTeams": 6,
       "standings": [
         {
+          "rosterId": 12,
+          "ownerId": "740274063263600640",
+          "teamName": "nalyd33",
+          "wins": 5,
+          "losses": 1,
+          "ties": 0,
+          "pointsFor": 906.04,
+          "pointsAgainst": 775.58,
+          "moves": 0,
+          "waiverBudgetUsed": 32
+        },
+        {
+          "rosterId": 1,
+          "ownerId": "732737495225192448",
+          "teamName": "Tate’s Bookies",
+          "wins": 5,
+          "losses": 1,
+          "ties": 0,
+          "pointsFor": 801.06,
+          "pointsAgainst": 721.58,
+          "moves": 0,
+          "waiverBudgetUsed": 13
+        },
+        {
           "rosterId": 4,
           "ownerId": "737756317862805504",
           "teamName": "StribClub Boutte Clappers",
           "wins": 4,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
-          "pointsFor": 789.9,
-          "pointsAgainst": 614.68,
+          "pointsFor": 908.7,
+          "pointsAgainst": 740.84,
           "moves": 0,
           "waiverBudgetUsed": 100
         },
@@ -674,70 +698,34 @@
           "ownerId": "737802381139513344",
           "teamName": "Dane County Demons",
           "wins": 4,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
-          "pointsFor": 770.1,
-          "pointsAgainst": 655.46,
+          "pointsFor": 904.94,
+          "pointsAgainst": 797.96,
           "moves": 0,
           "waiverBudgetUsed": 23
-        },
-        {
-          "rosterId": 12,
-          "ownerId": "740274063263600640",
-          "teamName": "nalyd33",
-          "wins": 4,
-          "losses": 1,
-          "ties": 0,
-          "pointsFor": 763.54,
-          "pointsAgainst": 640.74,
-          "moves": 0,
-          "waiverBudgetUsed": 32
-        },
-        {
-          "rosterId": 1,
-          "ownerId": "732737495225192448",
-          "teamName": "Tate’s Bookies",
-          "wins": 4,
-          "losses": 1,
-          "ties": 0,
-          "pointsFor": 677.76,
-          "pointsAgainst": 624.32,
-          "moves": 0,
-          "waiverBudgetUsed": 10
         },
         {
           "rosterId": 8,
           "ownerId": "720717781959516160",
           "teamName": "Shit ass Football Team",
           "wins": 4,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
-          "pointsFor": 655.6,
-          "pointsAgainst": 554.6,
+          "pointsFor": 757.96,
+          "pointsAgainst": 673.62,
           "moves": 0,
           "waiverBudgetUsed": 18
-        },
-        {
-          "rosterId": 2,
-          "ownerId": "736446609587642368",
-          "teamName": "Han Dynasty",
-          "wins": 2,
-          "losses": 3,
-          "ties": 0,
-          "pointsFor": 664.52,
-          "pointsAgainst": 747.08,
-          "moves": 0,
-          "waiverBudgetUsed": 24
         },
         {
           "rosterId": 5,
           "ownerId": "738438097477447680",
           "teamName": "She Dobbin on my Chubb",
-          "wins": 2,
+          "wins": 3,
           "losses": 3,
           "ties": 0,
-          "pointsFor": 589.84,
-          "pointsAgainst": 612.56,
+          "pointsFor": 719.06,
+          "pointsAgainst": 720.7,
           "moves": 0,
           "waiverBudgetUsed": 0
         },
@@ -745,59 +733,71 @@
           "rosterId": 7,
           "ownerId": "736443173223686144",
           "teamName": "Stringer Bell’s Ballers",
-          "wins": 2,
+          "wins": 3,
           "losses": 3,
           "ties": 0,
-          "pointsFor": 586.64,
-          "pointsAgainst": 609.72,
+          "pointsFor": 686.96,
+          "pointsAgainst": 703.08,
           "moves": 0,
           "waiverBudgetUsed": 15
+        },
+        {
+          "rosterId": 2,
+          "ownerId": "736446609587642368",
+          "teamName": "Han Dynasty",
+          "wins": 2,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 761.78,
+          "pointsAgainst": 870.38,
+          "moves": 0,
+          "waiverBudgetUsed": 24
         },
         {
           "rosterId": 10,
           "ownerId": "992196085282050048",
           "teamName": "Herberts and Spices",
-          "wins": 1,
+          "wins": 2,
           "losses": 4,
           "ties": 0,
-          "pointsFor": 616.56,
-          "pointsAgainst": 680.8,
+          "pointsFor": 742.72,
+          "pointsAgainst": 799.6,
           "moves": 0,
           "waiverBudgetUsed": 57
+        },
+        {
+          "rosterId": 9,
+          "ownerId": "740291920076664832",
+          "teamName": "Young Rich Njigba’s",
+          "wins": 2,
+          "losses": 4,
+          "ties": 0,
+          "pointsFor": 633.54,
+          "pointsAgainst": 693.04,
+          "moves": 0,
+          "waiverBudgetUsed": 30
         },
         {
           "rosterId": 11,
           "ownerId": "609095186970124288",
           "teamName": "The KING Shadonkeys",
           "wins": 1,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "pointsFor": 571.94,
-          "pointsAgainst": 739.32,
+          "pointsFor": 680.08,
+          "pointsAgainst": 868.54,
           "moves": 0,
           "waiverBudgetUsed": 0
-        },
-        {
-          "rosterId": 9,
-          "ownerId": "740291920076664832",
-          "teamName": "Young Rich Njigba’s",
-          "wins": 1,
-          "losses": 4,
-          "ties": 0,
-          "pointsFor": 514.52,
-          "pointsAgainst": 590.68,
-          "moves": 0,
-          "waiverBudgetUsed": 30
         },
         {
           "rosterId": 6,
           "ownerId": "738618627477114880",
           "teamName": "Club Chi(PZ)",
           "wins": 1,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "pointsFor": 496.46,
-          "pointsAgainst": 627.42,
+          "pointsFor": 589.82,
+          "pointsAgainst": 727.74,
           "moves": 0,
           "waiverBudgetUsed": 100
         }
@@ -840,10 +840,10 @@
       ],
       "career": {
         "wins": 36,
-        "losses": 11,
+        "losses": 12,
         "ties": 0,
-        "pointsFor": 6959.76,
-        "pointsAgainst": 5776.56,
+        "pointsFor": 7094.6,
+        "pointsAgainst": 5919.06,
         "titles": 0,
         "trades": 25,
         "seasons": 4
@@ -880,11 +880,11 @@
         }
       ],
       "career": {
-        "wins": 31,
+        "wins": 32,
         "losses": 16,
         "ties": 0,
-        "pointsFor": 6109.52,
-        "pointsAgainst": 5602.880000000001,
+        "pointsFor": 6238.74,
+        "pointsAgainst": 5711.02,
         "titles": 1,
         "trades": 4,
         "seasons": 4
@@ -930,10 +930,10 @@
       ],
       "career": {
         "wins": 31,
-        "losses": 16,
+        "losses": 17,
         "ties": 0,
-        "pointsFor": 6089.22,
-        "pointsAgainst": 5737.360000000001,
+        "pointsFor": 6208.02,
+        "pointsAgainst": 5863.52,
         "titles": 2,
         "trades": 17,
         "seasons": 4
@@ -982,11 +982,11 @@
         }
       ],
       "career": {
-        "wins": 25,
+        "wins": 26,
         "losses": 22,
         "ties": 0,
-        "pointsFor": 6040.56,
-        "pointsAgainst": 5748.72,
+        "pointsFor": 6163.860000000001,
+        "pointsAgainst": 5845.9800000000005,
         "titles": 0,
         "trades": 15,
         "seasons": 4
@@ -1024,10 +1024,10 @@
       ],
       "career": {
         "wins": 24,
-        "losses": 23,
+        "losses": 24,
         "ties": 0,
-        "pointsFor": 5731.52,
-        "pointsAgainst": 5776.02,
+        "pointsFor": 5824.88,
+        "pointsAgainst": 5876.34,
         "titles": 0,
         "trades": 16,
         "seasons": 4
@@ -1068,11 +1068,11 @@
         }
       ],
       "career": {
-        "wins": 23,
+        "wins": 24,
         "losses": 24,
         "ties": 0,
-        "pointsFor": 5135.620000000001,
-        "pointsAgainst": 5581.280000000001,
+        "pointsFor": 5254.64,
+        "pointsAgainst": 5683.64,
         "titles": 0,
         "trades": 11,
         "seasons": 4
@@ -1113,11 +1113,52 @@
         }
       ],
       "career": {
-        "wins": 21,
+        "wins": 22,
         "losses": 26,
         "ties": 0,
-        "pointsFor": 5904.98,
-        "pointsAgainst": 5798.34,
+        "pointsFor": 6031.14,
+        "pointsAgainst": 5917.14,
+        "titles": 0,
+        "trades": 5,
+        "seasons": 4
+      }
+    },
+    {
+      "ownerId": "740274063263600640",
+      "displayName": "nalyd33",
+      "teamName": "nalyd33",
+      "avatar": null,
+      "sleeperAvatar": "e7af4deab0289b4f5505646424895246",
+      "teamNames": [
+        {
+          "name": "nalyd33",
+          "season": "2023"
+        }
+      ],
+      "seasons": [
+        {
+          "season": "2023",
+          "rosterId": 12
+        },
+        {
+          "season": "2024",
+          "rosterId": 12
+        },
+        {
+          "season": "2025",
+          "rosterId": 12
+        },
+        {
+          "season": "2026",
+          "rosterId": 12
+        }
+      ],
+      "career": {
+        "wins": 22,
+        "losses": 26,
+        "ties": 0,
+        "pointsFor": 5955.54,
+        "pointsAgainst": 6022.94,
         "titles": 0,
         "trades": 5,
         "seasons": 4
@@ -1167,51 +1208,10 @@
       ],
       "career": {
         "wins": 21,
-        "losses": 26,
+        "losses": 27,
         "ties": 0,
-        "pointsFor": 5897.26,
-        "pointsAgainst": 5993.66,
-        "titles": 0,
-        "trades": 5,
-        "seasons": 4
-      }
-    },
-    {
-      "ownerId": "740274063263600640",
-      "displayName": "nalyd33",
-      "teamName": "nalyd33",
-      "avatar": null,
-      "sleeperAvatar": "e7af4deab0289b4f5505646424895246",
-      "teamNames": [
-        {
-          "name": "nalyd33",
-          "season": "2023"
-        }
-      ],
-      "seasons": [
-        {
-          "season": "2023",
-          "rosterId": 12
-        },
-        {
-          "season": "2024",
-          "rosterId": 12
-        },
-        {
-          "season": "2025",
-          "rosterId": 12
-        },
-        {
-          "season": "2026",
-          "rosterId": 12
-        }
-      ],
-      "career": {
-        "wins": 21,
-        "losses": 26,
-        "ties": 0,
-        "pointsFor": 5813.04,
-        "pointsAgainst": 5888.099999999999,
+        "pointsFor": 6005.4,
+        "pointsAgainst": 6122.88,
         "titles": 0,
         "trades": 5,
         "seasons": 4
@@ -1249,12 +1249,53 @@
       ],
       "career": {
         "wins": 19,
-        "losses": 28,
+        "losses": 29,
         "ties": 0,
-        "pointsFor": 5412.0599999999995,
-        "pointsAgainst": 5936.78,
+        "pointsFor": 5509.32,
+        "pointsAgainst": 6060.08,
         "titles": 0,
         "trades": 4,
+        "seasons": 4
+      }
+    },
+    {
+      "ownerId": "736443173223686144",
+      "displayName": "robindu",
+      "teamName": "Stringer Bell’s Ballers",
+      "avatar": null,
+      "sleeperAvatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
+      "teamNames": [
+        {
+          "name": "Stringer Bell’s Ballers",
+          "season": "2023"
+        }
+      ],
+      "seasons": [
+        {
+          "season": "2023",
+          "rosterId": 7
+        },
+        {
+          "season": "2024",
+          "rosterId": 7
+        },
+        {
+          "season": "2025",
+          "rosterId": 7
+        },
+        {
+          "season": "2026",
+          "rosterId": 7
+        }
+      ],
+      "career": {
+        "wins": 16,
+        "losses": 32,
+        "ties": 0,
+        "pointsFor": 5303.94,
+        "pointsAgainst": 6082.02,
+        "titles": 0,
+        "trades": 8,
         "seasons": 4
       }
     },
@@ -1294,53 +1335,12 @@
       ],
       "career": {
         "wins": 15,
-        "losses": 32,
+        "losses": 33,
         "ties": 0,
-        "pointsFor": 5392.84,
-        "pointsAgainst": 5861.64,
+        "pointsFor": 5495.2,
+        "pointsAgainst": 5980.66,
         "titles": 0,
         "trades": 20,
-        "seasons": 4
-      }
-    },
-    {
-      "ownerId": "736443173223686144",
-      "displayName": "robindu",
-      "teamName": "Stringer Bell’s Ballers",
-      "avatar": null,
-      "sleeperAvatar": "b319fdf8b7b5b0359d3c78622ba4d70c",
-      "teamNames": [
-        {
-          "name": "Stringer Bell’s Ballers",
-          "season": "2023"
-        }
-      ],
-      "seasons": [
-        {
-          "season": "2023",
-          "rosterId": 7
-        },
-        {
-          "season": "2024",
-          "rosterId": 7
-        },
-        {
-          "season": "2025",
-          "rosterId": 7
-        },
-        {
-          "season": "2026",
-          "rosterId": 7
-        }
-      ],
-      "career": {
-        "wins": 15,
-        "losses": 32,
-        "ties": 0,
-        "pointsFor": 5203.62,
-        "pointsAgainst": 5988.660000000001,
-        "titles": 0,
-        "trades": 8,
         "seasons": 4
       }
     }
@@ -11419,15 +11419,19 @@
           "starters": [
             {
               "slot": "QB",
-              "playerId": "4984"
+              "playerId": "11560"
+            },
+            {
+              "slot": "RB",
+              "playerId": "9224"
             },
             {
               "slot": "RB",
               "playerId": "12474"
             },
             {
-              "slot": "RB",
-              "playerId": "11439"
+              "slot": "WR",
+              "playerId": "8112"
             },
             {
               "slot": "WR",
@@ -11438,16 +11442,12 @@
               "playerId": "10229"
             },
             {
-              "slot": "WR",
-              "playerId": "7526"
-            },
-            {
               "slot": "TE",
               "playerId": "8130"
             },
             {
               "slot": "FLEX",
-              "playerId": "8112"
+              "playerId": "7525"
             },
             {
               "slot": "SUPER_FLEX",
@@ -11455,18 +11455,18 @@
             }
           ],
           "bench": [
-            "11560",
+            "11557",
             "11603",
             "11624",
             "11628",
             "11635",
             "11655",
-            "3161",
+            "12510",
+            "4984",
             "5844",
             "5892",
-            "7525",
+            "7526",
             "8148",
-            "9224",
             "9479"
           ],
           "taxi": [
@@ -11491,11 +11491,11 @@
             },
             {
               "slot": "RB",
-              "playerId": "4199"
+              "playerId": "7588"
             },
             {
               "slot": "RB",
-              "playerId": "7588"
+              "playerId": "4199"
             },
             {
               "slot": "WR",
@@ -11503,37 +11503,37 @@
             },
             {
               "slot": "WR",
-              "playerId": "5872"
-            },
-            {
-              "slot": "WR",
               "playerId": "9501"
             },
             {
+              "slot": "WR",
+              "playerId": "4039"
+            },
+            {
               "slot": "TE",
-              "playerId": "7002"
+              "playerId": "1466"
             },
             {
               "slot": "FLEX",
-              "playerId": "12504"
+              "playerId": "7002"
             },
             {
               "slot": "SUPER_FLEX",
-              "playerId": "11566"
+              "playerId": "11625"
             }
           ],
           "bench": [
             "11256",
+            "11566",
             "11571",
-            "11625",
             "12502",
-            "1466",
+            "12504",
             "1737",
-            "4039",
+            "2197",
             "4177",
+            "5872",
             "5995",
             "6039",
-            "6271",
             "7527",
             "8127"
           ],
@@ -11555,7 +11555,7 @@
           "starters": [
             {
               "slot": "QB",
-              "playerId": "6904"
+              "playerId": "12545"
             },
             {
               "slot": "RB",
@@ -11563,7 +11563,7 @@
             },
             {
               "slot": "RB",
-              "playerId": "7611"
+              "playerId": "7594"
             },
             {
               "slot": "WR",
@@ -11571,11 +11571,11 @@
             },
             {
               "slot": "WR",
-              "playerId": "2133"
+              "playerId": "13298"
             },
             {
               "slot": "WR",
-              "playerId": "5927"
+              "playerId": "13285"
             },
             {
               "slot": "TE",
@@ -11596,12 +11596,14 @@
             "12467",
             "12493",
             "12499",
-            "12545",
-            "13285",
-            "13298",
+            "12718",
+            "2449",
+            "5927",
             "7021",
-            "7594",
-            "8154"
+            "7611",
+            "8135",
+            "8154",
+            "8180"
           ],
           "taxi": [
             "13293",
@@ -11611,10 +11613,10 @@
           ],
           "reserve": [
             "11577",
-            "2449",
-            "8180"
+            "2133",
+            "6904"
           ],
-          "total": 27
+          "total": 29
         },
         {
           "rosterId": 4,
@@ -11638,7 +11640,7 @@
             },
             {
               "slot": "WR",
-              "playerId": "6801"
+              "playerId": "11783"
             },
             {
               "slot": "WR",
@@ -11650,7 +11652,7 @@
             },
             {
               "slot": "FLEX",
-              "playerId": "12529"
+              "playerId": "8131"
             },
             {
               "slot": "SUPER_FLEX",
@@ -11661,14 +11663,14 @@
             "11581",
             "11626",
             "11630",
-            "11783",
+            "12529",
             "12536",
             "13333",
             "5870",
             "6130",
+            "6801",
             "6803",
             "7049",
-            "8131",
             "8172",
             "9508"
           ],
@@ -11695,7 +11697,7 @@
             },
             {
               "slot": "RB",
-              "playerId": "8138"
+              "playerId": "4866"
             },
             {
               "slot": "RB",
@@ -11707,7 +11709,7 @@
             },
             {
               "slot": "WR",
-              "playerId": "5947"
+              "playerId": "5859"
             },
             {
               "slot": "WR",
@@ -11715,11 +11717,11 @@
             },
             {
               "slot": "TE",
-              "playerId": "12517"
+              "playerId": "10859"
             },
             {
               "slot": "FLEX",
-              "playerId": "10213"
+              "playerId": "6806"
             },
             {
               "slot": "SUPER_FLEX",
@@ -11727,19 +11729,19 @@
             }
           ],
           "bench": [
-            "10859",
+            "10213",
             "11643",
-            "12483",
+            "12482",
+            "12517",
             "13424",
-            "3634",
-            "3976",
             "4147",
-            "4866",
-            "4892",
             "5012",
-            "6806",
+            "5947",
+            "7083",
             "7571",
-            "8210"
+            "8138",
+            "8210",
+            "9230"
           ],
           "taxi": [
             "13276",
@@ -11748,9 +11750,9 @@
             "13405"
           ],
           "reserve": [
-            "12482",
+            "12483",
             "12484",
-            "5859"
+            "4892"
           ],
           "total": 29
         },
@@ -11760,7 +11762,7 @@
           "starters": [
             {
               "slot": "QB",
-              "playerId": "7523"
+              "playerId": "3163"
             },
             {
               "slot": "RB",
@@ -11772,7 +11774,7 @@
             },
             {
               "slot": "WR",
-              "playerId": "4983"
+              "playerId": "9486"
             },
             {
               "slot": "WR",
@@ -11798,16 +11800,16 @@
           "bench": [
             "10218",
             "11370",
-            "11582",
             "11600",
             "12521",
             "12547",
             "13301",
             "2505",
-            "3163",
             "3321",
             "4066",
-            "9486",
+            "4983",
+            "7523",
+            "7561",
             "9754"
           ],
           "taxi": [
@@ -11833,7 +11835,7 @@
             },
             {
               "slot": "RB",
-              "playerId": "12507"
+              "playerId": "8132"
             },
             {
               "slot": "RB",
@@ -11867,14 +11869,14 @@
           "bench": [
             "11565",
             "11627",
-            "12048",
             "12485",
+            "12491",
+            "12507",
             "12533",
             "12535",
+            "12541",
             "5854",
-            "6819",
             "7591",
-            "8132",
             "8161",
             "8676",
             "9511"
@@ -11888,7 +11890,7 @@
           "reserve": [
             "11583",
             "11638",
-            "12541"
+            "6819"
           ],
           "total": 29
         },
@@ -11906,11 +11908,7 @@
             },
             {
               "slot": "RB",
-              "playerId": "13287"
-            },
-            {
-              "slot": "WR",
-              "playerId": "7564"
+              "playerId": "12495"
             },
             {
               "slot": "WR",
@@ -11918,35 +11916,39 @@
             },
             {
               "slot": "WR",
+              "playerId": "7564"
+            },
+            {
+              "slot": "WR",
               "playerId": "7569"
             },
             {
               "slot": "TE",
-              "playerId": "10236"
+              "playerId": "5001"
             },
             {
               "slot": "FLEX",
-              "playerId": "10232"
+              "playerId": "11646"
             },
             {
               "slot": "SUPER_FLEX",
-              "playerId": "11563"
+              "playerId": "9758"
             }
           ],
           "bench": [
-            "11646",
-            "12495",
+            "10232",
+            "10236",
+            "11563",
             "12498",
             "12509",
             "12542",
+            "13287",
             "13394",
             "19",
-            "5001",
             "7528",
             "9504",
             "9506",
-            "9757",
-            "9758"
+            "9757"
           ],
           "taxi": [
             "13272",
@@ -11987,35 +11989,35 @@
             },
             {
               "slot": "WR",
-              "playerId": "1479"
+              "playerId": "9756"
             },
             {
               "slot": "TE",
-              "playerId": "13330"
-            },
-            {
-              "slot": "FLEX",
               "playerId": "3214"
             },
             {
+              "slot": "FLEX",
+              "playerId": "13274"
+            },
+            {
               "slot": "SUPER_FLEX",
-              "playerId": "9482"
+              "playerId": "9228"
             }
           ],
           "bench": [
             "10219",
+            "10235",
             "11575",
             "12472",
             "12530",
-            "13274",
+            "13330",
+            "1479",
             "3271",
+            "3976",
             "6828",
             "8111",
             "8160",
-            "8168",
-            "9228",
-            "9229",
-            "9756"
+            "9482"
           ],
           "taxi": [
             "13302",
@@ -12036,7 +12038,7 @@
           "starters": [
             {
               "slot": "QB",
-              "playerId": "6797"
+              "playerId": "6768"
             },
             {
               "slot": "RB",
@@ -12044,11 +12046,11 @@
             },
             {
               "slot": "RB",
-              "playerId": "12512"
+              "playerId": "8129"
             },
             {
               "slot": "WR",
-              "playerId": "11631"
+              "playerId": "7547"
             },
             {
               "slot": "WR",
@@ -12056,7 +12058,7 @@
             },
             {
               "slot": "WR",
-              "playerId": "9487"
+              "playerId": "11610"
             },
             {
               "slot": "TE",
@@ -12064,27 +12066,27 @@
             },
             {
               "slot": "FLEX",
-              "playerId": "8151"
+              "playerId": "5022"
             },
             {
               "slot": "SUPER_FLEX",
-              "playerId": "5022"
+              "playerId": "8151"
             }
           ],
           "bench": [
             "11562",
-            "11610",
+            "11631",
             "11647",
             "12497",
             "12500",
+            "12512",
             "12534",
             "2307",
             "4035",
-            "6768",
+            "6797",
             "6931",
-            "7547",
-            "8129",
-            "8136"
+            "8136",
+            "9487"
           ],
           "taxi": [
             "13289",
@@ -12109,7 +12111,7 @@
             },
             {
               "slot": "RB",
-              "playerId": "4663"
+              "playerId": "8116"
             },
             {
               "slot": "RB",
@@ -12125,7 +12127,7 @@
             },
             {
               "slot": "WR",
-              "playerId": "8121"
+              "playerId": "4037"
             },
             {
               "slot": "TE",
@@ -12133,7 +12135,7 @@
             },
             {
               "slot": "FLEX",
-              "playerId": "4037"
+              "playerId": "5850"
             },
             {
               "slot": "SUPER_FLEX",
@@ -12148,9 +12150,10 @@
             "13338",
             "13345",
             "1373",
+            "4663",
             "4981",
             "5045",
-            "5850"
+            "7039"
           ],
           "taxi": [
             "13303",
@@ -12158,10 +12161,11 @@
             "13726"
           ],
           "reserve": [
+            "8121",
             "8125",
             "8698"
           ],
-          "total": 24
+          "total": 26
         },
         {
           "rosterId": 12,
@@ -12173,7 +12177,7 @@
             },
             {
               "slot": "RB",
-              "playerId": "8155"
+              "playerId": "9221"
             },
             {
               "slot": "RB",
@@ -12197,7 +12201,7 @@
             },
             {
               "slot": "FLEX",
-              "playerId": "2216"
+              "playerId": "8155"
             },
             {
               "slot": "SUPER_FLEX",
@@ -12209,13 +12213,13 @@
             "11729",
             "13264",
             "13288",
+            "2216",
             "4993",
             "5849",
             "6783",
-            "7083",
             "7553",
+            "8122",
             "8134",
-            "9221",
             "9480",
             "9500"
           ],
@@ -12236,135 +12240,135 @@
     "allPlay": [
       {
         "ownerId": "732737495225192448",
-        "actualWins": 25,
+        "actualWins": 26,
         "actualLosses": 22,
-        "allPlayWins": 275,
-        "allPlayGames": 517,
-        "actualPct": 0.5319148936170213,
-        "allPlayPct": 0.5319148936170213,
-        "luck": 0,
-        "luckWins": 0
+        "allPlayWins": 282,
+        "allPlayGames": 528,
+        "actualPct": 0.5416666666666666,
+        "allPlayPct": 0.5340909090909091,
+        "luck": 0.007575757575757569,
+        "luckWins": 0.3636363636363633
       },
       {
         "ownerId": "992196085282050048",
-        "actualWins": 21,
+        "actualWins": 22,
         "actualLosses": 26,
-        "allPlayWins": 264,
-        "allPlayGames": 517,
-        "actualPct": 0.44680851063829785,
-        "allPlayPct": 0.5106382978723404,
-        "luck": -0.06382978723404253,
-        "luckWins": -2.999999999999999
+        "allPlayWins": 272,
+        "allPlayGames": 528,
+        "actualPct": 0.4583333333333333,
+        "allPlayPct": 0.5151515151515151,
+        "luck": -0.05681818181818182,
+        "luckWins": -2.7272727272727275
       },
       {
         "ownerId": "736446609587642368",
         "actualWins": 19,
-        "actualLosses": 28,
-        "allPlayWins": 200,
-        "allPlayGames": 517,
-        "actualPct": 0.40425531914893614,
-        "allPlayPct": 0.38684719535783363,
-        "luck": 0.017408123791102514,
-        "luckWins": 0.8181818181818181
+        "actualLosses": 29,
+        "allPlayWins": 201,
+        "allPlayGames": 528,
+        "actualPct": 0.3958333333333333,
+        "allPlayPct": 0.3806818181818182,
+        "luck": 0.015151515151515138,
+        "luckWins": 0.7272727272727266
       },
       {
         "ownerId": "740274063263600640",
-        "actualWins": 21,
+        "actualWins": 22,
         "actualLosses": 26,
-        "allPlayWins": 242,
-        "allPlayGames": 517,
-        "actualPct": 0.44680851063829785,
-        "allPlayPct": 0.46808510638297873,
-        "luck": -0.021276595744680882,
-        "luckWins": -1.0000000000000013
+        "allPlayWins": 253,
+        "allPlayGames": 528,
+        "actualPct": 0.4583333333333333,
+        "allPlayPct": 0.4791666666666667,
+        "luck": -0.02083333333333337,
+        "luckWins": -1.0000000000000018
       },
       {
         "ownerId": "737802381139513344",
         "actualWins": 36,
-        "actualLosses": 11,
-        "allPlayWins": 407,
-        "allPlayGames": 517,
-        "actualPct": 0.7659574468085106,
-        "allPlayPct": 0.7872340425531915,
-        "luck": -0.021276595744680882,
-        "luckWins": -1.0000000000000013
+        "actualLosses": 12,
+        "allPlayWins": 417,
+        "allPlayGames": 528,
+        "actualPct": 0.75,
+        "allPlayPct": 0.7897727272727273,
+        "luck": -0.03977272727272729,
+        "luckWins": -1.90909090909091
       },
       {
         "ownerId": "737756317862805504",
         "actualWins": 31,
-        "actualLosses": 16,
-        "allPlayWins": 303,
-        "allPlayGames": 517,
-        "actualPct": 0.6595744680851063,
-        "allPlayPct": 0.586073500967118,
-        "luck": 0.07350096711798837,
-        "luckWins": 3.4545454545454533
+        "actualLosses": 17,
+        "allPlayWins": 308,
+        "allPlayGames": 528,
+        "actualPct": 0.6458333333333334,
+        "allPlayPct": 0.5833333333333334,
+        "luck": 0.0625,
+        "luckWins": 3
       },
       {
         "ownerId": "738438097477447680",
-        "actualWins": 31,
+        "actualWins": 32,
         "actualLosses": 16,
-        "allPlayWins": 298,
-        "allPlayGames": 517,
-        "actualPct": 0.6595744680851063,
-        "allPlayPct": 0.5764023210831721,
-        "luck": 0.0831721470019342,
-        "luckWins": 3.9090909090909074
+        "allPlayWins": 307,
+        "allPlayGames": 528,
+        "actualPct": 0.6666666666666666,
+        "allPlayPct": 0.5814393939393939,
+        "luck": 0.08522727272727271,
+        "luckWins": 4.09090909090909
       },
       {
         "ownerId": "609095186970124288",
         "actualWins": 21,
-        "actualLosses": 26,
-        "allPlayWins": 278,
-        "allPlayGames": 517,
-        "actualPct": 0.44680851063829785,
-        "allPlayPct": 0.5377176015473888,
-        "luck": -0.09090909090909094,
-        "luckWins": -4.272727272727274
+        "actualLosses": 27,
+        "allPlayWins": 282,
+        "allPlayGames": 528,
+        "actualPct": 0.4375,
+        "allPlayPct": 0.5340909090909091,
+        "luck": -0.09659090909090906,
+        "luckWins": -4.636363636363635
       },
       {
         "ownerId": "738618627477114880",
         "actualWins": 24,
-        "actualLosses": 23,
+        "actualLosses": 24,
         "allPlayWins": 244,
-        "allPlayGames": 517,
-        "actualPct": 0.5106382978723404,
-        "allPlayPct": 0.47195357833655704,
-        "luck": 0.03868471953578334,
-        "luckWins": 1.818181818181817
+        "allPlayGames": 528,
+        "actualPct": 0.5,
+        "allPlayPct": 0.4621212121212121,
+        "luck": 0.0378787878787879,
+        "luckWins": 1.8181818181818192
       },
       {
         "ownerId": "736443173223686144",
-        "actualWins": 15,
+        "actualWins": 16,
         "actualLosses": 32,
-        "allPlayWins": 200,
-        "allPlayGames": 517,
-        "actualPct": 0.3191489361702128,
-        "allPlayPct": 0.38684719535783363,
-        "luck": -0.06769825918762085,
-        "luckWins": -3.18181818181818
+        "allPlayWins": 202,
+        "allPlayGames": 528,
+        "actualPct": 0.3333333333333333,
+        "allPlayPct": 0.38257575757575757,
+        "luck": -0.049242424242424254,
+        "luckWins": -2.363636363636364
       },
       {
         "ownerId": "720717781959516160",
         "actualWins": 15,
-        "actualLosses": 32,
-        "allPlayWins": 206,
-        "allPlayGames": 517,
-        "actualPct": 0.3191489361702128,
-        "allPlayPct": 0.3984526112185687,
-        "luck": -0.07930367504835589,
-        "luckWins": -3.727272727272727
+        "actualLosses": 33,
+        "allPlayWins": 209,
+        "allPlayGames": 528,
+        "actualPct": 0.3125,
+        "allPlayPct": 0.3958333333333333,
+        "luck": -0.08333333333333331,
+        "luckWins": -3.999999999999999
       },
       {
         "ownerId": "740291920076664832",
-        "actualWins": 23,
+        "actualWins": 24,
         "actualLosses": 24,
-        "allPlayWins": 184,
-        "allPlayGames": 517,
-        "actualPct": 0.48936170212765956,
-        "allPlayPct": 0.35589941972920697,
-        "luck": 0.1334622823984526,
-        "luckWins": 6.272727272727272
+        "allPlayWins": 190,
+        "allPlayGames": 528,
+        "actualPct": 0.5,
+        "allPlayPct": 0.35984848484848486,
+        "luck": 0.14015151515151514,
+        "luckWins": 6.727272727272727
       }
     ],
     "headToHead": [
@@ -12419,50 +12423,50 @@
       {
         "ownerId": "738438097477447680",
         "opponentOwnerId": "609095186970124288",
-        "wins": 2,
+        "wins": 3,
         "losses": 2,
         "ties": 0,
-        "pointsFor": 489.78
+        "pointsFor": 619
       },
       {
         "ownerId": "609095186970124288",
         "opponentOwnerId": "738438097477447680",
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "pointsFor": 520.48
+        "pointsFor": 628.62
       },
       {
         "ownerId": "738618627477114880",
         "opponentOwnerId": "736443173223686144",
         "wins": 4,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "pointsFor": 701.3800000000001
+        "pointsFor": 794.7400000000001
       },
       {
         "ownerId": "736443173223686144",
         "opponentOwnerId": "738618627477114880",
-        "wins": 1,
+        "wins": 2,
         "losses": 4,
         "ties": 0,
-        "pointsFor": 533.02
+        "pointsFor": 633.3399999999999
       },
       {
         "ownerId": "720717781959516160",
         "opponentOwnerId": "740291920076664832",
         "wins": 1,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "pointsFor": 438.1
+        "pointsFor": 540.46
       },
       {
         "ownerId": "740291920076664832",
         "opponentOwnerId": "720717781959516160",
-        "wins": 3,
+        "wins": 4,
         "losses": 1,
         "ties": 0,
-        "pointsFor": 448.36
+        "pointsFor": 567.38
       },
       {
         "ownerId": "732737495225192448",
@@ -12596,17 +12600,17 @@
         "ownerId": "737756317862805504",
         "opponentOwnerId": "992196085282050048",
         "wins": 4,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "pointsFor": 816.1200000000001
+        "pointsFor": 934.9200000000001
       },
       {
         "ownerId": "992196085282050048",
         "opponentOwnerId": "737756317862805504",
-        "wins": 2,
+        "wins": 3,
         "losses": 4,
         "ties": 0,
-        "pointsFor": 794.7599999999999
+        "pointsFor": 920.9199999999998
       },
       {
         "ownerId": "738438097477447680",
@@ -12692,17 +12696,17 @@
         "ownerId": "737802381139513344",
         "opponentOwnerId": "740274063263600640",
         "wins": 6,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "pointsFor": 872.08
+        "pointsFor": 1006.9200000000001
       },
       {
         "ownerId": "740274063263600640",
         "opponentOwnerId": "737802381139513344",
-        "wins": 0,
+        "wins": 1,
         "losses": 6,
         "ties": 0,
-        "pointsFor": 699.6
+        "pointsFor": 842.1
       },
       {
         "ownerId": "738438097477447680",
@@ -13235,18 +13239,18 @@
       {
         "ownerId": "732737495225192448",
         "opponentOwnerId": "736446609587642368",
-        "wins": 4,
+        "wins": 5,
         "losses": 2,
         "ties": 0,
-        "pointsFor": 813.3000000000001
+        "pointsFor": 936.6
       },
       {
         "ownerId": "736446609587642368",
         "opponentOwnerId": "732737495225192448",
         "wins": 2,
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
-        "pointsFor": 605.04
+        "pointsFor": 702.3
       },
       {
         "ownerId": "737802381139513344",
@@ -13496,203 +13500,203 @@
     "powerRatings": [
       {
         "ownerId": "737802381139513344",
-        "mean": 151.39014492753623,
-        "stdev": 22.982580832407105,
-        "samples": 47
+        "mean": 150.4832876712329,
+        "stdev": 22.659277095844836,
+        "samples": 48
       },
       {
         "ownerId": "737756317862805504",
-        "mean": 134.71869565217392,
-        "stdev": 26.186988605254253,
-        "samples": 47
+        "mean": 133.84643835616438,
+        "stdev": 25.71588879719619,
+        "samples": 48
       },
       {
         "ownerId": "732737495225192448",
-        "mean": 132.40391304347827,
-        "stdev": 27.488392897882928,
-        "samples": 47
+        "mean": 131.9050684931507,
+        "stdev": 26.804868072657353,
+        "samples": 48
       },
       {
         "ownerId": "740274063263600640",
-        "mean": 128.34043478260872,
-        "stdev": 29.012563642090036,
-        "samples": 47
+        "mean": 129.11630136986304,
+        "stdev": 28.389975078366476,
+        "samples": 48
       },
       {
         "ownerId": "738438097477447680",
-        "mean": 125.65478260869563,
-        "stdev": 22.43929567009937,
-        "samples": 47
+        "mean": 125.85013698630134,
+        "stdev": 21.830942756213673,
+        "samples": 48
       },
       {
         "ownerId": "609095186970124288",
-        "mean": 123.55072463768116,
-        "stdev": 24.21743666462941,
-        "samples": 47
+        "mean": 122.70630136986301,
+        "stdev": 23.804374382554027,
+        "samples": 48
       },
       {
         "ownerId": "992196085282050048",
-        "mean": 121.01695652173913,
-        "stdev": 24.470408737508258,
-        "samples": 47
+        "mean": 121.29876712328766,
+        "stdev": 23.819316579525037,
+        "samples": 48
       },
       {
         "ownerId": "720717781959516160",
-        "mean": 119.7004347826087,
-        "stdev": 22.78329281941092,
-        "samples": 47
+        "mean": 118.75027397260274,
+        "stdev": 22.499092734986885,
+        "samples": 48
       },
       {
         "ownerId": "736446609587642368",
-        "mean": 117.38289855072463,
-        "stdev": 21.86236784591938,
-        "samples": 47
-      },
-      {
-        "ownerId": "738618627477114880",
-        "mean": 111.4813043478261,
-        "stdev": 24.28391657241019,
-        "samples": 47
+        "mean": 116.28027397260276,
+        "stdev": 21.742713468333072,
+        "samples": 48
       },
       {
         "ownerId": "740291920076664832",
-        "mean": 110.25869565217393,
-        "stdev": 22.56808792302909,
-        "samples": 47
+        "mean": 110.73876712328769,
+        "stdev": 22.031484472659884,
+        "samples": 48
+      },
+      {
+        "ownerId": "738618627477114880",
+        "mean": 110.48835616438357,
+        "stdev": 23.966713875918227,
+        "samples": 48
       },
       {
         "ownerId": "736443173223686144",
-        "mean": 109.07637681159422,
-        "stdev": 27.00096812386783,
-        "samples": 47
+        "mean": 108.59657534246575,
+        "stdev": 26.32632375623866,
+        "samples": 48
       }
     ],
     "projection": {
       "season": "2026",
       "sims": 10000,
       "playoffTeams": 6,
-      "gamesRemaining": 54,
-      "gamesPlayed": 30,
+      "gamesRemaining": 48,
+      "gamesPlayed": 36,
       "results": [
         {
           "ownerId": "737802381139513344",
           "currentWins": 4,
-          "projectedWins": 11.1232,
-          "playoffOdds": 0.9993,
-          "firstSeedOdds": 0.7338,
-          "averageSeed": 1.4097,
-          "mean": 151.39014492753623,
-          "stdev": 22.982580832407105
+          "projectedWins": 10.3737,
+          "playoffOdds": 0.9977,
+          "firstSeedOdds": 0.5829,
+          "averageSeed": 1.7006,
+          "mean": 150.4832876712329,
+          "stdev": 22.659277095844836
+        },
+        {
+          "ownerId": "732737495225192448",
+          "currentWins": 5,
+          "projectedWins": 9.692,
+          "playoffOdds": 0.9855,
+          "firstSeedOdds": 0.1715,
+          "averageSeed": 2.912,
+          "mean": 131.9050684931507,
+          "stdev": 26.804868072657353
+        },
+        {
+          "ownerId": "740274063263600640",
+          "currentWins": 5,
+          "projectedWins": 9.3007,
+          "playoffOdds": 0.9771,
+          "firstSeedOdds": 0.1424,
+          "averageSeed": 3.0917,
+          "mean": 129.11630136986304,
+          "stdev": 28.389975078366476
         },
         {
           "ownerId": "737756317862805504",
           "currentWins": 4,
-          "projectedWins": 9.4496,
-          "playoffOdds": 0.977,
-          "firstSeedOdds": 0.1265,
-          "averageSeed": 2.888,
-          "mean": 134.71869565217392,
-          "stdev": 26.186988605254253
+          "projectedWins": 8.7764,
+          "playoffOdds": 0.954,
+          "firstSeedOdds": 0.0924,
+          "averageSeed": 3.497,
+          "mean": 133.84643835616438,
+          "stdev": 25.71588879719619
         },
         {
-          "ownerId": "732737495225192448",
-          "currentWins": 4,
-          "projectedWins": 9.353,
-          "playoffOdds": 0.9674,
-          "firstSeedOdds": 0.0805,
-          "averageSeed": 3.3113,
-          "mean": 132.40391304347827,
-          "stdev": 27.488392897882928
-        },
-        {
-          "ownerId": "740274063263600640",
-          "currentWins": 4,
-          "projectedWins": 8.4541,
-          "playoffOdds": 0.9158,
-          "firstSeedOdds": 0.0446,
-          "averageSeed": 4.0108,
-          "mean": 128.34043478260872,
-          "stdev": 29.012563642090036
+          "ownerId": "738438097477447680",
+          "currentWins": 3,
+          "projectedWins": 7.513,
+          "playoffOdds": 0.6961,
+          "firstSeedOdds": 0.0059,
+          "averageSeed": 5.7568,
+          "mean": 125.85013698630134,
+          "stdev": 21.830942756213673
         },
         {
           "ownerId": "720717781959516160",
           "currentWins": 4,
-          "projectedWins": 8.0184,
-          "playoffOdds": 0.7853,
-          "firstSeedOdds": 0.0127,
-          "averageSeed": 5.1236,
-          "mean": 119.7004347826087,
-          "stdev": 22.78329281941092
+          "projectedWins": 7.3254,
+          "playoffOdds": 0.6239,
+          "firstSeedOdds": 0.0047,
+          "averageSeed": 6.0057,
+          "mean": 118.75027397260274,
+          "stdev": 22.499092734986885
         },
         {
-          "ownerId": "738438097477447680",
+          "ownerId": "992196085282050048",
           "currentWins": 2,
-          "projectedWins": 6.9831,
-          "playoffOdds": 0.5427,
-          "firstSeedOdds": 0.0016,
-          "averageSeed": 6.4438,
-          "mean": 125.65478260869563,
-          "stdev": 22.43929567009937
+          "projectedWins": 6.0072,
+          "playoffOdds": 0.2986,
+          "firstSeedOdds": 0.0001,
+          "averageSeed": 7.6605,
+          "mean": 121.29876712328766,
+          "stdev": 23.819316579525037
         },
         {
           "ownerId": "609095186970124288",
           "currentWins": 1,
-          "projectedWins": 5.9977,
-          "playoffOdds": 0.2723,
+          "projectedWins": 5.5142,
+          "playoffOdds": 0.1612,
           "firstSeedOdds": 0,
-          "averageSeed": 7.8479,
-          "mean": 123.55072463768116,
-          "stdev": 24.21743666462941
+          "averageSeed": 8.5672,
+          "mean": 122.70630136986301,
+          "stdev": 23.804374382554027
+        },
+        {
+          "ownerId": "736443173223686144",
+          "currentWins": 3,
+          "projectedWins": 5.7386,
+          "playoffOdds": 0.1414,
+          "firstSeedOdds": 0,
+          "averageSeed": 8.7808,
+          "mean": 108.59657534246575,
+          "stdev": 26.32632375623866
         },
         {
           "ownerId": "736446609587642368",
           "currentWins": 2,
-          "projectedWins": 5.5741,
-          "playoffOdds": 0.2174,
-          "firstSeedOdds": 0.0002,
-          "averageSeed": 8.1702,
-          "mean": 117.38289855072463,
-          "stdev": 21.86236784591938
+          "projectedWins": 5.1826,
+          "playoffOdds": 0.1236,
+          "firstSeedOdds": 0.0001,
+          "averageSeed": 8.8283,
+          "mean": 116.28027397260276,
+          "stdev": 21.742713468333072
         },
         {
-          "ownerId": "992196085282050048",
-          "currentWins": 1,
-          "projectedWins": 5.2745,
-          "playoffOdds": 0.165,
-          "firstSeedOdds": 0,
-          "averageSeed": 8.5927,
-          "mean": 121.01695652173913,
-          "stdev": 24.470408737508258
-        },
-        {
-          "ownerId": "736443173223686144",
+          "ownerId": "740291920076664832",
           "currentWins": 2,
-          "projectedWins": 5.2364,
-          "playoffOdds": 0.0983,
+          "projectedWins": 4.6381,
+          "playoffOdds": 0.0254,
           "firstSeedOdds": 0,
-          "averageSeed": 9.2461,
-          "mean": 109.07637681159422,
-          "stdev": 27.00096812386783
+          "averageSeed": 10.2305,
+          "mean": 110.73876712328769,
+          "stdev": 22.031484472659884
         },
         {
           "ownerId": "738618627477114880",
           "currentWins": 1,
-          "projectedWins": 4.5736,
-          "playoffOdds": 0.0442,
-          "firstSeedOdds": 0.0001,
-          "averageSeed": 10.1598,
-          "mean": 111.4813043478261,
-          "stdev": 24.28391657241019
-        },
-        {
-          "ownerId": "740291920076664832",
-          "currentWins": 1,
-          "projectedWins": 3.9623,
-          "playoffOdds": 0.0153,
+          "projectedWins": 3.9381,
+          "playoffOdds": 0.0155,
           "firstSeedOdds": 0,
-          "averageSeed": 10.7961,
-          "mean": 110.25869565217393,
-          "stdev": 22.56808792302909
+          "averageSeed": 10.9689,
+          "mean": 110.48835616438357,
+          "stdev": 23.966713875918227
         }
       ]
     },
@@ -16534,6 +16538,66 @@
             "week": 5,
             "ownerId": "992196085282050048",
             "points": 110.44
+          },
+          {
+            "week": 6,
+            "ownerId": "732737495225192448",
+            "points": 123.3
+          },
+          {
+            "week": 6,
+            "ownerId": "736446609587642368",
+            "points": 97.26
+          },
+          {
+            "week": 6,
+            "ownerId": "737802381139513344",
+            "points": 134.84
+          },
+          {
+            "week": 6,
+            "ownerId": "740274063263600640",
+            "points": 142.5
+          },
+          {
+            "week": 6,
+            "ownerId": "737756317862805504",
+            "points": 118.8
+          },
+          {
+            "week": 6,
+            "ownerId": "992196085282050048",
+            "points": 126.16
+          },
+          {
+            "week": 6,
+            "ownerId": "738438097477447680",
+            "points": 129.22
+          },
+          {
+            "week": 6,
+            "ownerId": "609095186970124288",
+            "points": 108.14
+          },
+          {
+            "week": 6,
+            "ownerId": "738618627477114880",
+            "points": 93.36
+          },
+          {
+            "week": 6,
+            "ownerId": "736443173223686144",
+            "points": 100.32
+          },
+          {
+            "week": 6,
+            "ownerId": "720717781959516160",
+            "points": 102.36
+          },
+          {
+            "week": 6,
+            "ownerId": "740291920076664832",
+            "points": 119.02
           }
         ]
       }
